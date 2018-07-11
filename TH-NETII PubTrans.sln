@@ -18,9 +18,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EA5FFE2C-B74
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.PubTrans.AvinorFlydata.Bindings", "src\THNETII.PubTrans.AvinorFlydata.Bindings\THNETII.PubTrans.AvinorFlydata.Bindings.csproj", "{B465860F-F725-4D7C-A74A-61CF45CB9BC5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.Common", "..\..\..\..\Source\GitHub\thnetii-pubtrans\thnetii-dotnet-common\src\THNETII.Common\THNETII.Common.csproj", "{E88E9A8A-3637-48EA-9998-E262C3C2DE66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.Common", "thnetii-dotnet-common\src\THNETII.Common\THNETII.Common.csproj", "{E88E9A8A-3637-48EA-9998-E262C3C2DE66}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.Networking.Http", "..\..\..\..\Source\GitHub\thnetii-pubtrans\thnetii-dotnet-common\src\THNETII.Networking.Http\THNETII.Networking.Http.csproj", "{36008047-270A-4CE6-A803-CB177D5A7965}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.Networking.Http", "thnetii-dotnet-common\src\THNETII.Networking.Http\THNETII.Networking.Http.csproj", "{36008047-270A-4CE6-A803-CB177D5A7965}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
