@@ -7,15 +7,60 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
+		.gitmodules = .gitmodules
 		AllRules.ruleset = AllRules.ruleset
 		Directory.Build.props = Directory.Build.props
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EA5FFE2C-B748-4FCF-8DCB-424F7FBAF0E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.Common", "..\..\..\..\Source\GitHub\thnetii-pubtrans\thnetii-dotnet-common\src\THNETII.Common\THNETII.Common.csproj", "{E88E9A8A-3637-48EA-9998-E262C3C2DE66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.Networking.Http", "..\..\..\..\Source\GitHub\thnetii-pubtrans\thnetii-dotnet-common\src\THNETII.Networking.Http\THNETII.Networking.Http.csproj", "{36008047-270A-4CE6-A803-CB177D5A7965}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E88E9A8A-3637-48EA-9998-E262C3C2DE66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E88E9A8A-3637-48EA-9998-E262C3C2DE66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E88E9A8A-3637-48EA-9998-E262C3C2DE66}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E88E9A8A-3637-48EA-9998-E262C3C2DE66}.Debug|x64.Build.0 = Debug|Any CPU
+		{E88E9A8A-3637-48EA-9998-E262C3C2DE66}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E88E9A8A-3637-48EA-9998-E262C3C2DE66}.Debug|x86.Build.0 = Debug|Any CPU
+		{E88E9A8A-3637-48EA-9998-E262C3C2DE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E88E9A8A-3637-48EA-9998-E262C3C2DE66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E88E9A8A-3637-48EA-9998-E262C3C2DE66}.Release|x64.ActiveCfg = Release|Any CPU
+		{E88E9A8A-3637-48EA-9998-E262C3C2DE66}.Release|x64.Build.0 = Release|Any CPU
+		{E88E9A8A-3637-48EA-9998-E262C3C2DE66}.Release|x86.ActiveCfg = Release|Any CPU
+		{E88E9A8A-3637-48EA-9998-E262C3C2DE66}.Release|x86.Build.0 = Release|Any CPU
+		{36008047-270A-4CE6-A803-CB177D5A7965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36008047-270A-4CE6-A803-CB177D5A7965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36008047-270A-4CE6-A803-CB177D5A7965}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{36008047-270A-4CE6-A803-CB177D5A7965}.Debug|x64.Build.0 = Debug|Any CPU
+		{36008047-270A-4CE6-A803-CB177D5A7965}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{36008047-270A-4CE6-A803-CB177D5A7965}.Debug|x86.Build.0 = Debug|Any CPU
+		{36008047-270A-4CE6-A803-CB177D5A7965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36008047-270A-4CE6-A803-CB177D5A7965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36008047-270A-4CE6-A803-CB177D5A7965}.Release|x64.ActiveCfg = Release|Any CPU
+		{36008047-270A-4CE6-A803-CB177D5A7965}.Release|x64.Build.0 = Release|Any CPU
+		{36008047-270A-4CE6-A803-CB177D5A7965}.Release|x86.ActiveCfg = Release|Any CPU
+		{36008047-270A-4CE6-A803-CB177D5A7965}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E88E9A8A-3637-48EA-9998-E262C3C2DE66} = {EA5FFE2C-B748-4FCF-8DCB-424F7FBAF0E2}
+		{36008047-270A-4CE6-A803-CB177D5A7965} = {EA5FFE2C-B748-4FCF-8DCB-424F7FBAF0E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {67DF3E8E-B2EB-4196-BF65-9A85B1F4A7E6}
