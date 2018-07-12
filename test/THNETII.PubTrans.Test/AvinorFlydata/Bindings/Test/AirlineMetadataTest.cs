@@ -21,8 +21,8 @@ namespace THNETII.PubTrans.AvinorFlydata.Bindings.Test
                     (AirlineMetadataListing)serializer.Deserialize(dataStream);
             }
             Assert.NotNull(datalisting);
-            Assert.NotNull(datalisting.AirlineNames);
-            Assert.DoesNotContain(datalisting.AirlineNames, airline => string.IsNullOrWhiteSpace(airline?.IataCode));
+            Assert.NotNull(datalisting.Airlines);
+            Assert.DoesNotContain(datalisting.Airlines, airline => string.IsNullOrWhiteSpace(airline?.IataCode));
         }
     }
 }
