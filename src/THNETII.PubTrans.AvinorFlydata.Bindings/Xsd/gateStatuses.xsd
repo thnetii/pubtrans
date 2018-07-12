@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="gateStatuses">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">Root element</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="gateStatus" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="code" type="gateStatusType" use="required"/>
+            <xs:attribute name="gateStatusTextEn" type="statusTextType" use="required"/>
+            <xs:attribute name="gateStatusTextNo" type="statusTextType" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="gateStatusType">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        O - Go to gate
+        P - Preboarding
+        B - Boarding
+        F - Gate closing
+        C - Closed
+      </xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:NMTOKEN">
+      <xs:pattern value="[OPBFC]"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="statusTextType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="30"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
