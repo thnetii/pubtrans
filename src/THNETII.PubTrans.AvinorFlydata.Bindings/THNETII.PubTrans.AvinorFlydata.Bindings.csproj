@@ -13,6 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\thnetii-dotnet-common\src\THNETII.Common\THNETII.Common.csproj" />
     <ProjectReference Include="..\..\thnetii-dotnet-common\src\THNETII.Networking.Http\THNETII.Networking.Http.csproj" />
+    <ProjectReference Include="..\..\thnetii-dotnet-common\src\THNETII.Common.XmlSerializer\THNETII.Common.XmlSerializer.csproj" />
   </ItemGroup>
 
   <ItemGroup>
