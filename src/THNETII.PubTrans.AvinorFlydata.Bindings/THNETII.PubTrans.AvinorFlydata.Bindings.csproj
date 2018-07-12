@@ -15,4 +15,8 @@
     <ProjectReference Include="..\..\thnetii-dotnet-common\src\THNETII.Networking.Http\THNETII.Networking.Http.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Exclude="XsdGenerated\*.cs" />>
+  </ItemGroup>
+
 </Project>
