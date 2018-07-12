@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd"
+         name="BJF">
+  <flights lastUpdate="2018-07-11T23:26:17Z">
+    <flight uniqueID="7726050">
+      <airline>WF</airline>
+      <flight_id>WF973</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-07-11T11:06:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>VDS</airport>
+      <status code="D" time="2018-07-11T10:59:00Z"/>
+    </flight>
+    <flight uniqueID="7726009">
+      <airline>WF</airline>
+      <flight_id>WF968</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-07-11T15:30:00Z</schedule_time>
+      <arr_dep>A</arr_dep>
+      <airport>ALF</airport>
+      <via_airport>VDS</via_airport>
+      <status code="A" time="2018-07-11T15:24:00Z"/>
+    </flight>
+    <flight uniqueID="7726010">
+      <airline>WF</airline>
+      <flight_id>WF968</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-07-11T15:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <via_airport>MEH,HVG,HFT</via_airport>
+      <status code="D" time="2018-07-11T15:40:00Z"/>
+    </flight>
+    <flight uniqueID="7713478">
+      <airline>WF</airline>
+      <flight_id>WF977</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-07-11T20:05:00Z</schedule_time>
+      <arr_dep>A</arr_dep>
+      <airport>KKN</airport>
+      <via_airport>VDS,VAW</via_airport>
+      <status code="A" time="2018-07-11T19:39:00Z"/>
+    </flight>
+    <flight uniqueID="7713479">
+      <airline>WF</airline>
+      <flight_id>WF977</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-07-11T20:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <via_airport>BVG,HFT</via_airport>
+      <status code="D" time="2018-07-11T20:04:00Z"/>
+    </flight>
+    <flight uniqueID="7713426">
+      <airline>WF</airline>
+      <flight_id>WF970</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-07-12T06:16:00Z</schedule_time>
+      <arr_dep>A</arr_dep>
+      <airport>TOS</airport>
+      <via_airport>HFT,BVG</via_airport>
+    </flight>
+    <flight uniqueID="7713427">
+      <airline>WF</airline>
+      <flight_id>WF970</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-07-12T06:31:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KKN</airport>
+      <via_airport>VAW,VDS</via_airport>
+    </flight>
+    <flight uniqueID="7713464">
+      <airline>WF</airline>
+      <flight_id>WF973</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-07-12T10:50:00Z</schedule_time>
+      <arr_dep>A</arr_dep>
+      <airport>KKN</airport>
+      <via_airport>VAW</via_airport>
+    </flight>
+  </flights>
+</airport>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<gateStatuses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/gateStatuses.xsd">
+  <gateStatus code="O" gateStatusTextEn="Go to gate" gateStatusTextNo="Go to gate"/>
+  <gateStatus code="P" gateStatusTextEn="Preboarding" gateStatusTextNo="Preboarding"/>
+  <gateStatus code="B" gateStatusTextEn="Boarding" gateStatusTextNo="Boarding"/>
+  <gateStatus code="F" gateStatusTextEn="Gate closing" gateStatusTextNo="Gate closing"/>
+  <gateStatus code="C" gateStatusTextEn="Gate closed" gateStatusTextNo="Gate closed"/>
+</gateStatuses>
