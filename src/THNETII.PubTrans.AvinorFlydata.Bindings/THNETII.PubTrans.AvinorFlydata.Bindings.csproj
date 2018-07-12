@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Exclude="XsdGenerated\*.cs" />>
+    <Compile Remove="XsdGenerated\*.cs" />
   </ItemGroup>
 
 </Project>
