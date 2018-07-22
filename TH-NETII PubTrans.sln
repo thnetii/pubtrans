@@ -26,9 +26,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5FB31F5F-E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.PubTrans.Test", "test\THNETII.PubTrans.Test\THNETII.PubTrans.Test.csproj", "{4DD436BF-1B92-4368-B85A-BDDBA42F6CD0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.Common.DataContractSerializer", "..\..\..\..\Source\GitHub\thnetii-pubtrans\thnetii-dotnet-common\src\THNETII.Common.DataContractSerializer\THNETII.Common.DataContractSerializer.csproj", "{47023DED-C86D-4E65-8B75-1C2AB2F64E66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.Common.DataContractSerializer", "thnetii-dotnet-common\src\THNETII.Common.DataContractSerializer\THNETII.Common.DataContractSerializer.csproj", "{47023DED-C86D-4E65-8B75-1C2AB2F64E66}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.Common.XmlSerializer", "..\..\..\..\Source\GitHub\thnetii-pubtrans\thnetii-dotnet-common\src\THNETII.Common.XmlSerializer\THNETII.Common.XmlSerializer.csproj", "{89D70CDB-FACF-4927-8E25-5CC8BA3B1096}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.Common.XmlSerializer", "thnetii-dotnet-common\src\THNETII.Common.XmlSerializer\THNETII.Common.XmlSerializer.csproj", "{89D70CDB-FACF-4927-8E25-5CC8BA3B1096}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
