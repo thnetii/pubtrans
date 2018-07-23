@@ -1,4 +1,6 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
 using System.Xml.Serialization;
 using THNETII.Common;
 
@@ -11,7 +13,8 @@ namespace THNETII.PubTrans.AvinorFlydata.Bindings
             FlightStatusCodeHelpers.GetDuplexConversionTuple();
 
         [XmlAttribute("code", DataType = "NMTOKEN")]
-        public string CodeString {
+        public string CodeString
+        {
             get => code.RawValue;
             set => code.RawValue = value;
         }
@@ -30,5 +33,27 @@ namespace THNETII.PubTrans.AvinorFlydata.Bindings
         public string TextNorwegian { get; set; }
 
         private string DebuggerDisplay() => $"{nameof(FlightStatusText)}({nameof(Code)}: {CodeString} ({Code}), {TextNorwegian})";
+    }
+
+    [XmlRoot("flightStatuses")]
+    [XmlType, DebuggerDisplay("{" + nameof(DebuggerDisplay) + "()}")]
+    public class FlightStatusTextListing
+    {
+        public static XmlSerializer DefaultSerializer
+        { get => new XmlSerializer(typeof(FlightStatusTextListing)); }
+
+        [DebuggerStepThrough]
+        public FlightStatusTextListing() { }
+
+        public FlightStatusTextListing(FlightStatusText[] statuses) : this()
+        {
+            FlightStatuses = statuses ?? Array.Empty<FlightStatusText>();
+        }
+
+        [XmlElement("flightStatus")]
+        [SuppressMessage(category: null, "CA1819", Justification = "Must be array for XML serialization.")]
+        public FlightStatusText[] FlightStatuses { get; set; }
+
+        private string DebuggerDisplay() => $"{nameof(FlightStatusTextListing)}({nameof(FlightStatuses.Length)}: {FlightStatuses?.Length})";
     }
 }
