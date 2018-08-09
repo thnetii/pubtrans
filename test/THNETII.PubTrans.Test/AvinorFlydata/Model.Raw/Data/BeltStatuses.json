@@ -1,0 +1,12 @@
+[
+  {
+    "code": "C",
+    "beltStatusTextEn": "Last bag on belt",
+    "beltStatusTextNo": "Siste bag på båndet"
+  },
+  {
+    "code": "O",
+    "beltStatusTextEn": "Bag on belt",
+    "beltStatusTextNo": "Bagasje på båndet"
+  }
+]

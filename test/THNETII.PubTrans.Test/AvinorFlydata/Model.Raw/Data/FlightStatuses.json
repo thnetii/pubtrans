@@ -1,0 +1,27 @@
+[
+  {
+    "code": "A",
+    "statusTextEn": "Arrived",
+    "statusTextNo": "Landet"
+  },
+  {
+    "code": "C",
+    "statusTextEn": "Cancelled",
+    "statusTextNo": "Innstilt"
+  },
+  {
+    "code": "D",
+    "statusTextEn": "Departed",
+    "statusTextNo": "Avreist"
+  },
+  {
+    "code": "E",
+    "statusTextEn": "New time",
+    "statusTextNo": "Ny tid"
+  },
+  {
+    "code": "N",
+    "statusTextEn": "New info",
+    "statusTextNo": "Ny info"
+  }
+]

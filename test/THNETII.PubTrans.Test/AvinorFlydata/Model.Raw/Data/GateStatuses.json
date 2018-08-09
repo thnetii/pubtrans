@@ -1,0 +1,27 @@
+[
+  {
+    "code": "B",
+    "gateStatusTextEn": "Boarding",
+    "gateStatusTextNo": "Boarding"
+  },
+  {
+    "code": "C",
+    "gateStatusTextEn": "Gate closed",
+    "gateStatusTextNo": "Gate closed"
+  },
+  {
+    "code": "F",
+    "gateStatusTextEn": "Gate closing",
+    "gateStatusTextNo": "Gate closing"
+  },
+  {
+    "code": "O",
+    "gateStatusTextEn": "Go to gate",
+    "gateStatusTextNo": "Go to gate"
+  },
+  {
+    "code": "P",
+    "gateStatusTextEn": "Preboarding",
+    "gateStatusTextNo": "Preboarding"
+  }
+]

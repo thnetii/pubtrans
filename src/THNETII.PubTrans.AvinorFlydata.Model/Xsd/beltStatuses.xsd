@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="beltStatuses">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">Root element</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="beltStatus" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="code" type="beltStatusType" use="required"/>
+            <xs:attribute name="beltStatusTextEn" type="statusTextType" use="required"/>
+            <xs:attribute name="beltStatusTextNo" type="statusTextType" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="beltStatusType">
+    <xs:annotation>
+      <xs:documentation xml:lang="en">
+        O - First bag on belt
+        C - Last bag on belt
+      </xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:NMTOKEN">
+      <xs:pattern value="[OC]"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="statusTextType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="30"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

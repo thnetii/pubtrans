@@ -1,16 +1,20 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
+using System.Runtime.Serialization;
 using System.Xml.Serialization;
 
-namespace THNETII.PubTrans.AvinorFlydata.Bindings
+namespace THNETII.PubTrans.AvinorFlydata.Model.Raw
 {
+    [DataContract]
     [XmlType, DebuggerDisplay("{" + nameof(DebuggerDisplay) + "()}")]
     public class AirlineMetadata
     {
+        [DataMember(Name = "code")]
         [XmlAttribute("code", DataType = "NMTOKEN")]
         public string IataCode { get; set; }
 
+        [DataMember(Name = "name")]
         [XmlAttribute("name")]
         public string Name { get; set; }
 
@@ -21,17 +25,6 @@ namespace THNETII.PubTrans.AvinorFlydata.Bindings
     [XmlType, DebuggerDisplay("{" + nameof(DebuggerDisplay) + "()}")]
     public class AirlineMetadataListing
     {
-        public static XmlSerializer DefaultSerializer
-        { get => new XmlSerializer(typeof(AirlineMetadataListing)); }
-
-        [DebuggerStepThrough]
-        public AirlineMetadataListing() { }
-
-        public AirlineMetadataListing(AirlineMetadata[] airlines) : this()
-        {
-            Airlines = airlines ?? Array.Empty<AirlineMetadata>();
-        }
-
         [XmlElement("airlineName")]
         [SuppressMessage(category: null, "CA1819", Justification = "Must be array for XML serialization.")]
         public AirlineMetadata[] Airlines { get; set; }

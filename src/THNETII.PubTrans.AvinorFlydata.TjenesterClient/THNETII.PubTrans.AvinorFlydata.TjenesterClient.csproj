@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\thnetii-dotnet-common\src\THNETII.Common\THNETII.Common.csproj" />
+    <ProjectReference Include="..\THNETII.PubTrans.AvinorFlydata.Model\THNETII.PubTrans.AvinorFlydata.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Refit" Version="4.6.30" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Raw\" />
+  </ItemGroup>
+
+</Project>
