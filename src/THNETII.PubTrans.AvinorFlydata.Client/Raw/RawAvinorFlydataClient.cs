@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Xml.Serialization;
 using THNETII.Common;
 using THNETII.Common.Collections.Generic;
-using THNETII.Common.XmlSerializer;
+using THNETII.Common.Serialization;
 using THNETII.Networking.Http;
 using THNETII.PubTrans.AvinorFlydata.Model.Raw;
 
@@ -171,7 +171,7 @@ namespace THNETII.PubTrans.AvinorFlydata.Client.Raw
         {
             var queryParams = queryParamsPool.Rent(1);
             queryParams[0] = code != FlightStatusCode.Unspecified
-                ? ("code", XmlEnumStringConverter<FlightStatusCode>.ToString(code))
+                ? ("code", XmlEnumStringConverter.ToString(code))
                 : default;
             var req = GetFlightStatusTexts(uri: default, default, ct);
             queryParamsPool.Return(queryParams);

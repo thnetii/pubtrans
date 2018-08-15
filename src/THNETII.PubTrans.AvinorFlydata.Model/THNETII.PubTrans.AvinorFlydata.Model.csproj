@@ -8,13 +8,12 @@
 
   <ItemGroup>
     <PackageReference Include="System.Memory" Version="4.5.1" />
-    <PackageReference Condition="'$(TargetFramework)'=='netstandard1.6'" Include="System.Runtime.Serialization.Formatters" Version="4.3.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\thnetii-dotnet-common\src\THNETII.Common\THNETII.Common.csproj" />
     <ProjectReference Include="..\..\thnetii-dotnet-common\src\THNETII.Networking.Http\THNETII.Networking.Http.csproj" />
-    <ProjectReference Include="..\..\thnetii-dotnet-common\src\THNETII.Common.XmlSerializer\THNETII.Common.XmlSerializer.csproj" />
+    <ProjectReference Include="..\..\thnetii-dotnet-common\src\THNETII.Common.Serialization\THNETII.Common.Serialization.csproj" />
   </ItemGroup>
 
   <ItemGroup>

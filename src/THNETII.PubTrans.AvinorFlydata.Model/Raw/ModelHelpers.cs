@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using THNETII.Common;
-using THNETII.Common.XmlSerializer;
+using THNETII.Common.Serialization;
 
 namespace THNETII.PubTrans.AvinorFlydata.Model.Raw
 {
@@ -13,7 +13,7 @@ namespace THNETII.PubTrans.AvinorFlydata.Model.Raw
         {
             return new DuplexConversionTuple<string, FlightStatusCode>(
                 GetFlightStatusCodeFromString, StringComparer.OrdinalIgnoreCase,
-                XmlEnumStringConverter<FlightStatusCode>.ToString
+                XmlEnumStringConverter.ToString
                 );
         }
 
@@ -21,7 +21,7 @@ namespace THNETII.PubTrans.AvinorFlydata.Model.Raw
         {
             return new DuplexConversionTuple<string, GateStatusCode>(
                 GetGateStatusCodeFromString, StringComparer.OrdinalIgnoreCase,
-                XmlEnumStringConverter<GateStatusCode>.ToString
+                XmlEnumStringConverter.ToString
                 );
         }
 
@@ -29,7 +29,7 @@ namespace THNETII.PubTrans.AvinorFlydata.Model.Raw
         {
             return new DuplexConversionTuple<string, BeltStatusCode>(
                 GetBeltStatusCodeFromString, StringComparer.OrdinalIgnoreCase,
-                XmlEnumStringConverter<BeltStatusCode>.ToString
+                XmlEnumStringConverter.ToString
                 );
         }
 
@@ -37,7 +37,7 @@ namespace THNETII.PubTrans.AvinorFlydata.Model.Raw
         {
             return new DuplexConversionTuple<string, FlightDirection>(
                 GetFlightDirectionFromString, StringComparer.OrdinalIgnoreCase,
-                XmlEnumStringConverter<FlightDirection>.ToString
+                XmlEnumStringConverter.ToString
                 );
         }
 
@@ -45,7 +45,7 @@ namespace THNETII.PubTrans.AvinorFlydata.Model.Raw
         {
             return new DuplexConversionTuple<string, CustomsType>(
                 GetCustomsTypeFromString, StringComparer.OrdinalIgnoreCase,
-                XmlEnumStringConverter<CustomsType>.ToString
+                XmlEnumStringConverter.ToString
                 );
         }
 
@@ -58,7 +58,7 @@ namespace THNETII.PubTrans.AvinorFlydata.Model.Raw
                     : FlightStatusCode.Unknown
                     ;
             }
-            return XmlEnumStringConverter<FlightStatusCode>.ParseOrDefault(s,
+            return XmlEnumStringConverter.ParseOrDefault(s,
                 GetUnknownOrUnspecified
                 );
         }
@@ -72,7 +72,7 @@ namespace THNETII.PubTrans.AvinorFlydata.Model.Raw
                     : GateStatusCode.Unknown
                     ;
             }
-            return XmlEnumStringConverter<GateStatusCode>.ParseOrDefault(s,
+            return XmlEnumStringConverter.ParseOrDefault(s,
                 GetUnknownOrUnspecified
                 );
         }
@@ -86,7 +86,7 @@ namespace THNETII.PubTrans.AvinorFlydata.Model.Raw
                     : BeltStatusCode.Unknown
                     ;
             }
-            return XmlEnumStringConverter<BeltStatusCode>.ParseOrDefault(s,
+            return XmlEnumStringConverter.ParseOrDefault(s,
                 GetUnknownOrUnspecified
                 );
         }
@@ -100,7 +100,7 @@ namespace THNETII.PubTrans.AvinorFlydata.Model.Raw
                     : CustomsType.Unknown
                     ;
             }
-            return XmlEnumStringConverter<CustomsType>.ParseOrDefault(s,
+            return XmlEnumStringConverter.ParseOrDefault(s,
                 GetUnknownOrUnspecified
                 );
         }
@@ -114,7 +114,7 @@ namespace THNETII.PubTrans.AvinorFlydata.Model.Raw
                     : FlightDirection.Unknown
                     ;
             }
-            return XmlEnumStringConverter<FlightDirection>.ParseOrDefault(s,
+            return XmlEnumStringConverter.ParseOrDefault(s,
                 GetUnknownOrUnspecified
                 );
         }
