@@ -8,7 +8,6 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 using THNETII.Common;
-using THNETII.Common.Collections.Generic;
 using THNETII.Common.Serialization;
 using THNETII.Networking.Http;
 using THNETII.PubTrans.AvinorFlydata.Model.Raw;
@@ -103,7 +102,7 @@ namespace THNETII.PubTrans.AvinorFlydata.Client.Raw
                 default, ct);
             queryParamsPool.Return(queryParams);
             var airlines = await requestTask.ConfigureAwait(false);
-            return airlines?.FirstIndexedOrDefault();
+            return (airlines?.Count ?? 0) > 0 ? airlines[0] : null;
         }
 
         protected virtual Uri GetAirportNamesUri(string query) =>
@@ -145,7 +144,7 @@ namespace THNETII.PubTrans.AvinorFlydata.Client.Raw
                 default, ct);
             queryParamsPool.Return(queryParams);
             var listing = await req.ConfigureAwait(false);
-            return listing?.FirstIndexedOrDefault();
+            return (listing?.Count ?? 0) > 0 ? listing[0] : null;
         }
 
         protected virtual Uri GetFlightStatusTextsUri(string query) =>
@@ -176,7 +175,7 @@ namespace THNETII.PubTrans.AvinorFlydata.Client.Raw
             var req = GetFlightStatusTexts(uri: default, default, ct);
             queryParamsPool.Return(queryParams);
             var listing = await req.ConfigureAwait(false);
-            return listing?.FirstIndexed();
+            return (listing?.Count ?? 0) > 0 ? listing[0] : null;
         }
     }
 }
