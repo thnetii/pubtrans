@@ -8,16 +8,18 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 using THNETII.Common;
+using THNETII.Common.Collections.Generic;
 using THNETII.Common.Serialization;
 using THNETII.Networking.Http;
 using THNETII.PubTrans.AvinorFlydata.Model.Raw;
+using StringKeyValuePair = System.Collections.Generic.KeyValuePair<string, string>;
 
 namespace THNETII.PubTrans.AvinorFlydata.Client.Raw
 {
     public class RawAvinorFlydataClient
     {
-        private static readonly ArrayPool<(string key, string value)> queryParamsPool =
-            ArrayPool<(string key, string value)>.Create();
+        private static readonly ArrayPool<StringKeyValuePair> queryParamsPool =
+            ArrayPool<StringKeyValuePair>.Create();
         private static readonly XmlSerializer airlineSerializer =
             new XmlSerializer(typeof(AirlineMetadataListing));
         private static readonly XmlSerializer airportSerializer =
@@ -31,46 +33,59 @@ namespace THNETII.PubTrans.AvinorFlydata.Client.Raw
         private static readonly XmlSerializer airportFeedSerializer =
             new XmlSerializer(typeof(AirportFeed));
 
-        protected virtual XmlSerializer AirlineSerializer { get; } = airlineSerializer;
-        protected virtual XmlSerializer AirportSerializer { get; } = airportSerializer;
-        protected virtual XmlSerializer FlightStatusSerializer { get; } = flightStatusSerializer;
-        protected virtual XmlSerializer GateStatusSerializer { get; } = gateStatusSerializer;
-        protected virtual XmlSerializer BeltStatusSerializer { get; } = beltStatusSerializer;
-        protected virtual XmlSerializer AirportFeedSerializer { get; } = airportFeedSerializer;
+        protected virtual XmlSerializer AirlineSerializer { get; } =
+            airlineSerializer;
+        protected virtual XmlSerializer AirportSerializer { get; } =
+            airportSerializer;
+        protected virtual XmlSerializer FlightStatusSerializer { get; } =
+            flightStatusSerializer;
+        protected virtual XmlSerializer GateStatusSerializer { get; } =
+            gateStatusSerializer;
+        protected virtual XmlSerializer BeltStatusSerializer { get; } =
+            beltStatusSerializer;
+        protected virtual XmlSerializer AirportFeedSerializer { get; } =
+            airportFeedSerializer;
 
         private readonly HttpClient httpClient;
 
-        private async Task<T> PerformHttpGetRequest<T>(Uri uri, XmlSerializer serializer, CancellationToken cancelToken = default)
+        private async Task<T> PerformHttpGetRequest<T>(Uri uri,
+            XmlSerializer serializer, CancellationToken cancelToken = default)
         {
-            using (var responseMessage = await httpClient.GetAsync(uri, cancelToken).ConfigureAwait(false))
+            var responseMessage = await httpClient.GetAsync(uri, cancelToken)
+                .ConfigureAwait(false);
+            using (responseMessage)
             {
                 _ = responseMessage.EnsureSuccessStatusCode();
                 if (!responseMessage.Content.IsXml())
                     throw new SerializationException($"Returned media type '{responseMessage.Content.Headers.ContentType}' is not recognized as XML content.");
-                using (var responseStream = await responseMessage.Content.ReadAsStreamAsync().ConfigureAwait(false))
+                var responseStream = await responseMessage.Content
+                    .ReadAsStreamAsync().ConfigureAwait(false);
+                using (responseStream)
                     return (T)serializer.Deserialize(responseStream);
             }
         }
 
-        protected string ConstructQuery(IReadOnlyList<(string key, string value)> parameters)
+        protected string ConstructQuery(
+            IReadOnlyList<StringKeyValuePair> parameters)
         {
-            if ((parameters?.Count ?? 0 )== 0)
+            if ((parameters?.Count ?? 0) == 0)
                 return "?";
             var qBuilder = new StringBuilder();
             qBuilder.Append('?');
             bool first = true;
             for (int i = 0; i < parameters.Count; i++)
             {
-                if (parameters[i].key.TryNotNullOrWhiteSpace(out var value))
+                var param = parameters[i];
+                if (param.Key.TryNotNullOrWhiteSpace(out var key))
                 {
                     if (!first)
                         qBuilder.Append('&');
                     else
                         first = false;
                     qBuilder
-                        .Append(value)
+                        .Append(key)
                         .Append('=')
-                        .Append(Uri.EscapeDataString(value ?? string.Empty));
+                        .Append(Uri.EscapeDataString(param.Value ?? string.Empty));
                 }
             }
             return qBuilder.ToString();
@@ -82,24 +97,25 @@ namespace THNETII.PubTrans.AvinorFlydata.Client.Raw
                 : new Uri(DefaultUri.AirlineNames, query);
 
         private async Task<IReadOnlyList<AirlineMetadata>> GetAirlineNames(
-            Uri uri, XmlSerializer serializer, CancellationToken ct = default)
+            Uri uri = default, CancellationToken ct = default)
         {
             var listing = await PerformHttpGetRequest<AirlineMetadataListing>(
-                uri ?? DefaultUri.AirlineNames, serializer ?? AirlineSerializer,
+                uri ?? DefaultUri.AirlineNames, AirlineSerializer,
                 ct).ConfigureAwait(false);
             return listing?.Airlines;
         }
 
-        public Task<IReadOnlyList<AirlineMetadata>> GetAirlineNames(CancellationToken ct = default) =>
-            GetAirlineNames(uri: default, default, ct);
+        public Task<IReadOnlyList<AirlineMetadata>> GetAirlineNames(
+            CancellationToken ct = default) =>
+            GetAirlineNames(GetAirlineNamesUri(default), ct);
 
-        public async Task<AirlineMetadata> GetAirlineName(string iataCode, CancellationToken ct = default)
+        public async Task<AirlineMetadata> GetAirlineName(string iataCode,
+            CancellationToken ct = default)
         {
             var queryParams = queryParamsPool.Rent(1);
-            queryParams[0] = ("airline", iataCode);
+            queryParams[0] = ("airline", iataCode).AsKeyValuePair();
             var requestTask = GetAirlineNames(
-                GetAirlineNamesUri(ConstructQuery(queryParams)),
-                default, ct);
+                GetAirlineNamesUri(ConstructQuery(queryParams)), ct);
             queryParamsPool.Return(queryParams);
             var airlines = await requestTask.ConfigureAwait(false);
             return (airlines?.Count ?? 0) > 0 ? airlines[0] : null;
@@ -111,23 +127,23 @@ namespace THNETII.PubTrans.AvinorFlydata.Client.Raw
                 : new Uri(DefaultUri.AirportNames, query);
 
         private async Task<IReadOnlyList<AirportMetadata>> GetAirportNames(
-            Uri uri, XmlSerializer serializer, CancellationToken ct = default)
+            Uri uri = default, CancellationToken ct = default)
         {
             var listing = await PerformHttpGetRequest<AirportMetadataListing>(
-                uri ?? DefaultUri.AirportNames, serializer ?? AirportSerializer,
+                uri ?? DefaultUri.AirportNames, AirportSerializer,
                 ct).ConfigureAwait(false);
             return listing?.Airports;
         }
 
-        public Task<IReadOnlyList<AirportMetadata>> GetAirportNames(bool? includeShortnames = true,
-            CancellationToken ct = default)
+        public Task<IReadOnlyList<AirportMetadata>> GetAirportNames(
+            bool? includeShortnames = true, CancellationToken ct = default)
         {
             var queryParams = queryParamsPool.Rent(1);
             queryParams[0] = includeShortnames.HasValue
-                ? ("shortname", includeShortnames.Value ? "Y" : "N")
+                ? ("shortname", includeShortnames.Value ? "Y" : "N").AsKeyValuePair()
                 : default;
-            var req = GetAirportNames(GetAirportNamesUri(ConstructQuery(queryParams)),
-                default, ct);
+            var req = GetAirportNames(
+                GetAirportNamesUri(ConstructQuery(queryParams)), ct);
             queryParamsPool.Return(queryParams);
             return req;
         }
@@ -136,12 +152,12 @@ namespace THNETII.PubTrans.AvinorFlydata.Client.Raw
             bool? includeShortnames = true, CancellationToken ct = default)
         {
             var queryParams = queryParamsPool.Rent(2);
-            queryParams[0] = ("airport", iataCode);
+            queryParams[0] = ("airport", iataCode).AsKeyValuePair();
             queryParams[1] = includeShortnames.HasValue
-                ? ("shortname", includeShortnames.Value ? "Y" : "N")
+                ? ("shortname", includeShortnames.Value ? "Y" : "N").AsKeyValuePair()
                 : default;
-            var req = GetAirportNames(GetAirportNamesUri(ConstructQuery(queryParams)),
-                default, ct);
+            var req = GetAirportNames(
+                GetAirportNamesUri(ConstructQuery(queryParams)), ct);
             queryParamsPool.Return(queryParams);
             var listing = await req.ConfigureAwait(false);
             return (listing?.Count ?? 0) > 0 ? listing[0] : null;
@@ -153,26 +169,98 @@ namespace THNETII.PubTrans.AvinorFlydata.Client.Raw
                 : new Uri(DefaultUri.FlightStatuses, query);
 
         private async Task<IReadOnlyList<FlightStatusText>> GetFlightStatusTexts(
-            Uri uri, XmlSerializer serializer, CancellationToken ct = default)
+            Uri uri = default, CancellationToken ct = default)
         {
             var listing = await PerformHttpGetRequest<FlightStatusTextListing>(
-                uri ?? DefaultUri.FlightStatuses, serializer ?? FlightStatusSerializer,
+                uri ?? DefaultUri.FlightStatuses, FlightStatusSerializer,
                 ct).ConfigureAwait(false);
             return listing?.FlightStatuses;
         }
 
         public Task<IReadOnlyList<FlightStatusText>> GetFlightStatusTexts(
             CancellationToken ct = default) =>
-            GetFlightStatusTexts(uri: default, default, ct);
+            GetFlightStatusTexts(GetAirportNamesUri(default), ct);
 
-        public async Task<FlightStatusText> GetFlightStatusText(FlightStatusCode code,
+        public Task<FlightStatusText> GetFlightStatusText(FlightStatusCode code,
+            CancellationToken ct = default) =>
+            GetFlightStatusText(XmlEnumStringConverter.ToString(code), ct);
+
+        public async Task<FlightStatusText> GetFlightStatusText(string code,
             CancellationToken ct = default)
         {
             var queryParams = queryParamsPool.Rent(1);
-            queryParams[0] = code != FlightStatusCode.Unspecified
-                ? ("code", XmlEnumStringConverter.ToString(code))
-                : default;
-            var req = GetFlightStatusTexts(uri: default, default, ct);
+            queryParams[0] = string.IsNullOrWhiteSpace(code)
+                ? default : ("code", code).AsKeyValuePair();
+            var req = GetFlightStatusTexts(
+                GetFlightStatusTextsUri(ConstructQuery(queryParams)), ct);
+            queryParamsPool.Return(queryParams);
+            var listing = await req.ConfigureAwait(false);
+            return (listing?.Count ?? 0) > 0 ? listing[0] : null;
+        }
+
+        protected virtual Uri GetGateStatusTextsUri(string query) =>
+            string.IsNullOrWhiteSpace(query) ? DefaultUri.GateStatuses
+                : new Uri(DefaultUri.GateStatuses, query);
+
+        private async Task<IReadOnlyList<GateStatusText>> GetGateStatusTexts(
+            Uri uri = default, CancellationToken ct = default)
+        {
+            var listing = await PerformHttpGetRequest<GateStatusTextListing>(
+                uri ?? DefaultUri.GateStatuses, GateStatusSerializer,
+                ct).ConfigureAwait(false);
+            return listing?.GateStatuses;
+        }
+
+        public Task<IReadOnlyList<GateStatusText>> GetGateStatusTexts(
+            CancellationToken ct = default) =>
+            GetGateStatusTexts(uri: default, ct);
+
+        public Task<GateStatusText> GetGateStatusText(GateStatusCode code,
+            CancellationToken ct = default) =>
+            GetGateStatusText(XmlEnumStringConverter.ToString(code), ct);
+
+        public async Task<GateStatusText> GetGateStatusText(string code,
+            CancellationToken ct = default)
+        {
+            var queryParams = queryParamsPool.Rent(1);
+            queryParams[0] = string.IsNullOrWhiteSpace(code)
+                ? default : ("code", code).AsKeyValuePair();
+            var req = GetGateStatusTexts(
+                GetGateStatusTextsUri(ConstructQuery(queryParams)), ct);
+            queryParamsPool.Return(queryParams);
+            var listing = await req.ConfigureAwait(false);
+            return (listing?.Count ?? 0) > 0 ? listing[0] : null;
+        }
+
+        protected virtual Uri GetBeltStatusTextsUri(string query) =>
+            string.IsNullOrWhiteSpace(query) ? DefaultUri.BeltStatuses
+                : new Uri(DefaultUri.BeltStatuses, query);
+
+        private async Task<IReadOnlyList<BeltStatusText>> GetBeltStatusTexts(
+            Uri uri = default, CancellationToken ct = default)
+        {
+            var listing = await PerformHttpGetRequest<BeltStatusTextListing>(
+                uri ?? DefaultUri.BeltStatuses, BeltStatusSerializer,
+                ct).ConfigureAwait(false);
+            return listing?.BeltStatuses;
+        }
+
+        public Task<IReadOnlyList<BeltStatusText>> GetBeltStatusTexts(
+            CancellationToken ct = default) =>
+            GetBeltStatusTexts(uri: default, ct);
+
+        public Task<BeltStatusText> GetBeltStatusText(BeltStatusCode code,
+            CancellationToken ct = default) =>
+            GetBeltStatusText(XmlEnumStringConverter.ToString(code), ct);
+
+        public async Task<BeltStatusText> GetBeltStatusText(string code,
+            CancellationToken ct = default)
+        {
+            var queryParams = queryParamsPool.Rent(1);
+            queryParams[0] = string.IsNullOrWhiteSpace(code)
+                ? default : ("code", code).AsKeyValuePair();
+            var req = GetBeltStatusTexts(GetBeltStatusTextsUri(
+                ConstructQuery(queryParams)), ct);
             queryParamsPool.Return(queryParams);
             var listing = await req.ConfigureAwait(false);
             return (listing?.Count ?? 0) > 0 ? listing[0] : null;
