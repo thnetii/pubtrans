@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\thnetii-dotnet-common\src\THNETII.Common\THNETII.Common.csproj" />
+    <ProjectReference Include="..\..\dotnet-common\src\THNETII.Common\THNETII.Common.csproj" />
     <ProjectReference Include="..\THNETII.PubTrans.AvinorFlydata.Model\THNETII.PubTrans.AvinorFlydata.Model.csproj" />
   </ItemGroup>
 
