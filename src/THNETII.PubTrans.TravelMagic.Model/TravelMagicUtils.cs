@@ -20,12 +20,21 @@ namespace THNETII.PubTrans.TravelMagic.Model
                 StringComparerCaseInsensitive,
                 d => d.ToString(Culture)
                 );
+
+        public static DuplexConversionTuple<string, DateTime> GetDateTimeConversionTuple() =>
+            new DuplexConversionTuple<string, DateTime>(
+                s => DateTime.Parse(s, TravelMagicUtils.Culture, System.Globalization.DateTimeStyles.AssumeLocal),
+                TravelMagicUtils.StringComparerCaseInsensitive,
+                d => d.ToString(TravelMagicUtils.Culture)
+                );
+
         public static DuplexConversionTuple<string, TransportType> GetTransportTypeTuple() =>
             new DuplexConversionTuple<string, TransportType>(
                 s => XmlEnumStringConverter.ParseOrDefault(s, TransportType.Unknown),
                 StringComparerCaseInsensitive,
                 t => XmlEnumStringConverter.ToString(t)
                 );
+
         public static ConversionTuple<string, IReadOnlyList<ConversionTuple<string, TransportType>>> GetTransportTypeListTuple()
         {
             return new ConversionTuple<string, IReadOnlyList<ConversionTuple<string, TransportType>>>(
