@@ -3,7 +3,7 @@
     public static class UrlConstant
     {
         public const string BaseAddress = @"https://flydata.avinor.no";
-        
+
         public const string AirlineNames = @"AirlineNames.asp";
 
         public const string AirportNames = @"AirportNames.asp";

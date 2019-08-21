@@ -6,12 +6,15 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Xml;
 using System.Xml.Serialization;
+
 using THNETII.Common;
 using THNETII.Common.Collections.Generic;
 using THNETII.Common.Serialization;
 using THNETII.Networking.Http;
 using THNETII.PubTrans.AvinorFlydata.Model.Raw;
+
 using StringKeyValuePair = System.Collections.Generic.KeyValuePair<string, string>;
 
 namespace THNETII.PubTrans.AvinorFlydata.Client.Raw
@@ -61,14 +64,15 @@ namespace THNETII.PubTrans.AvinorFlydata.Client.Raw
                 var responseStream = await responseMessage.Content
                     .ReadAsStreamAsync().ConfigureAwait(false);
                 using (responseStream)
-                    return (T)serializer.Deserialize(responseStream);
+                using (var responseReader = XmlReader.Create(responseStream))
+                    return (T)serializer.Deserialize(responseReader);
             }
         }
 
-        protected string ConstructQuery(
+        protected static string ConstructQuery(
             IReadOnlyList<StringKeyValuePair> parameters)
         {
-            if ((parameters?.Count ?? 0) == 0)
+            if (parameters is null || parameters.Count == 0)
                 return "?";
             var qBuilder = new StringBuilder();
             qBuilder.Append('?');

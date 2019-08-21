@@ -1,7 +1,11 @@
-﻿using Microsoft.Extensions.FileProviders;
-using Newtonsoft.Json;
-using System.IO;
+﻿using System.IO;
+using System.Xml;
 using System.Xml.Serialization;
+
+using Microsoft.Extensions.FileProviders;
+
+using Newtonsoft.Json;
+
 using Xunit;
 
 namespace THNETII.PubTrans.AvinorFlydata.Model.Raw.Test
@@ -17,9 +21,10 @@ namespace THNETII.PubTrans.AvinorFlydata.Model.Raw.Test
             var serializer = new XmlSerializer(typeof(BeltStatusTextListing));
             BeltStatusTextListing datalisting;
             using (var dataStream = xmlfile.CreateReadStream())
+            using (var xmlReader = XmlReader.Create(dataStream))
             {
                 datalisting =
-                    (BeltStatusTextListing)serializer.Deserialize(dataStream);
+                    (BeltStatusTextListing)serializer.Deserialize(xmlReader);
             }
             Assert.NotNull(datalisting);
             Assert.NotNull(datalisting.BeltStatuses);
