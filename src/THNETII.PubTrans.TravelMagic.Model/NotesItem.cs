@@ -52,11 +52,11 @@ namespace THNETII.PubTrans.TravelMagic.Model
 
         public override bool Equals(object obj)
         {
-            switch(obj)
+            switch (obj)
             {
                 case NotesItem n: return Equals(n);
                 case string s: return Equals(s);
-                default: 
+                default:
                 case null: return false;
             }
         }
