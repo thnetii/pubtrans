@@ -4,7 +4,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
 using THNETII.Common;
-using THNETII.Common.Serialization;
+using THNETII.TypeConverter.Xml;
 
 namespace THNETII.PubTrans.AvinorFlydata.Model.Raw
 {

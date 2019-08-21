@@ -11,7 +11,7 @@ using System.Xml.Serialization;
 
 using THNETII.Common;
 using THNETII.Common.Collections.Generic;
-using THNETII.Common.Serialization;
+using THNETII.TypeConverter.Xml;
 using THNETII.Networking.Http;
 using THNETII.PubTrans.AvinorFlydata.Model.Raw;
 
