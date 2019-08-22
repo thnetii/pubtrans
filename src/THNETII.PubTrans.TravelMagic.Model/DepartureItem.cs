@@ -159,10 +159,8 @@ namespace THNETII.PubTrans.TravelMagic.Model
         [XmlAttribute("vehiclejourneyref")]
         public string VehicleJourneyReference { get; set; }
 
-#if DEBUG
         [XmlAnyAttribute]
-        public XmlAttribute[] UnmatchedAttributes { get; set; }
-#endif
+        public XmlAttribute[] AdditionalAttributes { get; set; }
 
         [XmlArray("notes")]
         [XmlArrayItem("i")]
@@ -176,10 +174,8 @@ namespace THNETII.PubTrans.TravelMagic.Model
         public IEnumerable<NotesItem> AllNotes =>
             (Notes ?? Array.Empty<NotesItem>()).Concat(FromNotes ?? Array.Empty<NotesItem>());
 
-#if DEBUG
         [XmlAnyElement]
-        public XmlElement[] UnmatchedElements { get; set; }
-#endif
+        public XmlElement[] AdditionalElements { get; set; }
 
         private string DebuggerDisplay() => ToString();
     }

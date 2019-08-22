@@ -141,19 +141,15 @@ namespace THNETII.PubTrans.TravelMagic.Model
         [XmlIgnore]
         public IReadOnlyList<int> LineReferences => lineref.ConvertedValue;
 
-#if DEBUG
         [XmlAnyAttribute]
-        public XmlAttribute[] UnmatchedAttributes { get; set; }
-#endif
+        public XmlAttribute[] AdditionalAttributes { get; set; }
 
         [XmlArray("zones")]
         [XmlArrayItem("zone")]
         public PointStageZone[] Zones { get; set; }
 
-#if DEBUG
         [XmlAnyElement]
-        public XmlElement[] UnmatchedElements { get; set; }
-#endif
+        public XmlElement[] AdditionalElements { get; set; }
 
         private string DebuggerDisplay() =>
             $"{GetType()}, {Name}";
