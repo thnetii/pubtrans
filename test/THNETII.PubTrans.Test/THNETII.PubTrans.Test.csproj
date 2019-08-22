@@ -17,11 +17,16 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\THNETII.PubTrans.AvinorFlydata.Model\THNETII.PubTrans.AvinorFlydata.Model.csproj" />
+    <ProjectReference Include="..\..\src\THNETII.PubTrans.TravelMagic.Model\THNETII.PubTrans.TravelMagic.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="AvinorFlydata\Model.Raw\Data\*.xml" />
     <EmbeddedResource Include="AvinorFlydata\Model.Raw\Data\*.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="TravelMagic\Model\Data\*.xml" />
   </ItemGroup>
 
 </Project>

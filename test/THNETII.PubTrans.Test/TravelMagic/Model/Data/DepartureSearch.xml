@@ -1,133 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <result>
-	<departures>
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:28:00" a="21.08.2019 14:28:00" v="19021343:3" hplnr="19021343" stopnr="3" l="20" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:20:1072.0" d2="21.08.2019 14:34:07" a2="21.08.2019 14:33:44" monitored="true" updateid="2,19021343:3,,20,2,2,19021747,19021355,43698.828,43698.877,43698.868,43698.868,19:3:20:1072,2019-08-21" lineref="20" vehiclejourneyref="19:3:20:1072" />
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:38:00" a="21.08.2019 14:38:00" v="19021343:1" hplnr="19021343" stopnr="1" l="42" nd="Eidkjosen via Sentrum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:42:1075.0" d2="21.08.2019 14:37:50" a2="21.08.2019 14:37:26" monitored="true" updateid="2,19021343:1,,42,1,2,19021355,19023061,43698.870,43698.936,43698.878,43698.878,19:3:42:1075,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1075">
-			<notes>
-				<i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
-			</notes>
-			<fromnotes>
-				<i d="Fra og med mandag 24.juni flyttes busstopp Gimle på tur sør midlertidig til nord for Gimlekrysset, se Tromskortet.no" st="situation" sv="normal" />
-			</fromnotes>
-		</i>
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:41:00" a="21.08.2019 14:41:00" v="19021343:1" hplnr="19021343" stopnr="1" l="20" nd="Kroken via sentrum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:20:1077.0" d2="21.08.2019 14:41:46" a2="21.08.2019 14:41:14" monitored="true" updateid="2,19021343:1,,20,1,2,19021355,19021747,43698.875,43698.924,43698.881,43698.881,19:3:20:1077,2019-08-21" lineref="20" vehiclejourneyref="19:3:20:1077" />
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:44:00" a="21.08.2019 14:44:00" v="19021343:3" hplnr="19021343" stopnr="3" l="42" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:42:1072.0" d2="21.08.2019 14:43:34" a2="21.08.2019 14:43:11" monitored="true" updateid="2,19021343:3,,42,2,2,19023061,19021355,43698.830,43698.890,43698.884,43698.884,19:3:42:1072,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1072">
-			<notes>
-				<i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
-			</notes>
-		</i>
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:48:00" a="21.08.2019 14:48:00" v="19021343:1" hplnr="19021343" stopnr="1" l="42" nd="Eidkjosen via Sentrum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:42:1077.0" d2="21.08.2019 14:46:46" a2="21.08.2019 14:46:14" monitored="true" updateid="2,19021343:1,,42,1,2,19021355,19023061,43698.880,43698.946,43698.888,43698.888,19:3:42:1077,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1077">
-			<notes>
-				<i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
-			</notes>
-			<fromnotes>
-				<i d="Fra og med mandag 24.juni flyttes busstopp Gimle på tur sør midlertidig til nord for Gimlekrysset, se Tromskortet.no" st="situation" sv="normal" />
-			</fromnotes>
-		</i>
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:43:00" a="21.08.2019 14:43:00" v="19021343:3" hplnr="19021343" stopnr="3" l="20" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:20:1074.0" d2="21.08.2019 14:49:47" a2="21.08.2019 14:49:24" monitored="true" updateid="2,19021343:3,,20,2,2,19021747,19021355,43698.843,43698.892,43698.883,43698.883,19:3:20:1074,2019-08-21" lineref="20" vehiclejourneyref="19:3:20:1074" />
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:50:00" a="21.08.2019 14:50:00" v="19021343:3" hplnr="19021343" stopnr="3" l="X32" nd="UNN - UiT" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:32:1020.0" updateid="2,19021343:3,,32,2,2,19021461,19021322,43698.876,43698.896,43698.890,43698.890,19:3:32:1020,2019-08-21" lineref="32" vehiclejourneyref="19:3:32:1020">
-			<fromnotes>
-				<i d="Holdeplass Mekanikerveien Øst vil ikke betjenes  21.08.og 22.08.19 pga. omkjøring av trasè på Stakkevollveien." st="situation" sv="normal" />
-			</fromnotes>
-		</i>
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:56:00" a="21.08.2019 14:56:00" v="19021343:1" hplnr="19021343" stopnr="1" l="20" nd="Kroken via sentrum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:20:1079.0" d2="21.08.2019 14:56:00" a2="21.08.2019 14:56:00" monitored="true" updateid="2,19021343:1,,20,1,2,19021355,19021747,43698.890,43698.939,43698.896,43698.896,19:3:20:1079,2019-08-21" lineref="20" vehiclejourneyref="19:3:20:1079" />
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:59:00" a="21.08.2019 14:59:00" v="19021343:3" hplnr="19021343" stopnr="3" l="42" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:42:1074.0" d2="21.08.2019 14:57:36" a2="21.08.2019 14:57:16" monitored="true" updateid="2,19021343:3,,42,2,2,19023061,19021355,43698.845,43698.905,43698.899,43698.899,19:3:42:1074,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1074">
-			<notes>
-				<i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
-			</notes>
-		</i>
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:58:00" a="21.08.2019 14:58:00" v="19021343:2" hplnr="19021343" stopnr="2" l="X32" nd="Hamna sør" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:32:1017.0" d2="21.08.2019 14:58:00" a2="21.08.2019 14:58:00" monitored="true" updateid="2,19021343:2,,32,1,2,19021322,19021461,43698.892,43698.911,43698.898,43698.898,19:3:32:1017,2019-08-21" lineref="32" vehiclejourneyref="19:3:32:1017">
-			<fromnotes>
-				<i d="Holdeplass Mekanikerveien Øst vil ikke betjenes  21.08.og 22.08.19 pga. omkjøring av trasè på Stakkevollveien." st="situation" sv="normal" />
-			</fromnotes>
-		</i>
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:58:00" a="21.08.2019 14:58:00" v="19021343:1" hplnr="19021343" stopnr="1" l="42" nd="Eidkjosen via Sentrum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:42:1079.0" d2="21.08.2019 14:58:00" a2="21.08.2019 14:58:00" monitored="true" updateid="2,19021343:1,,42,1,2,19021355,19023061,43698.890,43698.956,43698.898,43698.898,19:3:42:1079,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1079">
-			<notes>
-				<i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
-			</notes>
-			<fromnotes>
-				<i d="Fra og med mandag 24.juni flyttes busstopp Gimle på tur sør midlertidig til nord for Gimlekrysset, se Tromskortet.no" st="situation" sv="normal" />
-			</fromnotes>
-		</i>
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:58:00" a="21.08.2019 14:58:00" v="19021343:3" hplnr="19021343" stopnr="3" l="20" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:20:1076.0" d2="21.08.2019 15:05:23" a2="21.08.2019 15:05:00" monitored="true" updateid="2,19021343:3,,20,2,2,19021747,19021355,43698.858,43698.907,43698.898,43698.898,19:3:20:1076,2019-08-21" lineref="20" vehiclejourneyref="19:3:20:1076" />
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:09:00" a="21.08.2019 15:09:00" v="19021343:3" hplnr="19021343" stopnr="3" l="42" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:42:1076.0" d2="21.08.2019 15:07:39" a2="21.08.2019 15:07:16" monitored="true" updateid="2,19021343:3,,42,2,2,19023061,19021355,43698.855,43698.915,43698.909,43698.909,19:3:42:1076,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1076">
-			<notes>
-				<i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
-			</notes>
-		</i>
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:08:00" a="21.08.2019 15:08:00" v="19021343:1" hplnr="19021343" stopnr="1" l="42" nd="Eidkjosen via Sentrum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:42:1081.0" updateid="2,19021343:1,,42,1,2,19021355,19023061,43698.900,43698.966,43698.908,43698.908,19:3:42:1081,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1081">
-			<notes>
-				<i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
-			</notes>
-			<fromnotes>
-				<i d="Fra og med mandag 24.juni flyttes busstopp Gimle på tur sør midlertidig til nord for Gimlekrysset, se Tromskortet.no" st="situation" sv="normal" />
-			</fromnotes>
-		</i>
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:11:00" a="21.08.2019 15:11:00" v="19021343:1" hplnr="19021343" stopnr="1" l="20" nd="Kroken via sentrum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:20:1081.0" d2="21.08.2019 15:11:00" a2="21.08.2019 15:11:00" monitored="true" updateid="2,19021343:1,,20,1,2,19021355,19021747,43698.905,43698.954,43698.911,43698.911,19:3:20:1081,2019-08-21" lineref="20" vehiclejourneyref="19:3:20:1081" />
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:13:00" a="21.08.2019 15:13:00" v="19021343:3" hplnr="19021343" stopnr="3" l="20" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:20:1078.0" d2="21.08.2019 15:13:00" a2="21.08.2019 15:13:00" monitored="true" updateid="2,19021343:3,,20,2,2,19021747,19021355,43698.873,43698.922,43698.913,43698.913,19:3:20:1078,2019-08-21" lineref="20" vehiclejourneyref="19:3:20:1078" />
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:19:00" a="21.08.2019 15:19:00" v="19021343:3" hplnr="19021343" stopnr="3" l="42" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:42:1078.0" d2="21.08.2019 15:17:36" a2="21.08.2019 15:17:16" monitored="true" updateid="2,19021343:3,,42,2,2,19023061,19021355,43698.865,43698.925,43698.919,43698.919,19:3:42:1078,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1078">
-			<notes>
-				<i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
-			</notes>
-		</i>
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:18:00" a="21.08.2019 15:18:00" v="19021343:2" hplnr="19021343" stopnr="2" l="X32" nd="Hamna sør" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:32:1019.0" updateid="2,19021343:2,,32,1,2,19021322,19021461,43698.912,43698.931,43698.918,43698.918,19:3:32:1019,2019-08-21" lineref="32" vehiclejourneyref="19:3:32:1019">
-			<fromnotes>
-				<i d="Holdeplass Mekanikerveien Øst vil ikke betjenes  21.08.og 22.08.19 pga. omkjøring av trasè på Stakkevollveien." st="situation" sv="normal" />
-			</fromnotes>
-		</i>
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:18:00" a="21.08.2019 15:18:00" v="19021343:1" hplnr="19021343" stopnr="1" l="42" nd="Eidkjosen via Sentrum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:42:1083.0" d2="21.08.2019 15:18:00" a2="21.08.2019 15:18:00" monitored="true" updateid="2,19021343:1,,42,1,2,19021355,19023061,43698.910,43698.976,43698.918,43698.918,19:3:42:1083,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1083">
-			<notes>
-				<i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
-			</notes>
-			<fromnotes>
-				<i d="Fra og med mandag 24.juni flyttes busstopp Gimle på tur sør midlertidig til nord for Gimlekrysset, se Tromskortet.no" st="situation" sv="normal" />
-			</fromnotes>
-		</i>
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:25:00" a="21.08.2019 15:25:00" v="19021343:3" hplnr="19021343" stopnr="3" l="X32" nd="UNN - UiT" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:32:1022.0" d2="21.08.2019 15:25:00" a2="21.08.2019 15:25:00" monitored="true" updateid="2,19021343:3,,32,2,2,19021461,19021322,43698.911,43698.931,43698.925,43698.925,19:3:32:1022,2019-08-21" lineref="32" vehiclejourneyref="19:3:32:1022">
-			<fromnotes>
-				<i d="Holdeplass Mekanikerveien Øst vil ikke betjenes  21.08.og 22.08.19 pga. omkjøring av trasè på Stakkevollveien." st="situation" sv="normal" />
-			</fromnotes>
-		</i>
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:26:00" a="21.08.2019 15:26:00" v="19021343:1" hplnr="19021343" stopnr="1" l="20" nd="Kroken via sentrum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:20:1083.0" d2="21.08.2019 15:26:00" a2="21.08.2019 15:26:00" monitored="true" updateid="2,19021343:1,,20,1,2,19021355,19021747,43698.920,43698.969,43698.926,43698.926,19:3:20:1083,2019-08-21" lineref="20" vehiclejourneyref="19:3:20:1083" />
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:29:00" a="21.08.2019 15:29:00" v="19021343:3" hplnr="19021343" stopnr="3" l="42" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:42:1080.0" d2="21.08.2019 15:27:41" a2="21.08.2019 15:27:25" monitored="true" updateid="2,19021343:3,,42,2,2,19023061,19021355,43698.875,43698.935,43698.929,43698.929,19:3:42:1080,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1080">
-			<notes>
-				<i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
-			</notes>
-		</i>
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:28:00" a="21.08.2019 15:28:00" v="19021343:3" hplnr="19021343" stopnr="3" l="20" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:20:1080.0" d2="21.08.2019 15:28:00" a2="21.08.2019 15:28:00" monitored="true" updateid="2,19021343:3,,20,2,2,19021747,19021355,43698.888,43698.937,43698.928,43698.928,19:3:20:1080,2019-08-21" lineref="20" vehiclejourneyref="19:3:20:1080" />
-		<i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:28:00" a="21.08.2019 15:28:00" v="19021343:1" hplnr="19021343" stopnr="1" l="42" nd="Eidkjosen via Sentrum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:42:1085.0" updateid="2,19021343:1,,42,1,2,19021355,19023061,43698.920,43698.986,43698.928,43698.928,19:3:42:1085,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1085">
-			<notes>
-				<i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
-			</notes>
-			<fromnotes>
-				<i d="Fra og med mandag 24.juni flyttes busstopp Gimle på tur sør midlertidig til nord for Gimlekrysset, se Tromskortet.no" st="situation" sv="normal" />
-			</fromnotes>
-		</i>
-	</departures>
-	<stages>
-		<i v="19021343:1" hplnr="19021343" stopnr="1" n="Utsikten (Tromsø)" t="0" d="0" m="1" x="19,001819" y="69,693217" tn="Buss" st="Buss.png" l="20,42" lineref="20,42">
-			<zones>
-				<zone v="19100" n="Tromsø" />
-				<zone v="19100" n="Tromsø" />
-				<zone v="19100" n="Tromsø" />
-				<zone v="19100" n="Tromsø" />
-			</zones>
-		</i>
-		<i v="19021343:2" hplnr="19021343" stopnr="2" n="Utsikten (Tromsø)" t="0" d="0" m="1" x="19,003353" y="69,692571" tn="Buss" st="Buss.png" l="X32" lineref="32">
-			<zones>
-				<zone v="19100" n="Tromsø" />
-				<zone v="19100" n="Tromsø" />
-				<zone v="19100" n="Tromsø" />
-				<zone v="19100" n="Tromsø" />
-			</zones>
-		</i>
-		<i v="19021343:3" hplnr="19021343" stopnr="3" n="Utsikten (Tromsø)" t="0" d="0" m="1" x="19,002269" y="69,692722" tn="Buss" st="Buss.png" l="20,X32,42" lineref="20,32,42">
-			<zones>
-				<zone v="19100" n="Tromsø" />
-				<zone v="19100" n="Tromsø" />
-				<zone v="19100" n="Tromsø" />
-				<zone v="19100" n="Tromsø" />
-			</zones>
-		</i>
-	</stages>
+  <departures>
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:28:00" a="21.08.2019 14:28:00" v="19021343:3" hplnr="19021343" stopnr="3" l="20" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:20:1072.0" d2="21.08.2019 14:34:07" a2="21.08.2019 14:33:44" monitored="true" updateid="2,19021343:3,,20,2,2,19021747,19021355,43698.828,43698.877,43698.868,43698.868,19:3:20:1072,2019-08-21" lineref="20" vehiclejourneyref="19:3:20:1072" />
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:38:00" a="21.08.2019 14:38:00" v="19021343:1" hplnr="19021343" stopnr="1" l="42" nd="Eidkjosen via Sentrum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:42:1075.0" d2="21.08.2019 14:37:50" a2="21.08.2019 14:37:26" monitored="true" updateid="2,19021343:1,,42,1,2,19021355,19023061,43698.870,43698.936,43698.878,43698.878,19:3:42:1075,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1075">
+      <notes>
+        <i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
+      </notes>
+      <fromnotes>
+        <i d="Fra og med mandag 24.juni flyttes busstopp Gimle på tur sør midlertidig til nord for Gimlekrysset, se Tromskortet.no" st="situation" sv="normal" />
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:41:00" a="21.08.2019 14:41:00" v="19021343:1" hplnr="19021343" stopnr="1" l="20" nd="Kroken via sentrum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:20:1077.0" d2="21.08.2019 14:41:46" a2="21.08.2019 14:41:14" monitored="true" updateid="2,19021343:1,,20,1,2,19021355,19021747,43698.875,43698.924,43698.881,43698.881,19:3:20:1077,2019-08-21" lineref="20" vehiclejourneyref="19:3:20:1077" />
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:44:00" a="21.08.2019 14:44:00" v="19021343:3" hplnr="19021343" stopnr="3" l="42" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:42:1072.0" d2="21.08.2019 14:43:34" a2="21.08.2019 14:43:11" monitored="true" updateid="2,19021343:3,,42,2,2,19023061,19021355,43698.830,43698.890,43698.884,43698.884,19:3:42:1072,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1072">
+      <notes>
+        <i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:48:00" a="21.08.2019 14:48:00" v="19021343:1" hplnr="19021343" stopnr="1" l="42" nd="Eidkjosen via Sentrum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:42:1077.0" d2="21.08.2019 14:46:46" a2="21.08.2019 14:46:14" monitored="true" updateid="2,19021343:1,,42,1,2,19021355,19023061,43698.880,43698.946,43698.888,43698.888,19:3:42:1077,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1077">
+      <notes>
+        <i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
+      </notes>
+      <fromnotes>
+        <i d="Fra og med mandag 24.juni flyttes busstopp Gimle på tur sør midlertidig til nord for Gimlekrysset, se Tromskortet.no" st="situation" sv="normal" />
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:43:00" a="21.08.2019 14:43:00" v="19021343:3" hplnr="19021343" stopnr="3" l="20" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:20:1074.0" d2="21.08.2019 14:49:47" a2="21.08.2019 14:49:24" monitored="true" updateid="2,19021343:3,,20,2,2,19021747,19021355,43698.843,43698.892,43698.883,43698.883,19:3:20:1074,2019-08-21" lineref="20" vehiclejourneyref="19:3:20:1074" />
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:50:00" a="21.08.2019 14:50:00" v="19021343:3" hplnr="19021343" stopnr="3" l="X32" nd="UNN - UiT" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:32:1020.0" updateid="2,19021343:3,,32,2,2,19021461,19021322,43698.876,43698.896,43698.890,43698.890,19:3:32:1020,2019-08-21" lineref="32" vehiclejourneyref="19:3:32:1020">
+      <fromnotes>
+        <i d="Holdeplass Mekanikerveien Øst vil ikke betjenes  21.08.og 22.08.19 pga. omkjøring av trasè på Stakkevollveien." st="situation" sv="normal" />
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:56:00" a="21.08.2019 14:56:00" v="19021343:1" hplnr="19021343" stopnr="1" l="20" nd="Kroken via sentrum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:20:1079.0" d2="21.08.2019 14:56:00" a2="21.08.2019 14:56:00" monitored="true" updateid="2,19021343:1,,20,1,2,19021355,19021747,43698.890,43698.939,43698.896,43698.896,19:3:20:1079,2019-08-21" lineref="20" vehiclejourneyref="19:3:20:1079" />
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:59:00" a="21.08.2019 14:59:00" v="19021343:3" hplnr="19021343" stopnr="3" l="42" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:42:1074.0" d2="21.08.2019 14:57:36" a2="21.08.2019 14:57:16" monitored="true" updateid="2,19021343:3,,42,2,2,19023061,19021355,43698.845,43698.905,43698.899,43698.899,19:3:42:1074,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1074">
+      <notes>
+        <i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:58:00" a="21.08.2019 14:58:00" v="19021343:2" hplnr="19021343" stopnr="2" l="X32" nd="Hamna sør" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:32:1017.0" d2="21.08.2019 14:58:00" a2="21.08.2019 14:58:00" monitored="true" updateid="2,19021343:2,,32,1,2,19021322,19021461,43698.892,43698.911,43698.898,43698.898,19:3:32:1017,2019-08-21" lineref="32" vehiclejourneyref="19:3:32:1017">
+      <fromnotes>
+        <i d="Holdeplass Mekanikerveien Øst vil ikke betjenes  21.08.og 22.08.19 pga. omkjøring av trasè på Stakkevollveien." st="situation" sv="normal" />
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:58:00" a="21.08.2019 14:58:00" v="19021343:1" hplnr="19021343" stopnr="1" l="42" nd="Eidkjosen via Sentrum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:42:1079.0" d2="21.08.2019 14:58:00" a2="21.08.2019 14:58:00" monitored="true" updateid="2,19021343:1,,42,1,2,19021355,19023061,43698.890,43698.956,43698.898,43698.898,19:3:42:1079,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1079">
+      <notes>
+        <i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
+      </notes>
+      <fromnotes>
+        <i d="Fra og med mandag 24.juni flyttes busstopp Gimle på tur sør midlertidig til nord for Gimlekrysset, se Tromskortet.no" st="situation" sv="normal" />
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 14:58:00" a="21.08.2019 14:58:00" v="19021343:3" hplnr="19021343" stopnr="3" l="20" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:20:1076.0" d2="21.08.2019 15:05:23" a2="21.08.2019 15:05:00" monitored="true" updateid="2,19021343:3,,20,2,2,19021747,19021355,43698.858,43698.907,43698.898,43698.898,19:3:20:1076,2019-08-21" lineref="20" vehiclejourneyref="19:3:20:1076" />
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:09:00" a="21.08.2019 15:09:00" v="19021343:3" hplnr="19021343" stopnr="3" l="42" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:42:1076.0" d2="21.08.2019 15:07:39" a2="21.08.2019 15:07:16" monitored="true" updateid="2,19021343:3,,42,2,2,19023061,19021355,43698.855,43698.915,43698.909,43698.909,19:3:42:1076,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1076">
+      <notes>
+        <i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:08:00" a="21.08.2019 15:08:00" v="19021343:1" hplnr="19021343" stopnr="1" l="42" nd="Eidkjosen via Sentrum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:42:1081.0" updateid="2,19021343:1,,42,1,2,19021355,19023061,43698.900,43698.966,43698.908,43698.908,19:3:42:1081,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1081">
+      <notes>
+        <i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
+      </notes>
+      <fromnotes>
+        <i d="Fra og med mandag 24.juni flyttes busstopp Gimle på tur sør midlertidig til nord for Gimlekrysset, se Tromskortet.no" st="situation" sv="normal" />
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:11:00" a="21.08.2019 15:11:00" v="19021343:1" hplnr="19021343" stopnr="1" l="20" nd="Kroken via sentrum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:20:1081.0" d2="21.08.2019 15:11:00" a2="21.08.2019 15:11:00" monitored="true" updateid="2,19021343:1,,20,1,2,19021355,19021747,43698.905,43698.954,43698.911,43698.911,19:3:20:1081,2019-08-21" lineref="20" vehiclejourneyref="19:3:20:1081" />
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:13:00" a="21.08.2019 15:13:00" v="19021343:3" hplnr="19021343" stopnr="3" l="20" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:20:1078.0" d2="21.08.2019 15:13:00" a2="21.08.2019 15:13:00" monitored="true" updateid="2,19021343:3,,20,2,2,19021747,19021355,43698.873,43698.922,43698.913,43698.913,19:3:20:1078,2019-08-21" lineref="20" vehiclejourneyref="19:3:20:1078" />
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:19:00" a="21.08.2019 15:19:00" v="19021343:3" hplnr="19021343" stopnr="3" l="42" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:42:1078.0" d2="21.08.2019 15:17:36" a2="21.08.2019 15:17:16" monitored="true" updateid="2,19021343:3,,42,2,2,19023061,19021355,43698.865,43698.925,43698.919,43698.919,19:3:42:1078,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1078">
+      <notes>
+        <i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:18:00" a="21.08.2019 15:18:00" v="19021343:2" hplnr="19021343" stopnr="2" l="X32" nd="Hamna sør" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:32:1019.0" updateid="2,19021343:2,,32,1,2,19021322,19021461,43698.912,43698.931,43698.918,43698.918,19:3:32:1019,2019-08-21" lineref="32" vehiclejourneyref="19:3:32:1019">
+      <fromnotes>
+        <i d="Holdeplass Mekanikerveien Øst vil ikke betjenes  21.08.og 22.08.19 pga. omkjøring av trasè på Stakkevollveien." st="situation" sv="normal" />
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:18:00" a="21.08.2019 15:18:00" v="19021343:1" hplnr="19021343" stopnr="1" l="42" nd="Eidkjosen via Sentrum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:42:1083.0" d2="21.08.2019 15:18:00" a2="21.08.2019 15:18:00" monitored="true" updateid="2,19021343:1,,42,1,2,19021355,19023061,43698.910,43698.976,43698.918,43698.918,19:3:42:1083,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1083">
+      <notes>
+        <i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
+      </notes>
+      <fromnotes>
+        <i d="Fra og med mandag 24.juni flyttes busstopp Gimle på tur sør midlertidig til nord for Gimlekrysset, se Tromskortet.no" st="situation" sv="normal" />
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:25:00" a="21.08.2019 15:25:00" v="19021343:3" hplnr="19021343" stopnr="3" l="X32" nd="UNN - UiT" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:32:1022.0" d2="21.08.2019 15:25:00" a2="21.08.2019 15:25:00" monitored="true" updateid="2,19021343:3,,32,2,2,19021461,19021322,43698.911,43698.931,43698.925,43698.925,19:3:32:1022,2019-08-21" lineref="32" vehiclejourneyref="19:3:32:1022">
+      <fromnotes>
+        <i d="Holdeplass Mekanikerveien Øst vil ikke betjenes  21.08.og 22.08.19 pga. omkjøring av trasè på Stakkevollveien." st="situation" sv="normal" />
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:26:00" a="21.08.2019 15:26:00" v="19021343:1" hplnr="19021343" stopnr="1" l="20" nd="Kroken via sentrum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:20:1083.0" d2="21.08.2019 15:26:00" a2="21.08.2019 15:26:00" monitored="true" updateid="2,19021343:1,,20,1,2,19021355,19021747,43698.920,43698.969,43698.926,43698.926,19:3:20:1083,2019-08-21" lineref="20" vehiclejourneyref="19:3:20:1083" />
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:29:00" a="21.08.2019 15:29:00" v="19021343:3" hplnr="19021343" stopnr="3" l="42" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:42:1080.0" d2="21.08.2019 15:27:41" a2="21.08.2019 15:27:25" monitored="true" updateid="2,19021343:3,,42,2,2,19023061,19021355,43698.875,43698.935,43698.929,43698.929,19:3:42:1080,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1080">
+      <notes>
+        <i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:28:00" a="21.08.2019 15:28:00" v="19021343:3" hplnr="19021343" stopnr="3" l="20" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43698.19:3:20:1080.0" d2="21.08.2019 15:28:00" a2="21.08.2019 15:28:00" monitored="true" updateid="2,19021343:3,,20,2,2,19021747,19021355,43698.888,43698.937,43698.928,43698.928,19:3:20:1080,2019-08-21" lineref="20" vehiclejourneyref="19:3:20:1080" />
+    <i tt="2" tp="Buss.png" tn="Buss" d="21.08.2019 15:28:00" a="21.08.2019 15:28:00" v="19021343:1" hplnr="19021343" stopnr="1" l="42" nd="Eidkjosen via Sentrum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43698.19:3:42:1085.0" updateid="2,19021343:1,,42,1,2,19021355,19023061,43698.920,43698.986,43698.928,43698.928,19:3:42:1085,2019-08-21" lineref="42" vehiclejourneyref="19:3:42:1085">
+      <notes>
+        <i d="Strandveien stenger hver kveld fom. 19.aug. kl. 1800 tom. 23. aug. kl.0500 pga. vegarbeid. Omkjøringer og stengte holdeplasser.  Se Tromskortet.no" st="situation" sv="normal" />
+      </notes>
+      <fromnotes>
+        <i d="Fra og med mandag 24.juni flyttes busstopp Gimle på tur sør midlertidig til nord for Gimlekrysset, se Tromskortet.no" st="situation" sv="normal" />
+      </fromnotes>
+    </i>
+  </departures>
+  <stages>
+    <i v="19021343:1" hplnr="19021343" stopnr="1" n="Utsikten (Tromsø)" t="0" d="0" m="1" x="19,001819" y="69,693217" tn="Buss" st="Buss.png" l="20,42" lineref="20,42">
+      <zones>
+        <zone v="19100" n="Tromsø" />
+        <zone v="19100" n="Tromsø" />
+        <zone v="19100" n="Tromsø" />
+        <zone v="19100" n="Tromsø" />
+      </zones>
+    </i>
+    <i v="19021343:2" hplnr="19021343" stopnr="2" n="Utsikten (Tromsø)" t="0" d="0" m="1" x="19,003353" y="69,692571" tn="Buss" st="Buss.png" l="X32" lineref="32">
+      <zones>
+        <zone v="19100" n="Tromsø" />
+        <zone v="19100" n="Tromsø" />
+        <zone v="19100" n="Tromsø" />
+        <zone v="19100" n="Tromsø" />
+      </zones>
+    </i>
+    <i v="19021343:3" hplnr="19021343" stopnr="3" n="Utsikten (Tromsø)" t="0" d="0" m="1" x="19,002269" y="69,692722" tn="Buss" st="Buss.png" l="20,X32,42" lineref="20,32,42">
+      <zones>
+        <zone v="19100" n="Tromsø" />
+        <zone v="19100" n="Tromsø" />
+        <zone v="19100" n="Tromsø" />
+        <zone v="19100" n="Tromsø" />
+      </zones>
+    </i>
+  </stages>
 </result>
