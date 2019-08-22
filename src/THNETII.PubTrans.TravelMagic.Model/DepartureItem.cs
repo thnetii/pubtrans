@@ -154,7 +154,7 @@ namespace THNETII.PubTrans.TravelMagic.Model
         public string RealtimeId { get; set; }
 
         [XmlAttribute("lineref")]
-        public int LineReference { get; set; }
+        public string LineReference { get; set; }
 
         [XmlAttribute("vehiclejourneyref")]
         public string VehicleJourneyReference { get; set; }

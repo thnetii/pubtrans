@@ -34,13 +34,9 @@ namespace THNETII.PubTrans.TravelMagic.Model
                 s => TravelMagicUtils.DistincListFromCommaSeparatedString(s),
                 TravelMagicUtils.StringComparerCaseInsensitive
                 );
-        private readonly ConversionTuple<string, IReadOnlyList<int>> lineref =
-            new ConversionTuple<string, IReadOnlyList<int>>(
-                s => TravelMagicUtils.EnumerableFromCommaSeparatedString(s)
-                    .Distinct(TravelMagicUtils.StringComparerCaseInsensitive)
-                    .Select(v => int.TryParse(v, NumberStyles.Integer, TravelMagicUtils.Culture, out int r) ? (int?)r : null)
-                    .Where(v => v.HasValue).Select(v => v.Value)
-                    .ToList(),
+        private readonly ConversionTuple<string, IReadOnlyList<string>> lineref =
+            new ConversionTuple<string, IReadOnlyList<string>>(
+                s => TravelMagicUtils.EnumerableFromCommaSeparatedString(s)?.ToList(),
                 TravelMagicUtils.StringComparerCaseInsensitive
                 );
 
@@ -136,10 +132,14 @@ namespace THNETII.PubTrans.TravelMagic.Model
         public IReadOnlyList<string> Lines => l.ConvertedValue;
 
         [XmlAttribute("lineref")]
-        public string LineReferencesString { get; set; }
+        public string LineReferencesString
+        {
+            get => lineref.RawValue;
+            set => lineref.RawValue = value;
+        }
 
         [XmlIgnore]
-        public IReadOnlyList<int> LineReferences => lineref.ConvertedValue;
+        public IReadOnlyList<string> LineReferences => lineref.ConvertedValue;
 
         [XmlAnyAttribute]
         public XmlAttribute[] AdditionalAttributes { get; set; }

@@ -16,14 +16,14 @@ namespace THNETII.PubTrans.TravelMagic.Model
 
         public static DuplexConversionTuple<string, double> GetDoubleConversionTuple() =>
             new DuplexConversionTuple<string, double>(
-                s => double.Parse(s, Culture),
+                s => string.IsNullOrEmpty(s) ? default : double.Parse(s, Culture),
                 StringComparerCaseInsensitive,
                 d => d.ToString(Culture)
                 );
 
         public static DuplexConversionTuple<string, DateTime> GetDateTimeConversionTuple() =>
             new DuplexConversionTuple<string, DateTime>(
-                s => DateTime.Parse(s, Culture, DateTimeStyles.AssumeLocal),
+                s => string.IsNullOrEmpty(s) ? default : DateTime.Parse(s, Culture, DateTimeStyles.AssumeLocal),
                 StringComparerCaseInsensitive,
                 d => d.ToString(Culture)
                 );
