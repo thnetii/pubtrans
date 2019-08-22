@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Linq;
 
 using THNETII.Common;
-using THNETII.Common.Serialization;
+using THNETII.TypeConverter.Xml;
 
 namespace THNETII.PubTrans.TravelMagic.Model
 {

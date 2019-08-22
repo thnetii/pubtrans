@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Xml.Serialization;
 
 using THNETII.Common;
-using THNETII.Common.Serialization;
+using THNETII.TypeConverter.Xml;
 
 namespace THNETII.PubTrans.TravelMagic.Model
 {
