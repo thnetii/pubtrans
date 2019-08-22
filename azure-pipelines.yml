@@ -5,9 +5,7 @@ trigger:
     include:
     - master
     - rel/*
-pr:
-- master
-- rel/*
+pr: *
 resources:
   repositories:
   - repository: templates
