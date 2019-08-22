@@ -23,9 +23,9 @@ namespace THNETII.PubTrans.TravelMagic.Model
 
         public static DuplexConversionTuple<string, DateTime> GetDateTimeConversionTuple() =>
             new DuplexConversionTuple<string, DateTime>(
-                s => DateTime.Parse(s, TravelMagicUtils.Culture, System.Globalization.DateTimeStyles.AssumeLocal),
-                TravelMagicUtils.StringComparerCaseInsensitive,
-                d => d.ToString(TravelMagicUtils.Culture)
+                s => DateTime.Parse(s, Culture, DateTimeStyles.AssumeLocal),
+                StringComparerCaseInsensitive,
+                d => d.ToString(Culture)
                 );
 
         public static DuplexConversionTuple<string, TransportType> GetTransportTypeTuple() =>
