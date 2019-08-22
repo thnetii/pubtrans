@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+
 using THNETII.Common;
-using THNETII.Common.Serialization;
+using THNETII.TypeConverter.Xml;
 
 namespace THNETII.PubTrans.AvinorFlydata.Model.Raw
 {
@@ -137,6 +139,7 @@ namespace THNETII.PubTrans.AvinorFlydata.Model.Raw
                 ToCommaSeparatedString);
         }
 
+        [SuppressMessage("Usage", "PC001: API not supported on all platforms", Justification = "https://github.com/dotnet/platform-compat/issues/123")]
         private static IReadOnlyList<T> ConvertCommaSeparatedString<T>(string cs,
             Func<string, T> singleItemConverter, int? capacity = default)
         {

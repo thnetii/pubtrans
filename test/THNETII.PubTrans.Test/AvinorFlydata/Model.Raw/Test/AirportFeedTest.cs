@@ -1,11 +1,13 @@
-﻿using Microsoft.Extensions.FileProviders;
-using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Xml;
 using System.Xml.Serialization;
+
+using Microsoft.Extensions.FileProviders;
+
+using Newtonsoft.Json;
+
 using Xunit;
 
 namespace THNETII.PubTrans.AvinorFlydata.Model.Raw.Test
@@ -38,8 +40,9 @@ namespace THNETII.PubTrans.AvinorFlydata.Model.Raw.Test
             var serializer = new XmlSerializer(typeof(AirportFeed));
             AirportFeed feed;
             using (var dataStream = xmlfile.CreateReadStream())
+            using (var xmlReader = XmlReader.Create(dataStream))
             {
-                feed = (AirportFeed)serializer.Deserialize(dataStream);
+                feed = (AirportFeed)serializer.Deserialize(xmlReader);
             }
             Assert.NotNull(feed);
             Assert.Equal(xmlfileAirportIata, feed.AirportIata);
