@@ -28,7 +28,15 @@ namespace THNETII.PubTrans.TravelMagic.Model
                 v => XmlEnumStringConverter.ToString(v)
             );
 
+        [XmlAttribute("tt")]
+        public int TransportTypeValue { get; set; }
 
+        [XmlIgnore]
+        public TransportType TransportType
+        {
+            get => (TransportType)TransportTypeValue;
+            set => TransportTypeValue = (int)value;
+        }
 
         [XmlAttribute("tp")]
         public string TransportTypeSymbolPathString { get; set; }
@@ -124,17 +132,23 @@ namespace THNETII.PubTrans.TravelMagic.Model
             set => dir.ConvertedValue = value;
         }
 
-        //[XmlAttribute("ns")]
-        //public string Ns { get; set; }
+        [XmlAttribute("ns")]
+        internal string Footnote { get; set; }
 
         [XmlAttribute("fnt")]
-        public string Footnote { get; set; }
+        public string FromFootnote { get; set; }
+
+        [XmlAttribute("tnt")]
+        public string ToFootnote { get; set; }
 
         [XmlAttribute("tid")]
         public string TripId { get; set; }
 
         [XmlAttribute("monitored")]
         public bool IsMonitored { get; set; }
+
+        [XmlAttribute("incongestion")]
+        public bool InCongestion { get; set; }
 
         [XmlAttribute("updateid")]
         public string RealtimeId { get; set; }
