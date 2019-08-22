@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
+using System.Xml;
 using System.Xml.Serialization;
 
 using THNETII.Common;
@@ -140,9 +141,19 @@ namespace THNETII.PubTrans.TravelMagic.Model
         [XmlIgnore]
         public IReadOnlyList<int> LineReferences => lineref.ConvertedValue;
 
+#if DEBUG
+        [XmlAnyAttribute]
+        public XmlAttribute[] UnmatchedAttributes { get; set; }
+#endif
+
         [XmlArray("zones")]
         [XmlArrayItem("zone")]
         public PointStageZone[] Zones { get; set; }
+
+#if DEBUG
+        [XmlAnyElement]
+        public XmlElement[] UnmatchedElements { get; set; }
+#endif
 
         private string DebuggerDisplay() =>
             $"{GetType()}, {Name}";

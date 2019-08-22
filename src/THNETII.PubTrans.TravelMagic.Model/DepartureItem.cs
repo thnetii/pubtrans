@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Xml;
 using System.Xml.Serialization;
 
 using THNETII.Common;
@@ -27,20 +28,7 @@ namespace THNETII.PubTrans.TravelMagic.Model
                 v => XmlEnumStringConverter.ToString(v)
             );
 
-        [XmlArray("notes")]
-        [XmlArrayItem("i")]
-        public NotesItem[] Notes { get; set; }
 
-        [XmlArray("fromnotes")]
-        [XmlArrayItem("i")]
-        public NotesItem[] FromNotes { get; set; }
-
-        [XmlIgnore]
-        public IEnumerable<NotesItem> AllNotes =>
-            (Notes ?? Array.Empty<NotesItem>()).Concat(FromNotes ?? Array.Empty<NotesItem>());
-
-        [XmlAttribute("tt")]
-        public TransportType TransportType { get; set; }
 
         [XmlAttribute("tp")]
         public string TransportTypeSymbolPathString { get; set; }
@@ -156,6 +144,28 @@ namespace THNETII.PubTrans.TravelMagic.Model
 
         [XmlAttribute("vehiclejourneyref")]
         public string VehicleJourneyReference { get; set; }
+
+#if DEBUG
+        [XmlAnyAttribute]
+        public XmlAttribute[] UnmatchedAttributes { get; set; }
+#endif
+
+        [XmlArray("notes")]
+        [XmlArrayItem("i")]
+        public NotesItem[] Notes { get; set; }
+
+        [XmlArray("fromnotes")]
+        [XmlArrayItem("i")]
+        public NotesItem[] FromNotes { get; set; }
+
+        [XmlIgnore]
+        public IEnumerable<NotesItem> AllNotes =>
+            (Notes ?? Array.Empty<NotesItem>()).Concat(FromNotes ?? Array.Empty<NotesItem>());
+
+#if DEBUG
+        [XmlAnyElement]
+        public XmlElement[] UnmatchedElements { get; set; }
+#endif
 
         private string DebuggerDisplay() => ToString();
     }
