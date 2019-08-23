@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\THNETII.PubTrans.AvinorFlydata.Model\THNETII.PubTrans.AvinorFlydata.Model.csproj" />
+    <ProjectReference Include="..\..\src\THNETII.PubTrans.TravelMagic.Client\THNETII.PubTrans.TravelMagic.Client.csproj" />
     <ProjectReference Include="..\..\src\THNETII.PubTrans.TravelMagic.Model\THNETII.PubTrans.TravelMagic.Model.csproj" />
   </ItemGroup>
 
