@@ -47,9 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.TypeConverter.Xml",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.PubTrans.TravelMagic.Model", "src\THNETII.PubTrans.TravelMagic.Model\THNETII.PubTrans.TravelMagic.Model.csproj", "{B7C91D3B-F73E-4453-B069-DF760FA66CFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THNETII.PubTrans.TravelMagic.Client", "src\THNETII.PubTrans.TravelMagic.Client\THNETII.PubTrans.TravelMagic.Client.csproj", "{5854BB29-57A0-45C5-A846-40F859CD92F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.PubTrans.TravelMagic.Client", "src\THNETII.PubTrans.TravelMagic.Client\THNETII.PubTrans.TravelMagic.Client.csproj", "{5854BB29-57A0-45C5-A846-40F859CD92F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THNETII.PubTrans.TravelMagic.Client.HttpClientFactory", "src\THNETII.PubTrans.TravelMagic.Client.HttpClientFactory\THNETII.PubTrans.TravelMagic.Client.HttpClientFactory.csproj", "{788D2834-B2D8-4EC3-85EE-C2AEF6E06897}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.PubTrans.TravelMagic.Client.HttpClientFactory", "src\THNETII.PubTrans.TravelMagic.Client.HttpClientFactory\THNETII.PubTrans.TravelMagic.Client.HttpClientFactory.csproj", "{788D2834-B2D8-4EC3-85EE-C2AEF6E06897}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

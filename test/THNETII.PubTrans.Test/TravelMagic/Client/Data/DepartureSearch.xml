@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<result>
+  <departures>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 16:45:00" a="23.08.2019 16:45:00" v="19021018:1" hplnr="19021018" stopnr="1" l="26" nd="Giæverbukta" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:26:1064.0" d2="23.08.2019 16:48:13" a2="23.08.2019 16:48:13" monitored="true" updateid="2,19021018:1,,26,2,2,19021603,19021442,43700.985,43700.1027,43700.1005,43700.1005,19:3:26:1064,2019-08-23" lineref="26" vehiclejourneyref="19:3:26:1064">
+      <fromnotes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+        <i d="Holdeplass Fr,langes gt 2 er stengt, henviser til holdeplass ved Stortorget." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 16:50:00" a="23.08.2019 16:50:00" v="19021010:1" hplnr="19021010" stopnr="1" l="20" nd="Kroken" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:20:1091.0" cancellation="true" fromcancellation="true" updateid="2,19021010:1,,20,1,2,19021355,19021747,43700.980,43700.1029,43700.1010,43700.1010,19:3:20:1091,2019-08-23" lineref="20" vehiclejourneyref="19:3:20:1091">
+      <fromnotes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 16:50:00" a="23.08.2019 16:48:00" v="19021015:1" hplnr="19021015" stopnr="1" l="33" nd="Giæverbukta via Fagereng" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:33:1117.0" d2="23.08.2019 16:50:00" a2="23.08.2019 16:48:00" monitored="true" updateid="2,19021015:1,,33,1,2,19021324,19021324,43700.992,43700.1043,43700.1010,43700.1008,19:3:33:1117,2019-08-23" lineref="33" vehiclejourneyref="19:3:33:1117">
+      <notes>
+        <i d="Linje 33 og 34 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring ifbm. Rakettnatt. Torgsenteret betjenes ikke. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 16:50:00" v="19021015:1" hplnr="19021015" stopnr="1" l="37" nd="Sentrum via Tromsø museum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:37:1057.0" d2="23.08.2019 16:50:00" monitored="true" updateid="2,19021015:1,,37,1,2,19021015,19021053,43700.1010,43700.1033,43700.1010,-657434,19:3:37:1057,2019-08-23" lineref="37" vehiclejourneyref="19:3:37:1057"/>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 16:44:00" a="23.08.2019 16:42:00" v="19021014:1" hplnr="19021014" stopnr="1" l="42" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:42:1098.0" d2="23.08.2019 16:50:17" a2="23.08.2019 16:49:47" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021014:1,,42,2,2,19023061,19021355,43700.965,43700.1025,43700.1004,43700.1002,19:3:42:1098,2019-08-23" lineref="42" vehiclejourneyref="19:3:42:1098">
+      <notes>
+        <i d="Linje 42 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt, Kongsbakken og Lagnesbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 16:52:00" a="23.08.2019 16:52:00" v="19021015:1" hplnr="19021015" stopnr="1" l="42" nd="Eidkjosen via Giæverbukta" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:42:1097.0" d2="23.08.2019 16:52:00" a2="23.08.2019 16:52:00" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021015:1,,42,1,2,19021355,19023061,43700.980,43700.1046,43700.1012,43700.1012,19:3:42:1097,2019-08-23" lineref="42" vehiclejourneyref="19:3:42:1097">
+      <notes>
+        <i d="Linje 42 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt, Kongsbakken og Lagnesbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+      <fromnotes>
+        <i d="Holdeplass Polaria betjenes ikke, flyttet nordover til Fiskergata." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 16:48:00" a="23.08.2019 16:48:00" v="19021012:1" hplnr="19021012" stopnr="1" l="28" nd="Solligården" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:28:1087.0" d2="23.08.2019 16:52:10" a2="23.08.2019 16:51:16" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021012:1,,28,1,2,19021466,19021655,43700.969,43700.1028,43700.1008,43700.1008,19:3:28:1087,2019-08-23" lineref="28" vehiclejourneyref="19:3:28:1087">
+      <fromnotes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 16:45:00" a="23.08.2019 16:45:00" v="19021010:1" hplnr="19021010" stopnr="1" l="24" nd="Kroken sør" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:24:1099.0" d2="23.08.2019 16:53:06" a2="23.08.2019 16:51:51" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021010:1,,24,1,2,19021443,19021738,43700.975,43700.1023,43700.1005,43700.1005,19:3:24:1099,2019-08-23" lineref="24" vehiclejourneyref="19:3:24:1099">
+      <notes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 16:38:00" a="23.08.2019 16:38:00" v="19021012:1" hplnr="19021012" stopnr="1" l="28" nd="Solligården" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:28:1085.0" d2="23.08.2019 16:53:15" a2="23.08.2019 16:52:21" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021012:1,,28,1,2,19021466,19021655,43700.959,43700.1018,43700.998,43700.998,19:3:28:1085,2019-08-23" lineref="28" vehiclejourneyref="19:3:28:1085">
+      <fromnotes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 16:49:00" a="23.08.2019 16:49:00" v="19021050:1" hplnr="19021050" stopnr="1" l="24" nd="Flyplassen via sentrum" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:24:1098.0" d2="23.08.2019 16:54:03" a2="23.08.2019 16:51:41" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021050:1,,24,2,2,19021738,19021444,43700.994,43700.1045,43700.1009,43700.1009,19:3:24:1098,2019-08-23" lineref="24" vehiclejourneyref="19:3:24:1098">
+      <notes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+      <fromnotes>
+        <i d="Stortorget er inntil videre stoppested for linjene 24 og 26!" st="situation" sv="unknown"/>
+        <i d="Linje 24 har endret trase i området Mortensnes pga. vegarbeid. Se Tromskortet.no" st="situation" sv="normal"/>
+        <i d="H.plasser Rødhettestien, Gjennomgangsbygget og Grønn. Kirke betjenes ikke fom. 29.nov og inntil videre." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 16:55:00" v="19021017:1" hplnr="19021017" stopnr="1" l="40" nd="Slettaelva" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:40:1065.0" d2="23.08.2019 16:55:00" monitored="true" updateid="2,19021017:1,,40,1,2,19021017,19021552,43700.1015,43700.1037,43700.1015,-657434,19:3:40:1065,2019-08-23" lineref="40" vehiclejourneyref="19:3:40:1065">
+      <notes>
+        <i d="Holdeplassene S.Workinnsvei og Norrøna ikke betjenes pga. vegarbeid. Se Tromskortet.no" st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 16:55:00" a="23.08.2019 16:55:00" v="19021012:1" hplnr="19021012" stopnr="1" l="26" nd="Tromsdalen" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:26:1065.0" d2="23.08.2019 16:56:13" a2="23.08.2019 16:55:19" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021012:1,,26,1,2,19021442,19021603,43700.992,43700.1020,43700.1015,43700.1015,19:3:26:1065,2019-08-23" lineref="26" vehiclejourneyref="19:3:26:1065">
+      <fromnotes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 16:57:00" a="23.08.2019 16:57:00" v="19021018:1" hplnr="19021018" stopnr="1" l="24" nd="Flyplassen via Mortensnes" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:24:1098.0" d2="23.08.2019 16:56:23" a2="23.08.2019 16:56:23" monitored="true" updateid="2,19021018:1,,24,2,2,19021738,19021444,43700.994,43700.1045,43700.1017,43700.1017,19:3:24:1098,2019-08-23" lineref="24" vehiclejourneyref="19:3:24:1098">
+      <notes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+      <fromnotes>
+        <i d="Holdeplass Fr,langes gt 2 er stengt, henviser til holdeplass ved Stortorget." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 16:55:00" a="23.08.2019 16:55:00" v="19021020:1" hplnr="19021020" stopnr="1" l="28" nd="Hamna via Giæverbukta" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:28:1086.0" d2="23.08.2019 16:57:28" a2="23.08.2019 16:57:28" monitored="true" updateid="2,19021020:1,,28,2,2,19021655,19021466,43700.995,43700.1037,43700.1015,43700.1015,19:3:28:1086,2019-08-23" lineref="28" vehiclejourneyref="19:3:28:1086">
+      <fromnotes>
+        <i d="Holdeplass F3 midlertidig stengt. Henviser til ny holdeplass Fr.Langes gate F1. Linje 28" st="situation" sv="normal"/>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 16:56:00" a="23.08.2019 16:56:00" v="19021022:1" hplnr="19021022" stopnr="1" l="34" nd="UiT - UNN via Stakkevollvegen" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:34:1117.0" d2="23.08.2019 16:58:41" a2="23.08.2019 16:57:30" monitored="true" updateid="2,19021022:1,,34,1,2,19021324,19021324,43700.974,43700.1031,43700.1016,43700.1016,19:3:34:1117,2019-08-23" lineref="34" vehiclejourneyref="19:3:34:1117">
+      <notes>
+        <i d="Linje 33 og 34 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring ifbm. Rakettnatt. Torgsenteret betjenes ikke. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 16:58:00" a="23.08.2019 16:58:00" v="19021012:1" hplnr="19021012" stopnr="1" l="28" nd="Solligården" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:28:1089.0" d2="23.08.2019 16:59:34" a2="23.08.2019 16:58:40" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021012:1,,28,1,2,19021466,19021655,43700.979,43700.1038,43700.1018,43700.1018,19:3:28:1089,2019-08-23" lineref="28" vehiclejourneyref="19:3:28:1089">
+      <fromnotes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:00:00" a="23.08.2019 17:00:00" v="19021022:1" hplnr="19021022" stopnr="1" l="20" nd="Stakkevollan via UNN" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:20:1094.0" d2="23.08.2019 17:00:00" a2="23.08.2019 17:00:00" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021022:1,,20,2,2,19021747,19021355,43700.993,43700.1042,43700.1020,43700.1020,19:3:20:1094,2019-08-23" lineref="20" vehiclejourneyref="19:3:20:1094">
+      <fromnotes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 16:49:00" a="23.08.2019 16:49:00" v="19021022:1" hplnr="19021022" stopnr="1" l="34" nd="UiT - UNN via Stakkevollvegen" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:34:1115.0" d2="23.08.2019 17:00:00" a2="23.08.2019 16:58:49" monitored="true" updateid="2,19021022:1,,34,1,2,19021324,19021324,43700.967,43700.1024,43700.1009,43700.1009,19:3:34:1115,2019-08-23" lineref="34" vehiclejourneyref="19:3:34:1115">
+      <notes>
+        <i d="Linje 33 og 34 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring ifbm. Rakettnatt. Torgsenteret betjenes ikke. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:03:00" a="23.08.2019 17:03:00" v="19021015:1" hplnr="19021015" stopnr="1" l="42" nd="Eidkjosen via Giæverbukta" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:42:1099.0" d2="23.08.2019 17:03:00" a2="23.08.2019 17:03:00" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021015:1,,42,1,2,19021355,19023061,43700.995,43700.1052,43700.1023,43700.1023,19:3:42:1099,2019-08-23" lineref="42" vehiclejourneyref="19:3:42:1099">
+      <notes>
+        <i d="Linje 42 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt, Kongsbakken og Lagnesbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+      <fromnotes>
+        <i d="Holdeplass Polaria betjenes ikke, flyttet nordover til Fiskergata." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:04:00" a="23.08.2019 17:04:00" v="19021050:1" hplnr="19021050" stopnr="1" l="24" nd="Flyplassen via sentrum" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:24:1100.0" d2="23.08.2019 17:04:00" a2="23.08.2019 17:04:00" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021050:1,,24,2,2,19021738,19021444,43700.1009,43700.1060,43700.1024,43700.1024,19:3:24:1100,2019-08-23" lineref="24" vehiclejourneyref="19:3:24:1100">
+      <notes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+      <fromnotes>
+        <i d="Stortorget er inntil videre stoppested for linjene 24 og 26!" st="situation" sv="unknown"/>
+        <i d="Linje 24 har endret trase i området Mortensnes pga. vegarbeid. Se Tromskortet.no" st="situation" sv="normal"/>
+        <i d="H.plasser Rødhettestien, Gjennomgangsbygget og Grønn. Kirke betjenes ikke fom. 29.nov og inntil videre." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:04:00" a="23.08.2019 17:02:00" v="19021014:1" hplnr="19021014" stopnr="1" l="42" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:42:1102.0" d2="23.08.2019 17:04:00" a2="23.08.2019 17:02:43" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021014:1,,42,2,2,19023061,19021355,43700.985,43700.1045,43700.1024,43700.1022,19:3:42:1102,2019-08-23" lineref="42" vehiclejourneyref="19:3:42:1102">
+      <notes>
+        <i d="Linje 42 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt, Kongsbakken og Lagnesbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:05:00" a="23.08.2019 17:05:00" v="19021018:1" hplnr="19021018" stopnr="1" l="26" nd="Giæverbukta" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:26:1066.0" d2="23.08.2019 17:04:19" a2="23.08.2019 17:04:19" monitored="true" updateid="2,19021018:1,,26,2,2,19021603,19021442,43700.1005,43700.1047,43700.1025,43700.1025,19:3:26:1066,2019-08-23" lineref="26" vehiclejourneyref="19:3:26:1066">
+      <fromnotes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+        <i d="Holdeplass Fr,langes gt 2 er stengt, henviser til holdeplass ved Stortorget." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:05:00" a="23.08.2019 17:03:00" v="19021015:1" hplnr="19021015" stopnr="1" l="33" nd="Giæverbukta via Fagereng" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:33:1119.0" d2="23.08.2019 17:05:00" a2="23.08.2019 17:01:34" monitored="true" updateid="2,19021015:1,,33,1,2,19021324,19021324,43700.1007,43700.1058,43700.1025,43700.1023,19:3:33:1119,2019-08-23" lineref="33" vehiclejourneyref="19:3:33:1119">
+      <notes>
+        <i d="Linje 33 og 34 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring ifbm. Rakettnatt. Torgsenteret betjenes ikke. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:05:00" a="23.08.2019 17:05:00" v="19021010:1" hplnr="19021010" stopnr="1" l="20" nd="Kroken" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:20:1093.0" d2="23.08.2019 17:05:21" a2="23.08.2019 17:04:06" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021010:1,,20,1,2,19021355,19021747,43700.995,43700.1044,43700.1025,43700.1025,19:3:20:1093,2019-08-23" lineref="20" vehiclejourneyref="19:3:20:1093">
+      <fromnotes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 16:54:00" a="23.08.2019 16:52:00" v="19021014:1" hplnr="19021014" stopnr="1" l="42" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:42:1100.0" d2="23.08.2019 17:05:21" a2="23.08.2019 17:04:51" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021014:1,,42,2,2,19023061,19021355,43700.975,43700.1035,43700.1014,43700.1012,19:3:42:1100,2019-08-23" lineref="42" vehiclejourneyref="19:3:42:1100">
+      <notes>
+        <i d="Linje 42 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt, Kongsbakken og Lagnesbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:04:00" a="23.08.2019 17:04:00" v="19021022:1" hplnr="19021022" stopnr="1" l="34" nd="UiT - UNN via Stakkevollvegen" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:34:1119.0" d2="23.08.2019 17:05:29" a2="23.08.2019 17:04:18" monitored="true" updateid="2,19021022:1,,34,1,2,19021324,19021324,43700.982,43700.1039,43700.1024,43700.1024,19:3:34:1119,2019-08-23" lineref="34" vehiclejourneyref="19:3:34:1119">
+      <notes>
+        <i d="Linje 33 og 34 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring ifbm. Rakettnatt. Torgsenteret betjenes ikke. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:10:00" v="19021015:1" hplnr="19021015" stopnr="1" l="37" nd="Sentrum via Tromsø museum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:37:1059.0" d2="23.08.2019 17:10:00" monitored="true" updateid="2,19021015:1,,37,1,2,19021015,19021053,43700.1030,43700.1053,43700.1030,-657434,19:3:37:1059,2019-08-23" lineref="37" vehiclejourneyref="19:3:37:1059"/>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:10:00" v="19021017:1" hplnr="19021017" stopnr="1" l="40" nd="Slettaelva" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:40:1067.0" d2="23.08.2019 17:10:00" monitored="true" updateid="2,19021017:1,,40,1,2,19021017,19021552,43700.1030,43700.1050,43700.1030,-657434,19:3:40:1067,2019-08-23" lineref="40" vehiclejourneyref="19:3:40:1067">
+      <notes>
+        <i d="Holdeplassene S.Workinnsvei og Norrøna ikke betjenes pga. vegarbeid. Se Tromskortet.no" st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:12:00" a="23.08.2019 17:12:00" v="19021018:1" hplnr="19021018" stopnr="1" l="24" nd="Flyplassen via Mortensnes" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:24:1100.0" d2="23.08.2019 17:12:00" a2="23.08.2019 17:12:00" monitored="true" updateid="2,19021018:1,,24,2,2,19021738,19021444,43700.1009,43700.1060,43700.1032,43700.1032,19:3:24:1100,2019-08-23" lineref="24" vehiclejourneyref="19:3:24:1100">
+      <notes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+      <fromnotes>
+        <i d="Holdeplass Fr,langes gt 2 er stengt, henviser til holdeplass ved Stortorget." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:12:00" a="23.08.2019 17:10:00" v="19021014:1" hplnr="19021014" stopnr="1" l="42" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:42:1104.0" d2="23.08.2019 17:12:00" a2="23.08.2019 17:11:26" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021014:1,,42,2,2,19023061,19021355,43700.995,43700.1051,43700.1032,43700.1030,19:3:42:1104,2019-08-23" lineref="42" vehiclejourneyref="19:3:42:1104">
+      <notes>
+        <i d="Linje 42 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt, Kongsbakken og Lagnesbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:15:00" a="23.08.2019 17:15:00" v="19021020:1" hplnr="19021020" stopnr="1" l="28" nd="Hamna via Giæverbukta" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:28:1088.0" d2="23.08.2019 17:13:25" a2="23.08.2019 17:13:25" monitored="true" updateid="2,19021020:1,,28,2,2,19021655,19021466,43700.1015,43700.1057,43700.1035,43700.1035,19:3:28:1088,2019-08-23" lineref="28" vehiclejourneyref="19:3:28:1088">
+      <fromnotes>
+        <i d="Holdeplass F3 midlertidig stengt. Henviser til ny holdeplass Fr.Langes gate F1. Linje 28" st="situation" sv="normal"/>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:14:00" a="23.08.2019 17:14:00" v="19021010:1" hplnr="19021010" stopnr="1" l="24" nd="Kroken sør" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:24:1101.0" d2="23.08.2019 17:14:12" a2="23.08.2019 17:12:57" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021010:1,,24,1,2,19021443,19021738,43700.1005,43700.1052,43700.1034,43700.1034,19:3:24:1101,2019-08-23" lineref="24" vehiclejourneyref="19:3:24:1101">
+      <notes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:15:00" a="23.08.2019 17:15:00" v="19021022:1" hplnr="19021022" stopnr="1" l="20" nd="Stakkevollan via UNN" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:20:1096.0" d2="23.08.2019 17:15:00" a2="23.08.2019 17:15:00" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021022:1,,20,2,2,19021747,19021355,43700.1008,43700.1057,43700.1035,43700.1035,19:3:20:1096,2019-08-23" lineref="20" vehiclejourneyref="19:3:20:1096">
+      <fromnotes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:15:00" a="23.08.2019 17:15:00" v="19021012:1" hplnr="19021012" stopnr="1" l="26" nd="Tromsdalen" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:26:1067.0" d2="23.08.2019 17:15:00" a2="23.08.2019 17:15:00" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021012:1,,26,1,2,19021442,19021603,43700.1012,43700.1040,43700.1035,43700.1035,19:3:26:1067,2019-08-23" lineref="26" vehiclejourneyref="19:3:26:1067">
+      <fromnotes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:14:00" a="23.08.2019 17:14:00" v="19021022:1" hplnr="19021022" stopnr="1" l="34" nd="UiT - UNN via Stakkevollvegen" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:34:1121.0" d2="23.08.2019 17:17:35" a2="23.08.2019 17:16:24" monitored="true" updateid="2,19021022:1,,34,1,2,19021324,19021324,43700.997,43700.1048,43700.1034,43700.1034,19:3:34:1121,2019-08-23" lineref="34" vehiclejourneyref="19:3:34:1121">
+      <notes>
+        <i d="Linje 33 og 34 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring ifbm. Rakettnatt. Torgsenteret betjenes ikke. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:18:00" a="23.08.2019 17:18:00" v="19021015:1" hplnr="19021015" stopnr="1" l="42" nd="Eidkjosen via Giæverbukta" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:42:1101.0" d2="23.08.2019 17:18:00" a2="23.08.2019 17:18:00" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021015:1,,42,1,2,19021355,19023061,43700.1010,43700.1067,43700.1038,43700.1038,19:3:42:1101,2019-08-23" lineref="42" vehiclejourneyref="19:3:42:1101">
+      <notes>
+        <i d="Linje 42 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt, Kongsbakken og Lagnesbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+      <fromnotes>
+        <i d="Holdeplass Polaria betjenes ikke, flyttet nordover til Fiskergata." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:20:00" a="23.08.2019 17:20:00" v="19021010:1" hplnr="19021010" stopnr="1" l="20" nd="Kroken" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:20:1095.0" d2="23.08.2019 17:18:57" a2="23.08.2019 17:17:42" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021010:1,,20,1,2,19021355,19021747,43700.1010,43700.1059,43700.1040,43700.1040,19:3:20:1095,2019-08-23" lineref="20" vehiclejourneyref="19:3:20:1095">
+      <fromnotes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:20:00" a="23.08.2019 17:18:00" v="19021015:1" hplnr="19021015" stopnr="1" l="33" nd="Giæverbukta via Fagereng" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:33:1121.0" d2="23.08.2019 17:20:00" a2="23.08.2019 17:18:00" monitored="true" updateid="2,19021015:1,,33,1,2,19021324,19021324,43700.1022,43700.1073,43700.1040,43700.1038,19:3:33:1121,2019-08-23" lineref="33" vehiclejourneyref="19:3:33:1121">
+      <notes>
+        <i d="Linje 33 og 34 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring ifbm. Rakettnatt. Torgsenteret betjenes ikke. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:20:00" a="23.08.2019 17:20:00" v="19021018:1" hplnr="19021018" stopnr="1" l="26" nd="Giæverbukta" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:26:1068.0" d2="23.08.2019 17:20:09" a2="23.08.2019 17:20:09" monitored="true" updateid="2,19021018:1,,26,2,2,19021603,19021442,43700.1020,43700.1062,43700.1040,43700.1040,19:3:26:1068,2019-08-23" lineref="26" vehiclejourneyref="19:3:26:1068">
+      <fromnotes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+        <i d="Holdeplass Fr,langes gt 2 er stengt, henviser til holdeplass ved Stortorget." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:16:00" a="23.08.2019 17:16:00" v="19021012:1" hplnr="19021012" stopnr="1" l="28" nd="Solligården" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:28:1093.0" d2="23.08.2019 17:20:17" a2="23.08.2019 17:19:23" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021012:1,,28,1,2,19021466,19021655,43700.999,43700.1053,43700.1036,43700.1036,19:3:28:1093,2019-08-23" lineref="28" vehiclejourneyref="19:3:28:1093">
+      <fromnotes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:19:00" a="23.08.2019 17:19:00" v="19021050:1" hplnr="19021050" stopnr="1" l="24" nd="Flyplassen via sentrum" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:24:1102.0" d2="23.08.2019 17:23:24" a2="23.08.2019 17:21:02" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021050:1,,24,2,2,19021738,19021444,43700.1024,43700.1075,43700.1039,43700.1039,19:3:24:1102,2019-08-23" lineref="24" vehiclejourneyref="19:3:24:1102">
+      <notes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+      <fromnotes>
+        <i d="Stortorget er inntil videre stoppested for linjene 24 og 26!" st="situation" sv="unknown"/>
+        <i d="Linje 24 har endret trase i området Mortensnes pga. vegarbeid. Se Tromskortet.no" st="situation" sv="normal"/>
+        <i d="H.plasser Rødhettestien, Gjennomgangsbygget og Grønn. Kirke betjenes ikke fom. 29.nov og inntil videre." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:27:00" a="23.08.2019 17:27:00" v="19021018:1" hplnr="19021018" stopnr="1" l="24" nd="Flyplassen via Mortensnes" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:24:1102.0" d2="23.08.2019 17:25:44" a2="23.08.2019 17:25:44" monitored="true" updateid="2,19021018:1,,24,2,2,19021738,19021444,43700.1024,43700.1075,43700.1047,43700.1047,19:3:24:1102,2019-08-23" lineref="24" vehiclejourneyref="19:3:24:1102">
+      <notes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+      <fromnotes>
+        <i d="Holdeplass Fr,langes gt 2 er stengt, henviser til holdeplass ved Stortorget." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:29:00" a="23.08.2019 17:29:00" v="19021010:1" hplnr="19021010" stopnr="1" l="24" nd="Kroken sør" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:24:1103.0" d2="23.08.2019 17:26:57" a2="23.08.2019 17:25:42" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021010:1,,24,1,2,19021443,19021738,43700.1020,43700.1067,43700.1049,43700.1049,19:3:24:1103,2019-08-23" lineref="24" vehiclejourneyref="19:3:24:1103">
+      <notes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:27:00" a="23.08.2019 17:25:00" v="19021014:1" hplnr="19021014" stopnr="1" l="42" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:42:1106.0" d2="23.08.2019 17:27:00" a2="23.08.2019 17:26:08" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021014:1,,42,2,2,19023061,19021355,43700.1010,43700.1066,43700.1047,43700.1045,19:3:42:1106,2019-08-23" lineref="42" vehiclejourneyref="19:3:42:1106">
+      <notes>
+        <i d="Linje 42 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt, Kongsbakken og Lagnesbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:30:00" a="23.08.2019 17:30:00" v="19021022:1" hplnr="19021022" stopnr="1" l="20" nd="Stakkevollan via UNN" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:20:1098.0" d2="23.08.2019 17:30:00" a2="23.08.2019 17:30:00" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021022:1,,20,2,2,19021747,19021355,43700.1023,43700.1072,43700.1050,43700.1050,19:3:20:1098,2019-08-23" lineref="20" vehiclejourneyref="19:3:20:1098">
+      <fromnotes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:29:00" a="23.08.2019 17:29:00" v="19021022:1" hplnr="19021022" stopnr="1" l="34" nd="UiT - UNN via Stakkevollvegen" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:34:1123.0" d2="23.08.2019 17:30:48" a2="23.08.2019 17:29:37" monitored="true" updateid="2,19021022:1,,34,1,2,19021324,19021324,43700.1012,43700.1063,43700.1049,43700.1049,19:3:34:1123,2019-08-23" lineref="34" vehiclejourneyref="19:3:34:1123">
+      <notes>
+        <i d="Linje 33 og 34 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring ifbm. Rakettnatt. Torgsenteret betjenes ikke. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:33:00" a="23.08.2019 17:33:00" v="19021015:1" hplnr="19021015" stopnr="1" l="42" nd="Eidkjosen via Giæverbukta" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:42:1103.0" d2="23.08.2019 17:33:00" a2="23.08.2019 17:33:00" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021015:1,,42,1,2,19021355,19023061,43700.1025,43700.1082,43700.1053,43700.1053,19:3:42:1103,2019-08-23" lineref="42" vehiclejourneyref="19:3:42:1103">
+      <notes>
+        <i d="Linje 42 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt, Kongsbakken og Lagnesbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+      <fromnotes>
+        <i d="Holdeplass Polaria betjenes ikke, flyttet nordover til Fiskergata." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:35:00" a="23.08.2019 17:35:00" v="19021020:1" hplnr="19021020" stopnr="1" l="28" nd="Hamna via Giæverbukta" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:28:1090.0" d2="23.08.2019 17:33:25" a2="23.08.2019 17:33:25" monitored="true" updateid="2,19021020:1,,28,2,2,19021655,19021466,43700.1035,43700.1077,43700.1055,43700.1055,19:3:28:1090,2019-08-23" lineref="28" vehiclejourneyref="19:3:28:1090">
+      <fromnotes>
+        <i d="Holdeplass F3 midlertidig stengt. Henviser til ny holdeplass Fr.Langes gate F1. Linje 28" st="situation" sv="normal"/>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:35:00" a="23.08.2019 17:35:00" v="19021010:1" hplnr="19021010" stopnr="1" l="20" nd="Kroken" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:20:1097.0" d2="23.08.2019 17:33:58" a2="23.08.2019 17:32:43" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021010:1,,20,1,2,19021355,19021747,43700.1025,43700.1074,43700.1055,43700.1055,19:3:20:1097,2019-08-23" lineref="20" vehiclejourneyref="19:3:20:1097">
+      <fromnotes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:34:00" a="23.08.2019 17:34:00" v="19021050:1" hplnr="19021050" stopnr="1" l="24" nd="Flyplassen via sentrum" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:24:1104.0" d2="23.08.2019 17:34:00" a2="23.08.2019 17:34:00" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021050:1,,24,2,2,19021738,19021444,43700.1039,43700.1090,43700.1054,43700.1054,19:3:24:1104,2019-08-23" lineref="24" vehiclejourneyref="19:3:24:1104">
+      <notes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+      <fromnotes>
+        <i d="Stortorget er inntil videre stoppested for linjene 24 og 26!" st="situation" sv="unknown"/>
+        <i d="Linje 24 har endret trase i området Mortensnes pga. vegarbeid. Se Tromskortet.no" st="situation" sv="normal"/>
+        <i d="H.plasser Rødhettestien, Gjennomgangsbygget og Grønn. Kirke betjenes ikke fom. 29.nov og inntil videre." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:35:00" a="23.08.2019 17:33:00" v="19021015:1" hplnr="19021015" stopnr="1" l="33" nd="Giæverbukta via Fagereng" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:33:1123.0" d2="23.08.2019 17:35:00" a2="23.08.2019 17:33:00" monitored="true" updateid="2,19021015:1,,33,1,2,19021324,19021324,43700.1037,43700.1088,43700.1055,43700.1053,19:3:33:1123,2019-08-23" lineref="33" vehiclejourneyref="19:3:33:1123">
+      <notes>
+        <i d="Linje 33 og 34 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring ifbm. Rakettnatt. Torgsenteret betjenes ikke. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:36:00" a="23.08.2019 17:36:00" v="19021012:1" hplnr="19021012" stopnr="1" l="28" nd="Solligården" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:28:1097.0" cancellation="true" fromcancellation="true" updateid="2,19021012:1,,28,1,2,19021466,19021655,43700.1019,43700.1073,43700.1056,43700.1056,19:3:28:1097,2019-08-23" lineref="28" vehiclejourneyref="19:3:28:1097">
+      <fromnotes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:40:00" a="23.08.2019 17:40:00" v="19021018:1" hplnr="19021018" stopnr="1" l="26" nd="Giæverbukta" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:26:1070.0" d2="23.08.2019 17:40:00" a2="23.08.2019 17:40:00" monitored="true" updateid="2,19021018:1,,26,2,2,19021603,19021442,43700.1040,43700.1082,43700.1060,43700.1060,19:3:26:1070,2019-08-23" lineref="26" vehiclejourneyref="19:3:26:1070">
+      <fromnotes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+        <i d="Holdeplass Fr,langes gt 2 er stengt, henviser til holdeplass ved Stortorget." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:40:00" a="23.08.2019 17:40:00" v="19021012:1" hplnr="19021012" stopnr="1" l="26" nd="Tromsdalen" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:26:1069.0" d2="23.08.2019 17:40:00" a2="23.08.2019 17:40:00" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021012:1,,26,1,2,19021442,19021603,43700.1037,43700.1065,43700.1060,43700.1060,19:3:26:1069,2019-08-23" lineref="26" vehiclejourneyref="19:3:26:1069">
+      <fromnotes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:40:00" v="19021015:1" hplnr="19021015" stopnr="1" l="37" nd="Sentrum via Tromsø museum" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:37:1061.0" d2="23.08.2019 17:40:00" monitored="true" updateid="2,19021015:1,,37,1,2,19021015,19021053,43700.1060,43700.1080,43700.1060,-657434,19:3:37:1061,2019-08-23" lineref="37" vehiclejourneyref="19:3:37:1061"/>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:40:00" v="19021017:1" hplnr="19021017" stopnr="1" l="40" nd="Slettaelva" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:40:1069.0" updateid="2,19021017:1,,40,1,2,19021017,19021552,43700.1060,43700.1080,43700.1060,-657434,19:3:40:1069,2019-08-23" lineref="40" vehiclejourneyref="19:3:40:1069">
+      <notes>
+        <i d="Holdeplassene S.Workinnsvei og Norrøna ikke betjenes pga. vegarbeid. Se Tromskortet.no" st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:42:00" a="23.08.2019 17:42:00" v="19021018:1" hplnr="19021018" stopnr="1" l="24" nd="Flyplassen via Mortensnes" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:24:1104.0" d2="23.08.2019 17:42:00" a2="23.08.2019 17:42:00" monitored="true" updateid="2,19021018:1,,24,2,2,19021738,19021444,43700.1039,43700.1090,43700.1062,43700.1062,19:3:24:1104,2019-08-23" lineref="24" vehiclejourneyref="19:3:24:1104">
+      <notes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+      <fromnotes>
+        <i d="Holdeplass Fr,langes gt 2 er stengt, henviser til holdeplass ved Stortorget." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:42:00" a="23.08.2019 17:40:00" v="19021014:1" hplnr="19021014" stopnr="1" l="42" nd="Stakkevollan" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:42:1108.0" d2="23.08.2019 17:42:00" a2="23.08.2019 17:41:07" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021014:1,,42,2,2,19023061,19021355,43700.1025,43700.1081,43700.1062,43700.1060,19:3:42:1108,2019-08-23" lineref="42" vehiclejourneyref="19:3:42:1108">
+      <notes>
+        <i d="Linje 42 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt, Kongsbakken og Lagnesbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:44:00" a="23.08.2019 17:44:00" v="19021010:1" hplnr="19021010" stopnr="1" l="24" nd="Kroken sør" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:24:1105.0" d2="23.08.2019 17:44:00" a2="23.08.2019 17:44:00" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021010:1,,24,1,2,19021443,19021738,43700.1035,43700.1082,43700.1064,43700.1064,19:3:24:1105,2019-08-23" lineref="24" vehiclejourneyref="19:3:24:1105">
+      <notes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:44:00" a="23.08.2019 17:44:00" v="19021022:1" hplnr="19021022" stopnr="1" l="34" nd="UiT - UNN via Stakkevollvegen" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:34:1125.0" d2="23.08.2019 17:44:00" a2="23.08.2019 17:44:00" monitored="true" updateid="2,19021022:1,,34,1,2,19021324,19021324,43700.1027,43700.1078,43700.1064,43700.1064,19:3:34:1125,2019-08-23" lineref="34" vehiclejourneyref="19:3:34:1125">
+      <notes>
+        <i d="Linje 33 og 34 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring ifbm. Rakettnatt. Torgsenteret betjenes ikke. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:45:00" a="23.08.2019 17:45:00" v="19021022:1" hplnr="19021022" stopnr="1" l="20" nd="Stakkevollan via UNN" c="Troms fylkestrafikk" dir="Retur" ns="" fnt="" tid="43700.19:3:20:1100.0" cancellation="true" fromcancellation="true" updateid="2,19021022:1,,20,2,2,19021747,19021355,43700.1038,43700.1087,43700.1065,43700.1065,19:3:20:1100,2019-08-23" lineref="20" vehiclejourneyref="19:3:20:1100">
+      <fromnotes>
+        <i d="Linje 20, 24, 26, 28 og 30 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt. og Kongsbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+    <i tt="2" tp="Buss.png" tn="Buss" d="23.08.2019 17:48:00" a="23.08.2019 17:48:00" v="19021015:1" hplnr="19021015" stopnr="1" l="42" nd="Eidkjosen via Giæverbukta" c="Troms fylkestrafikk" dir="Tur" ns="" fnt="" tid="43700.19:3:42:1105.0" d2="23.08.2019 17:48:00" a2="23.08.2019 17:48:00" cancellation="true" fromcancellation="true" monitored="true" updateid="2,19021015:1,,42,1,2,19021355,19023061,43700.1040,43700.1097,43700.1068,43700.1068,19:3:42:1105,2019-08-23" lineref="42" vehiclejourneyref="19:3:42:1105">
+      <notes>
+        <i d="Linje 42 f.o.m. 23.aug. kl.12:00 t.o.m. 25.aug. kl.05:00 omkjøring via Bispegt., Vestregt, Kongsbakken og Lagnesbakken ifbm. Rakettnatt. Se Tromskortet.no for mer info." st="situation" sv="normal"/>
+      </notes>
+      <fromnotes>
+        <i d="Holdeplass Polaria betjenes ikke, flyttet nordover til Fiskergata." st="situation" sv="normal"/>
+      </fromnotes>
+    </i>
+  </departures>
+  <stages>
+    <i v="19021017:1" hplnr="19021017" stopnr="1" n="Fr. Langes gate F1 (Tromsø)" t="2" d="0" m="1" x="18,954903" y="69,649729" tn="Buss" st="Buss.png" l="40" lineref="40">
+      <zones>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+      </zones>
+    </i>
+    <i v="19021018:1" hplnr="19021018" stopnr="1" n="Fr. Langes gate F2 (Tromsø)" t="2" d="0" m="1" x="18,956042" y="69,649605" tn="Buss" st="Buss.png" l="24,26" lineref="24,26">
+      <zones>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+      </zones>
+    </i>
+    <i v="19021020:1" hplnr="19021020" stopnr="1" n="Fr. Langes gate F3 (Tromsø)" t="2" d="0" m="1" x="18,957343" y="69,649521" tn="Buss" st="Buss.png" l="28" lineref="28">
+      <zones>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+      </zones>
+    </i>
+    <i v="19021022:1" hplnr="19021022" stopnr="1" n="Fr. Langes gate F4 (Tromsø)" t="2" d="0" m="1" x="18,959785" y="69,649332" tn="Buss" st="Buss.png" l="20,21,34" lineref="20,21,34">
+      <zones>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+      </zones>
+    </i>
+    <i v="19021010:1" hplnr="19021010" stopnr="1" n="Havnegata H1 (Tromsø)" t="2" d="0" m="1" x="18,960099" y="69,651984" tn="Buss" st="Buss.png" l="20,24,105" lineref="20,24,105">
+      <zones>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+      </zones>
+    </i>
+    <i v="19021012:1" hplnr="19021012" stopnr="1" n="Sjøgata S1 (Tromsø)" t="2" d="0" m="1" x="18,959014" y="69,651011" tn="Buss" st="Buss.png" l="26,28,73,105" lineref="26,28,73,105">
+      <zones>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+      </zones>
+    </i>
+    <i v="19021014:1" hplnr="19021014" stopnr="1" n="Sjøgata S3 (Tromsø)" t="2" d="0" m="1" x="18,958407" y="69,64983" tn="Buss" st="Buss.png" l="30,42,105" lineref="30,42,105">
+      <zones>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+      </zones>
+    </i>
+    <i v="19021015:1" hplnr="19021015" stopnr="1" n="Sjøgata S4 (Tromsø)" t="2" d="0" m="1" x="18,95883" y="69,6485" tn="Buss" st="Buss.png" l="33,37,42" lineref="33,37,42">
+      <zones>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+      </zones>
+    </i>
+    <i v="19021050:1" hplnr="19021050" stopnr="1" n="Stortorget (Tromsø)" t="0" d="0" m="1" x="18,959017" y="69,651164" tn="Buss" st="Buss.png" l="24,26" lineref="24,26">
+      <zones>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+        <zone v="19100" n="Tromsø"/>
+      </zones>
+    </i>
+  </stages>
+</result>

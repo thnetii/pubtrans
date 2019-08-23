@@ -2,6 +2,6 @@
 {
     public static class TravelMagicPath
     {
-        public static string DepartureSearch { get; } = @"v1DeparureSearchXML";
+        public static string DepartureSearch { get; } = @"v1DepartureSearchXML";
     }
 }
