@@ -69,31 +69,8 @@ namespace THNETII.PubTrans.AvinorFlydata.Client.Raw
             }
         }
 
-        protected static string ConstructQuery(
-            IReadOnlyList<StringKeyValuePair> parameters)
-        {
-            if (parameters is null || parameters.Count == 0)
-                return "?";
-            var qBuilder = new StringBuilder();
-            qBuilder.Append('?');
-            bool first = true;
-            for (int i = 0; i < parameters.Count; i++)
-            {
-                var param = parameters[i];
-                if (param.Key.TryNotNullOrWhiteSpace(out var key))
-                {
-                    if (!first)
-                        qBuilder.Append('&');
-                    else
-                        first = false;
-                    qBuilder
-                        .Append(key)
-                        .Append('=')
-                        .Append(Uri.EscapeDataString(param.Value ?? string.Empty));
-                }
-            }
-            return qBuilder.ToString();
-        }
+        protected static string ConstructQuery(IReadOnlyList<StringKeyValuePair> parameters) =>
+            HttpUrlHelper.ToQueryString(parameters);
 
         protected virtual Uri GetAirlineNamesUri(string query) =>
             string.IsNullOrWhiteSpace(query)

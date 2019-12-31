@@ -1,6 +1,7 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.152
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A35718DE-D83B-40B4-9835-BF075A6A325F}"
 	ProjectSection(SolutionItems) = preProject
@@ -9,8 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 		.gitmodules = .gitmodules
 		AllRules.ruleset = AllRules.ruleset
+		azure-pipelines.yml = azure-pipelines.yml
 		Directory.Build.props = Directory.Build.props
 		LICENSE = LICENSE
+		nuget.config = nuget.config
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -30,17 +33,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet-common", "dotnet-com
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{32520D45-87C2-40C2-9FBF-60ABD74A586E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THNETII.Common", "dotnet-common\src\THNETII.Common\THNETII.Common.csproj", "{FC7F4DD1-254E-4867-B09B-56A1D79A4CB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.Common", "dotnet-common\src\THNETII.Common\THNETII.Common.csproj", "{FC7F4DD1-254E-4867-B09B-56A1D79A4CB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THNETII.Networking.Http", "dotnet-common\src\THNETII.Networking.Http\THNETII.Networking.Http.csproj", "{221CF466-DD45-49CD-A62A-FA604D1605C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.Networking.Http", "dotnet-common\src\THNETII.Networking.Http\THNETII.Networking.Http.csproj", "{221CF466-DD45-49CD-A62A-FA604D1605C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THNETII.TypeConverter", "dotnet-common\src\THNETII.TypeConverter\THNETII.TypeConverter.csproj", "{0A4EA592-003D-42EF-88DA-3860CFDBA42B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.TypeConverter", "dotnet-common\src\THNETII.TypeConverter\THNETII.TypeConverter.csproj", "{0A4EA592-003D-42EF-88DA-3860CFDBA42B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THNETII.TypeConverter.Json", "dotnet-common\src\THNETII.TypeConverter.Json\THNETII.TypeConverter.Json.csproj", "{7F80784A-74A1-4DB3-BF7F-C2BC21BE2792}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.TypeConverter.Json", "dotnet-common\src\THNETII.TypeConverter.Json\THNETII.TypeConverter.Json.csproj", "{7F80784A-74A1-4DB3-BF7F-C2BC21BE2792}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THNETII.TypeConverter.Serialization", "dotnet-common\src\THNETII.TypeConverter.Serialization\THNETII.TypeConverter.Serialization.csproj", "{A74739C0-CB2E-4F16-8F05-814BAD05C764}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.TypeConverter.Serialization", "dotnet-common\src\THNETII.TypeConverter.Serialization\THNETII.TypeConverter.Serialization.csproj", "{A74739C0-CB2E-4F16-8F05-814BAD05C764}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THNETII.TypeConverter.Xml", "dotnet-common\src\THNETII.TypeConverter.Xml\THNETII.TypeConverter.Xml.csproj", "{A83EFCC2-2F88-4463-B2ED-319B3DE98112}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.TypeConverter.Xml", "dotnet-common\src\THNETII.TypeConverter.Xml\THNETII.TypeConverter.Xml.csproj", "{A83EFCC2-2F88-4463-B2ED-319B3DE98112}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.PubTrans.TravelMagic.Model", "src\THNETII.PubTrans.TravelMagic.Model\THNETII.PubTrans.TravelMagic.Model.csproj", "{B7C91D3B-F73E-4453-B069-DF760FA66CFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.PubTrans.TravelMagic.Client", "src\THNETII.PubTrans.TravelMagic.Client\THNETII.PubTrans.TravelMagic.Client.csproj", "{5854BB29-57A0-45C5-A846-40F859CD92F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THNETII.PubTrans.TravelMagic.Client.HttpClientFactory", "src\THNETII.PubTrans.TravelMagic.Client.HttpClientFactory\THNETII.PubTrans.TravelMagic.Client.HttpClientFactory.csproj", "{788D2834-B2D8-4EC3-85EE-C2AEF6E06897}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -172,6 +181,42 @@ Global
 		{A83EFCC2-2F88-4463-B2ED-319B3DE98112}.Release|x64.Build.0 = Release|Any CPU
 		{A83EFCC2-2F88-4463-B2ED-319B3DE98112}.Release|x86.ActiveCfg = Release|Any CPU
 		{A83EFCC2-2F88-4463-B2ED-319B3DE98112}.Release|x86.Build.0 = Release|Any CPU
+		{B7C91D3B-F73E-4453-B069-DF760FA66CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C91D3B-F73E-4453-B069-DF760FA66CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C91D3B-F73E-4453-B069-DF760FA66CFD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B7C91D3B-F73E-4453-B069-DF760FA66CFD}.Debug|x64.Build.0 = Debug|Any CPU
+		{B7C91D3B-F73E-4453-B069-DF760FA66CFD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B7C91D3B-F73E-4453-B069-DF760FA66CFD}.Debug|x86.Build.0 = Debug|Any CPU
+		{B7C91D3B-F73E-4453-B069-DF760FA66CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C91D3B-F73E-4453-B069-DF760FA66CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C91D3B-F73E-4453-B069-DF760FA66CFD}.Release|x64.ActiveCfg = Release|Any CPU
+		{B7C91D3B-F73E-4453-B069-DF760FA66CFD}.Release|x64.Build.0 = Release|Any CPU
+		{B7C91D3B-F73E-4453-B069-DF760FA66CFD}.Release|x86.ActiveCfg = Release|Any CPU
+		{B7C91D3B-F73E-4453-B069-DF760FA66CFD}.Release|x86.Build.0 = Release|Any CPU
+		{5854BB29-57A0-45C5-A846-40F859CD92F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5854BB29-57A0-45C5-A846-40F859CD92F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5854BB29-57A0-45C5-A846-40F859CD92F8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5854BB29-57A0-45C5-A846-40F859CD92F8}.Debug|x64.Build.0 = Debug|Any CPU
+		{5854BB29-57A0-45C5-A846-40F859CD92F8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5854BB29-57A0-45C5-A846-40F859CD92F8}.Debug|x86.Build.0 = Debug|Any CPU
+		{5854BB29-57A0-45C5-A846-40F859CD92F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5854BB29-57A0-45C5-A846-40F859CD92F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5854BB29-57A0-45C5-A846-40F859CD92F8}.Release|x64.ActiveCfg = Release|Any CPU
+		{5854BB29-57A0-45C5-A846-40F859CD92F8}.Release|x64.Build.0 = Release|Any CPU
+		{5854BB29-57A0-45C5-A846-40F859CD92F8}.Release|x86.ActiveCfg = Release|Any CPU
+		{5854BB29-57A0-45C5-A846-40F859CD92F8}.Release|x86.Build.0 = Release|Any CPU
+		{788D2834-B2D8-4EC3-85EE-C2AEF6E06897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{788D2834-B2D8-4EC3-85EE-C2AEF6E06897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{788D2834-B2D8-4EC3-85EE-C2AEF6E06897}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{788D2834-B2D8-4EC3-85EE-C2AEF6E06897}.Debug|x64.Build.0 = Debug|Any CPU
+		{788D2834-B2D8-4EC3-85EE-C2AEF6E06897}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{788D2834-B2D8-4EC3-85EE-C2AEF6E06897}.Debug|x86.Build.0 = Debug|Any CPU
+		{788D2834-B2D8-4EC3-85EE-C2AEF6E06897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{788D2834-B2D8-4EC3-85EE-C2AEF6E06897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{788D2834-B2D8-4EC3-85EE-C2AEF6E06897}.Release|x64.ActiveCfg = Release|Any CPU
+		{788D2834-B2D8-4EC3-85EE-C2AEF6E06897}.Release|x64.Build.0 = Release|Any CPU
+		{788D2834-B2D8-4EC3-85EE-C2AEF6E06897}.Release|x86.ActiveCfg = Release|Any CPU
+		{788D2834-B2D8-4EC3-85EE-C2AEF6E06897}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -188,6 +233,9 @@ Global
 		{7F80784A-74A1-4DB3-BF7F-C2BC21BE2792} = {32520D45-87C2-40C2-9FBF-60ABD74A586E}
 		{A74739C0-CB2E-4F16-8F05-814BAD05C764} = {32520D45-87C2-40C2-9FBF-60ABD74A586E}
 		{A83EFCC2-2F88-4463-B2ED-319B3DE98112} = {32520D45-87C2-40C2-9FBF-60ABD74A586E}
+		{B7C91D3B-F73E-4453-B069-DF760FA66CFD} = {EA5FFE2C-B748-4FCF-8DCB-424F7FBAF0E2}
+		{5854BB29-57A0-45C5-A846-40F859CD92F8} = {EA5FFE2C-B748-4FCF-8DCB-424F7FBAF0E2}
+		{788D2834-B2D8-4EC3-85EE-C2AEF6E06897} = {EA5FFE2C-B748-4FCF-8DCB-424F7FBAF0E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {67DF3E8E-B2EB-4196-BF65-9A85B1F4A7E6}
