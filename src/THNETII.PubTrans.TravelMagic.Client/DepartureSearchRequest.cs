@@ -53,7 +53,7 @@ namespace THNETII.PubTrans.TravelMagic.Client
                 if (!(Lines is null))
                     queryArgs[queryIdx++] = (lines, string.Join(",", Lines)).AsKeyValuePair();
 
-                return HttpUrlHelper.ToQueryString(queryArgs);
+                return HttpUrlHelper.ToQueryString(queryArgs.AsSpan(0, queryIdx));
             }
             finally
             {
