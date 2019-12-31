@@ -16,7 +16,7 @@ namespace THNETII.PubTrans.TravelMagic.Client
 {
     public class TravelMagicClient
     {
-        private static readonly MediaTypeWithQualityHeaderValue xmlTestMediaType =
+        private static readonly MediaTypeWithQualityHeaderValue xmlTextMediaType =
             new MediaTypeWithQualityHeaderValue(HttpWellKnownMediaType.TextXml);
         private static readonly MediaTypeWithQualityHeaderValue xmlAppMediaType =
             new MediaTypeWithQualityHeaderValue(HttpWellKnownMediaType.ApplicationXml);
@@ -43,7 +43,7 @@ namespace THNETII.PubTrans.TravelMagic.Client
                 throw new ArgumentNullException(nameof(xmlSerializer));
 
             var httpRequest = new HttpRequestMessage(HttpMethod.Get, requestUri);
-            httpRequest.Headers.Accept.Add(xmlTestMediaType);
+            httpRequest.Headers.Accept.Add(xmlTextMediaType);
             httpRequest.Headers.Accept.Add(xmlAppMediaType);
 
             using (httpRequest)
