@@ -5,7 +5,7 @@
   <airportName code="AAL" name="Aalborg" shortname8="Aalborg" shortname15="Aalborg"/>
   <airportName code="AAN" name="Al Ain" shortname8="Al Ain" shortname15="Al Ain"/>
   <airportName code="AAQ" name="Anapa" shortname8="Anapa" shortname15="Anapa"/>
-  <airportName code="AAR" name="Århus" shortname8="Århus" shortname15="Århus"/>
+  <airportName code="AAR" name="ï¿½rhus" shortname8="ï¿½rhus" shortname15="ï¿½rhus"/>
   <airportName code="ABA" name="Abakan" shortname8="Abakan" shortname15="Abakan"/>
   <airportName code="ABE" name="Allentown-Bethlehem-Easton" shortname8="Allentow" shortname15="Allentown"/>
   <airportName code="ABI" name="Abilene" shortname8="Abilene" shortname15="Abilene"/>
@@ -28,7 +28,7 @@
   <airportName code="ADH" name="Aldan" shortname8="Aldan" shortname15="Aldan"/>
   <airportName code="ADW" name="Camp Springs/Andrews" shortname8="Camp Spr" shortname15="Camp Springs"/>
   <airportName code="AER" name="Sochi" shortname8="Sochi" shortname15="Sochi"/>
-  <airportName code="AES" name="Ålesund" shortname8="Ålesund" shortname15="Ålesund"/>
+  <airportName code="AES" name="ï¿½lesund" shortname8="ï¿½lesund" shortname15="ï¿½lesund"/>
   <airportName code="AEY" name="Akureyri" shortname8="Akureyri" shortname15="Akureyri"/>
   <airportName code="AFW" name="Fort Worth Alliance" shortname8="Fort Wor" shortname15="Fort Worth"/>
   <airportName code="AFY" name="Afyon" shortname8="Afyon" shortname15="Afyon"/>
@@ -37,7 +37,7 @@
   <airportName code="AGC" name="Pittsburgh/Allegheny" shortname8="Pittsbur" shortname15="Pittsburgh"/>
   <airportName code="AGE" name="Wangerooge" shortname8="Wangeroo" shortname15="Wangerooge"/>
   <airportName code="AGF" name="Agen/La Garenne" shortname8="Agen" shortname15="Agen"/>
-  <airportName code="AGH" name="Ängelholm Helsingborg" shortname8="Anglholm" shortname15="Angelholm"/>
+  <airportName code="AGH" name="ï¿½ngelholm Helsingborg" shortname8="Anglholm" shortname15="Angelholm"/>
   <airportName code="AGP" name="Malaga" shortname8="Malaga" shortname15="Malaga"/>
   <airportName code="AGQ" name="Agrinion" shortname8="Agrinion" shortname15="Agrinion"/>
   <airportName code="AGR" name="Agra/Kheria" shortname8="Agra" shortname15="Agra/Kheria"/>
@@ -168,7 +168,7 @@
   <airportName code="BIS" name="Bismarck" shortname8="Bismarck" shortname15="Bismarck"/>
   <airportName code="BIX" name="Biloxi/Keesler" shortname8="Biloxi" shortname15="Biloxi/Keesler"/>
   <airportName code="BJD" name="Bakkafjordur" shortname8="Bakkafdr" shortname15="Bakkafjordur"/>
-  <airportName code="BJF" name="Båtsfjord" shortname8="Båtsfj" shortname15="Båtsfjord"/>
+  <airportName code="BJF" name="Bï¿½tsfjord" shortname8="Bï¿½tsfj" shortname15="Bï¿½tsfjord"/>
   <airportName code="BJL" name="Banjul/Yundum" shortname8="Banjul" shortname15="Banjul/Yundum"/>
   <airportName code="BJS" name="Beijing City" shortname8="Peking" shortname15="Peking"/>
   <airportName code="BJV" name="Bodrum/Milas" shortname8="Bodrum" shortname15="Bodrum/Milas"/>
@@ -178,7 +178,7 @@
   <airportName code="BKL" name="Cleveland Burke Lakefront" shortname8="Clevelan" shortname15="Cleveland/B L"/>
   <airportName code="BKW" name="Beckley" shortname8="Beckley" shortname15="Beckley"/>
   <airportName code="BLA" name="Beauvais-Tille" shortname8="Beauvais" shortname15="Beauvais-Tille"/>
-  <airportName code="BLE" name="Borlänge" shortname8="Borlange" shortname15="Borlange"/>
+  <airportName code="BLE" name="Borlï¿½nge" shortname8="Borlange" shortname15="Borlange"/>
   <airportName code="BLI" name="Bellingham" shortname8="Bellingh" shortname15="Bellingham"/>
   <airportName code="BLK" name="Blackpool" shortname8="Blackpoo" shortname15="Blackpool"/>
   <airportName code="BLL" name="Billund" shortname8="Billund" shortname15="Billund"/>
@@ -191,7 +191,7 @@
   <airportName code="BMG" name="Bloomington" shortname8="Blooming" shortname15="Bloomington"/>
   <airportName code="BMR" name="Baltrum" shortname8="Baltrum" shortname15="Baltrum"/>
   <airportName code="BNA" name="Nashville" shortname8="Nashvill" shortname15="Nashville"/>
-  <airportName code="BNN" name="Brønnøysund" shortname8="Brnnsund" shortname15="Brønnøysund"/>
+  <airportName code="BNN" name="Brï¿½nnï¿½ysund" shortname8="Brnnsund" shortname15="Brï¿½nnï¿½ysund"/>
   <airportName code="BOD" name="Bordeaux" shortname8="Bordeaux" shortname15="Bordeaux"/>
   <airportName code="BOF" name="Washington Bolling" shortname8="Washingt" shortname15="Washington"/>
   <airportName code="BOH" name="Bournemouth" shortname8="Bournemo" shortname15="Bournemouth"/>
@@ -199,7 +199,7 @@
   <airportName code="BOJ" name="Burgas" shortname8="Burgas" shortname15="Burgas"/>
   <airportName code="BOL" name="Ballykelly" shortname8="Ballykly" shortname15="Ballykelly"/>
   <airportName code="BOM" name="Mumbai" shortname8="Mumbai" shortname15="Mumbai"/>
-  <airportName code="BOO" name="Bodø" shortname8="Bodø" shortname15="Bodø"/>
+  <airportName code="BOO" name="Bodï¿½" shortname8="Bodï¿½" shortname15="Bodï¿½"/>
   <airportName code="BOR" name="Belfort/Chaux" shortname8="Belfort" shortname15="Belfort"/>
   <airportName code="BOS" name="Boston Logan Intl" shortname8="Boston" shortname15="Boston/Logan In"/>
   <airportName code="BOU" name="Bourges" shortname8="Bourges" shortname15="Bourges"/>
@@ -235,7 +235,7 @@
   <airportName code="BVB" name="Boa Vista" shortname8="Boa Vis." shortname15="Boa Vista"/>
   <airportName code="BVC" name="Boa Vista" shortname8="Boa Vist" shortname15="Boa Vista"/>
   <airportName code="BVE" name="Brive La Gaillarde" shortname8="Brive LG" shortname15="Brive La Glrde"/>
-  <airportName code="BVG" name="Berlevåg" shortname8="Berlevå" shortname15="Berlevåg"/>
+  <airportName code="BVG" name="Berlevï¿½g" shortname8="Berlevï¿½" shortname15="Berlevï¿½g"/>
   <airportName code="BVY" name="Beverly" shortname8="Beverly" shortname15="Beverly"/>
   <airportName code="BWE" name="Braunschweig" shortname8="Brnschwg" shortname15="Braunschweig"/>
   <airportName code="BWF" name="Barrow/Walney Island" shortname8="Barrow" shortname15="Barrow"/>
@@ -243,7 +243,7 @@
   <airportName code="BWI" name="Baltimore Washington Intl" shortname8="Baltimor" shortname15="Baltimore Wash"/>
   <airportName code="BYH" name="Blytheville" shortname8="Blythevi" shortname15="Blytheville"/>
   <airportName code="BYI" name="Burley" shortname8="Burley" shortname15="Burley"/>
-  <airportName code="BYR" name="Laeso" shortname8="Læsø" shortname15="Læsø"/>
+  <airportName code="BYR" name="Laeso" shortname8="Lï¿½sï¿½" shortname15="Lï¿½sï¿½"/>
   <airportName code="BYS" name="Fort Irwin/Bicycle" shortname8="Fort Irw" shortname15="Fort Irwin"/>
   <airportName code="BYT" name="Bantry" shortname8="Bantry" shortname15="Bantry"/>
   <airportName code="BYU" name="Bayreuth" shortname8="Bayreuth" shortname15="Bayreuth"/>
@@ -285,7 +285,7 @@
   <airportName code="CGF" name="Cleveland Cuyahoga" shortname8="Clevelan" shortname15="Cleveland/Cuyah"/>
   <airportName code="CGH" name="Sao Paulo Congonhas" shortname8="Sao Paul" shortname15="Sao Paulo"/>
   <airportName code="CGI" name="Cape Girardeau" shortname8="Cape Gir" shortname15="Cape Girardeau"/>
-  <airportName code="CGN" name="Köln Bonn" shortname8="Køln" shortname15="Køln/Bonn"/>
+  <airportName code="CGN" name="Kï¿½ln Bonn" shortname8="Kï¿½ln" shortname15="Kï¿½ln/Bonn"/>
   <airportName code="CGX" name="Chicago Merrill" shortname8="Chicago" shortname15="Chicago/Merrill"/>
   <airportName code="CHA" name="Chattanooga" shortname8="Chattano" shortname15="Chattanooga"/>
   <airportName code="CHC" name="Christchurch" shortname8="Christch" shortname15="Christchurch"/>
@@ -325,13 +325,13 @@
   <airportName code="COU" name="Colimbia Regional" shortname8="Columbia" shortname15="Columbia"/>
   <airportName code="COV" name="Covilha" shortname8="Covilha" shortname15="Covilha"/>
   <airportName code="COX" name="Congo Town, Andros I." shortname8="Congo To" shortname15="Congo Town"/>
-  <airportName code="CPH" name="København" shortname8="Københ." shortname15="København"/>
+  <airportName code="CPH" name="Kï¿½benhavn" shortname8="Kï¿½benh." shortname15="Kï¿½benhavn"/>
   <airportName code="CPT" name="Cape Town" shortname8="Cape Tow" shortname15="Cape Town"/>
   <airportName code="CQF" name="Calais/Dunkerque" shortname8="Calais" shortname15="Calais"/>
   <airportName code="CQM" name="Ciudad Real Airport" shortname8="Ciudad" shortname15="Ciudad"/>
   <airportName code="CRA" name="Craiova" shortname8="Craiova" shortname15="Craiova"/>
   <airportName code="CRI" name="Pittsdown Crooked Island" shortname8="Pittsdow" shortname15="Pittsdown"/>
-  <airportName code="CRL" name="Brussel Sør/Charleroi" shortname8="Brussel" shortname15="Brussel/CRL"/>
+  <airportName code="CRL" name="Brussel Sï¿½r/Charleroi" shortname8="Brussel" shortname15="Brussel/CRL"/>
   <airportName code="CRP" name="Corpus Christi International" shortname8="Corpus C" shortname15="Corpus Christi"/>
   <airportName code="CRV" name="Crotone" shortname8="Crotone" shortname15="Crotone"/>
   <airportName code="CRW" name="Charleston" shortname8="Charlest" shortname15="Charleston"/>
@@ -406,7 +406,7 @@
   <airportName code="DUB" name="Dublin" shortname8="Dublin" shortname15="Dublin"/>
   <airportName code="DUJ" name="Dubois/Jefferson" shortname8="Dubois" shortname15="Dubois"/>
   <airportName code="DUR" name="Durban" shortname8="Durban" shortname15="Durban"/>
-  <airportName code="DUS" name="Düsseldorf" shortname8="Dusseldf" shortname15="Dusseldorf"/>
+  <airportName code="DUS" name="Dï¿½sseldorf" shortname8="Dusseldf" shortname15="Dusseldorf"/>
   <airportName code="DXB" name="Dubai" shortname8="Dubai" shortname15="Dubai"/>
   <airportName code="EAS" name="San Sebastian" shortname8="San Seb." shortname15="San Sebastian"/>
   <airportName code="EAU" name="Eau Claire" shortname8="Eau Clai" shortname15="Eau Claire"/>
@@ -471,7 +471,7 @@
   <airportName code="EYW" name="Key West" shortname8="Key West" shortname15="Key West"/>
   <airportName code="EZS" name="Elazig" shortname8="Elazig " shortname15="Elazig "/>
   <airportName code="FAB" name="Farnborough" shortname8="Farnbrgh" shortname15="Farnborough"/>
-  <airportName code="FAE" name="Færøyene" shortname8="Færøy" shortname15="Færøyene"/>
+  <airportName code="FAE" name="Fï¿½rï¿½yene" shortname8="Fï¿½rï¿½y" shortname15="Fï¿½rï¿½yene"/>
   <airportName code="FAG" name="Fagurholsmyri" shortname8="Fagrhlmi" shortname15="Fagurholsmyri"/>
   <airportName code="FAN" name="Farsund" shortname8="Farsund" shortname15="Farsund"/>
   <airportName code="FAO" name="Faro" shortname8="Faro" shortname15="Faro"/>
@@ -482,7 +482,7 @@
   <airportName code="FCA" name="Kalispell" shortname8="Kalispel" shortname15="Kalispell"/>
   <airportName code="FCN" name="Nordholz - Naval" shortname8="Nordholz" shortname15="Nordholz/FCN"/>
   <airportName code="FCO" name="Roma Fiumicino" shortname8="Roma" shortname15="Roma/Fiumicino"/>
-  <airportName code="FDE" name="Førde" shortname8="Førde" shortname15="Førde"/>
+  <airportName code="FDE" name="Fï¿½rde" shortname8="Fï¿½rde" shortname15="Fï¿½rde"/>
   <airportName code="FDH" name="Friedrichshafen" shortname8="Fridrhfn" shortname15="Friedrichshafen"/>
   <airportName code="FEZ" name="Fez" shortname8="Fez" shortname15="Fez"/>
   <airportName code="FFD" name="Fairford" shortname8="Fairford" shortname15="Fairford"/>
@@ -499,7 +499,7 @@
   <airportName code="FLW" name="Azorene Flores" shortname8="Azorene" shortname15="Azorene/Flores"/>
   <airportName code="FME" name="Fort Meade/Tipton A" shortname8="Fort Mea" shortname15="Fort Meade"/>
   <airportName code="FMM" name="Allgau Memmingen" shortname8="Allgau" shortname15="Allgau"/>
-  <airportName code="FMO" name="Münster" shortname8="Munster" shortname15="Munster"/>
+  <airportName code="FMO" name="Mï¿½nster" shortname8="Munster" shortname15="Munster"/>
   <airportName code="FNC" name="Funchal" shortname8="Funchal" shortname15="Funchal"/>
   <airportName code="FNI" name="Nimes" shortname8="Nimes" shortname15="Nimes"/>
   <airportName code="FNT" name="Flint/Bishop" shortname8="Flint" shortname15="Flint"/>
@@ -514,7 +514,7 @@
   <airportName code="FRG" name="Farmingdale" shortname8="Farmingd" shortname15="Farmingdale"/>
   <airportName code="FRI" name="Fort Riley/Marshall" shortname8="Fort Ril" shortname15="Fort Riley"/>
   <airportName code="FRL" name="Forli" shortname8="Forli" shortname15="Forli"/>
-  <airportName code="FRO" name="Florø" shortname8="Florø" shortname15="Florø"/>
+  <airportName code="FRO" name="Florï¿½" shortname8="Florï¿½" shortname15="Florï¿½"/>
   <airportName code="FRU" name="Manas" shortname8="Manas" shortname15="Manas"/>
   <airportName code="FRZ" name="Fritzlar" shortname8="Fritzlar" shortname15="Fritzlar"/>
   <airportName code="FSC" name="Figari Corsica" shortname8="Figari" shortname15="Figari"/>
@@ -540,7 +540,7 @@
   <airportName code="GDN" name="Gdansk" shortname8="Gdansk" shortname15="Gdansk"/>
   <airportName code="GDX" name="Magadan/Sokol" shortname8="Magadan" shortname15="Magadan/Sokol"/>
   <airportName code="GEG" name="Spokane International" shortname8="Spokane" shortname15="Spokane"/>
-  <airportName code="GEV" name="Gällivare" shortname8="Gallivar" shortname15="Gallivare"/>
+  <airportName code="GEV" name="Gï¿½llivare" shortname8="Gallivar" shortname15="Gallivare"/>
   <airportName code="GFA" name="Great Falls Malmstrom AFB" shortname8="Great Fa" shortname15="Great Falls"/>
   <airportName code="GFL" name="Glens Falls/Warren C" shortname8="Glens Fa" shortname15="Glens Falls"/>
   <airportName code="GFR" name="Granville" shortname8="Granvle" shortname15="Granville"/>
@@ -568,7 +568,7 @@
   <airportName code="GOI" name="Goa" shortname8="Goa" shortname15="Goa"/>
   <airportName code="GOJ" name="Novgorod" shortname8="Novgorod" shortname15="Novgorod"/>
   <airportName code="GON" name="Groton" shortname8="Groton" shortname15="Groton"/>
-  <airportName code="GOT" name="Göteborg" shortname8="Gøteb." shortname15="Gøteborg"/>
+  <airportName code="GOT" name="Gï¿½teborg" shortname8="Gï¿½teb." shortname15="Gï¿½teborg"/>
   <airportName code="GOZ" name="Gorna Orechovitsa" shortname8="Gorna O." shortname15="Gorna Orechov."/>
   <airportName code="GPA" name="Patras/Araxos A" shortname8="Patras" shortname15="Patras"/>
   <airportName code="GPT" name="Gulfport/Biloxi R" shortname8="Gulfport" shortname15="Gulfport"/>
@@ -583,14 +583,14 @@
   <airportName code="GRY" name="Grimsey" shortname8="Grimsey" shortname15="Grimsey"/>
   <airportName code="GRZ" name="Graz" shortname8="Graz" shortname15="Graz"/>
   <airportName code="GSB" name="Goldsboro/Seymour" shortname8="Goldsbor" shortname15="Goldsboro"/>
-  <airportName code="GSE" name="Göteborg Säve" shortname8="Gtb/Save" shortname15="Gøteborg/Save"/>
+  <airportName code="GSE" name="Gï¿½teborg Sï¿½ve" shortname8="Gtb/Save" shortname15="Gï¿½teborg/Save"/>
   <airportName code="GSP" name="Greenville Spartanburg Intl" shortname8="Greer" shortname15="Greer"/>
   <airportName code="GTF" name="Great Falls International" shortname8="Great Fa" shortname15="Great Falls"/>
   <airportName code="GTW" name="Zlin" shortname8="Zlin" shortname15="Zlin"/>
   <airportName code="GUP" name="Gallup/Senator" shortname8="Gallup" shortname15="Gallup"/>
   <airportName code="GUS" name="Peru" shortname8="Peru" shortname15="Peru"/>
   <airportName code="GVA" name="Geneve" shortname8="Geneve" shortname15="Geneve"/>
-  <airportName code="GVX" name="Gavle" shortname8="Gävle" shortname15="Gävle"/>
+  <airportName code="GVX" name="Gavle" shortname8="Gï¿½vle" shortname15="Gï¿½vle"/>
   <airportName code="GWO" name="Greenwood Leflore" shortname8="Greenwoo" shortname15="Greenwood"/>
   <airportName code="GWT" name="Westerland/Sylt" shortname8="Westrl/S" shortname15="Westerland/Sylt"/>
   <airportName code="GWY" name="Galway Carnmore" shortname8="Galway" shortname15="Galway"/>
@@ -631,7 +631,7 @@
   <airportName code="HMA" name="Khanty-Mansiysk" shortname8="Khanty-M" shortname15="Khanty-Mansiysk"/>
   <airportName code="HMN" name="Alamogordo" shortname8="Alamogor" shortname15="Alamogordo"/>
   <airportName code="HMR" name="Hamar" shortname8="Hamar" shortname15="Hamar"/>
-  <airportName code="HMV" name="Hemavan" shortname8="Hemavän" shortname15="Hemavän"/>
+  <airportName code="HMV" name="Hemavan" shortname8="Hemavï¿½n" shortname15="Hemavï¿½n"/>
   <airportName code="HND" name="Tokyo Haneda" shortname8="Tokyo" shortname15="Tokyo Haneda"/>
   <airportName code="HOD" name="Hod" shortname8="Hod" shortname15="Hod"/>
   <airportName code="HOF" name="Hail" shortname8="Hail" shortname15="Hail"/>
@@ -640,7 +640,7 @@
   <airportName code="HOQ" name="Hof" shortname8="Hof" shortname15="Hof"/>
   <airportName code="HOR" name="Azorene Horta" shortname8="Azorene" shortname15="Azorene/Horta"/>
   <airportName code="HOU" name="Houston Hobby" shortname8="Houston" shortname15="Houston/Hobby"/>
-  <airportName code="HOV" name="Ørsta/Volda" shortname8="Ørsta-V" shortname15="Ørsta-Volda"/>
+  <airportName code="HOV" name="ï¿½rsta/Volda" shortname8="ï¿½rsta-V" shortname15="ï¿½rsta-Volda"/>
   <airportName code="HPN" name="White Plains" shortname8="White Pl" shortname15="White Plains"/>
   <airportName code="HQM" name="Hoquiam/Bowerman" shortname8="Hoquiam" shortname15="Hoquiam"/>
   <airportName code="HRD" name="Harstad" shortname8="Harstad" shortname15="Harstad"/>
@@ -655,12 +655,12 @@
   <airportName code="HUF" name="Terre Haute" shortname8="Terre Ha" shortname15="Terre Haute"/>
   <airportName code="HUV" name="Hudiksvall" shortname8="Hudiksva" shortname15="Hudiksvall"/>
   <airportName code="HUY" name="Humberside" shortname8="Humbersi" shortname15="Humberside"/>
-  <airportName code="HVG" name="Honningsvåg" shortname8="Honnings" shortname15="Honningsvåg"/>
+  <airportName code="HVG" name="Honningsvï¿½g" shortname8="Honnings" shortname15="Honningsvï¿½g"/>
   <airportName code="HVK" name="Holmavik" shortname8="Holmavik" shortname15="Holmavik"/>
   <airportName code="HVN" name="New Haven" shortname8="New Have" shortname15="New Haven"/>
   <airportName code="HYA" name="Hyannis Barnstable" shortname8="Hyannis" shortname15="Hyannis"/>
   <airportName code="HYC" name="High Wycombe" shortname8="High Wcb" shortname15="High Wycombe"/>
-  <airportName code="HYV" name="Hyvinkää" shortname8="Hyvinkaa" shortname15="Hyvinkaa"/>
+  <airportName code="HYV" name="Hyvinkï¿½ï¿½" shortname8="Hyvinkaa" shortname15="Hyvinkaa"/>
   <airportName code="HZK" name="Husavik" shortname8="Husavik" shortname15="Husavik"/>
   <airportName code="IAD" name="Washington Dulles " shortname8="Washingt" shortname15="Washington DC"/>
   <airportName code="IAG" name="Niagara Falls" shortname8="Niagara" shortname15="Niagara Falls"/>
@@ -720,7 +720,7 @@
   <airportName code="JIK" name="Ikaria" shortname8="Ikaria" shortname15="Ikaria"/>
   <airportName code="JJN" name="Jinjiang" shortname8="Jinjiang" shortname15="Jinjiang"/>
   <airportName code="JJU" name="Qaqortoq/Julianehaab" shortname8="Ju.haab" shortname15="Julianehaab"/>
-  <airportName code="JKG" name="Jönköping" shortname8="Jønkøp" shortname15="Jønkøping"/>
+  <airportName code="JKG" name="Jï¿½nkï¿½ping" shortname8="Jï¿½nkï¿½p" shortname15="Jï¿½nkï¿½ping"/>
   <airportName code="JKH" name="Chios" shortname8="Chios" shortname15="Chios"/>
   <airportName code="JKT" name="Jakarta" shortname8="Jakarta" shortname15="Jakarta"/>
   <airportName code="JLN" name="Joplin" shortname8="Joplin" shortname15="Joplin"/>
@@ -740,7 +740,7 @@
   <airportName code="JTY" name="Astypalaia" shortname8="Astypla" shortname15="Astypalaia"/>
   <airportName code="JUI" name="Juist" shortname8="Juist" shortname15="Juist"/>
   <airportName code="JXN" name="Jackson/Reynolds" shortname8="Jackson" shortname15="Jackson"/>
-  <airportName code="JYV" name="Jyväskylä" shortname8="Jyvaskyl" shortname15="Jyvaskyla"/>
+  <airportName code="JYV" name="Jyvï¿½skylï¿½" shortname8="Jyvaskyl" shortname15="Jyvaskyla"/>
   <airportName code="KAJ" name="Kajaani" shortname8="Kajaani" shortname15="Kajaani"/>
   <airportName code="KAO" name="Kuusamo" shortname8="Kuusamo" shortname15="Kuusamo"/>
   <airportName code="KAU" name="Kauhava" shortname8="Kauhava" shortname15="Kauhava"/>
@@ -806,7 +806,7 @@
   <airportName code="KUO" name="Kuopio" shortname8="Kuopio" shortname15="Kuopio"/>
   <airportName code="KUS" name="Kulusuk" shortname8="Kulusuk" shortname15="Kulusuk"/>
   <airportName code="KVA" name="Kavala" shortname8="Kavala" shortname15="Kavala"/>
-  <airportName code="KVB" name="Skövde" shortname8="Skøvde" shortname15="Skøvde"/>
+  <airportName code="KVB" name="Skï¿½vde" shortname8="Skï¿½vde" shortname15="Skï¿½vde"/>
   <airportName code="KVX" name="Kirov" shortname8="Kirov" shortname15="Kirov"/>
   <airportName code="KWI" name="Kuwait" shortname8="Kuwait" shortname15="Kuwait"/>
   <airportName code="KYA" name="Konya" shortname8="Konya" shortname15="Konya"/>
@@ -823,7 +823,7 @@
   <airportName code="LAX" name="Los Angeles" shortname8="Los Ange" shortname15="Los Angeles"/>
   <airportName code="LBA" name="Leeds/Bradford" shortname8="Leeds" shortname15="Leeds"/>
   <airportName code="LBB" name="Lubbock International" shortname8="Lubbock" shortname15="Lubbock"/>
-  <airportName code="LBC" name="Hamburg Lübeck" shortname8="Hambrg/L" shortname15="Hamburg/Lubeck"/>
+  <airportName code="LBC" name="Hamburg Lï¿½beck" shortname8="Hambrg/L" shortname15="Hamburg/Lubeck"/>
   <airportName code="LBD" name="Khudzhand" shortname8="Khudzhan" shortname15="Khudzhand"/>
   <airportName code="LBE" name="Latrobe/Westmore" shortname8="Latrobe" shortname15="Latrobe"/>
   <airportName code="LBG" name="Le Bourget" shortname8="Le Bourg" shortname15="Le Bourget"/>
@@ -839,7 +839,7 @@
   <airportName code="LCV" name="Lucca/Tassignano" shortname8="Lucca" shortname15="Lucca"/>
   <airportName code="LCY" name="London City" shortname8="London C" shortname15="London City"/>
   <airportName code="LDE" name="Lourdes/Tarbes" shortname8="Lourdes" shortname15="Lourdes"/>
-  <airportName code="LDK" name="Lidköping" shortname8="Lidkøp" shortname15="Lidkøping"/>
+  <airportName code="LDK" name="Lidkï¿½ping" shortname8="Lidkï¿½p" shortname15="Lidkï¿½ping"/>
   <airportName code="LDV" name="Landivisiau" shortname8="Landvsau" shortname15="Landivisiau"/>
   <airportName code="LDY" name="Londonderry" shortname8="Londndry" shortname15="Londonderry"/>
   <airportName code="LEB" name="Lebanon" shortname8="Lebanon" shortname15="Lebanon"/>
@@ -869,7 +869,7 @@
   <airportName code="LJU" name="Ljubljana" shortname8="Ljubljan" shortname15="Ljubljana"/>
   <airportName code="LKL" name="Lakselv" shortname8="Lakselv" shortname15="Lakselv"/>
   <airportName code="LKN" name="Leknes" shortname8="Leknes" shortname15="Leknes"/>
-  <airportName code="LLA" name="Luleå" shortname8="Luleå" shortname15="Luleå"/>
+  <airportName code="LLA" name="Luleï¿½" shortname8="Luleï¿½" shortname15="Luleï¿½"/>
   <airportName code="LME" name="Le Mans-Arnage" shortname8="Le Mans" shortname15="Le Mans-Arnage"/>
   <airportName code="LMO" name="Lossiemouth" shortname8="Lossiemo" shortname15="Lossiemouth"/>
   <airportName code="LMP" name="Lampedusa" shortname8="Lampedsa" shortname15="Lampedusa"/>
@@ -882,7 +882,7 @@
   <airportName code="LOU" name="Louisville Bowman Field" shortname8="Louisvil" shortname15="Louisville"/>
   <airportName code="LOZ" name="London US" shortname8="London" shortname15="London"/>
   <airportName code="LPA" name="Gran Canaria" shortname8="Gran Can" shortname15="Gran Canaria"/>
-  <airportName code="LPI" name="Linköping" shortname8="Linkøp" shortname15="Linköping"/>
+  <airportName code="LPI" name="Linkï¿½ping" shortname8="Linkï¿½p" shortname15="Linkï¿½ping"/>
   <airportName code="LPL" name="Liverpool" shortname8="Liverpl" shortname15="Liverpool"/>
   <airportName code="LPP" name="Lappeenranta" shortname8="Lappenra" shortname15="Lappeenranta"/>
   <airportName code="LPT" name="Lampang" shortname8="Lampang" shortname15="Lampang"/>
@@ -970,7 +970,7 @@
   <airportName code="MIL" name="Milano" shortname8="Milano" shortname15="Milano"/>
   <airportName code="MIP" name="Mitzpe-Ramon Airstrip" shortname8="Mitzpe" shortname15="Mitzpe"/>
   <airportName code="MIR" name="Monastir" shortname8="Monastir" shortname15="Monastir"/>
-  <airportName code="MJF" name="Mosjøen" shortname8="Mosjøen" shortname15="Mosjøen"/>
+  <airportName code="MJF" name="Mosjï¿½en" shortname8="Mosjï¿½en" shortname15="Mosjï¿½en"/>
   <airportName code="MJH" name="Madinah/Pr Mohammad Bin Abdula" shortname8="Madinah" shortname15="Madinah"/>
   <airportName code="MJT" name="Mytilini" shortname8="Mytilini" shortname15="Mytilini"/>
   <airportName code="MJV" name="Murcia" shortname8="Murcia" shortname15="Murcia"/>
@@ -990,11 +990,11 @@
   <airportName code="MLO" name="Milos" shortname8="Milos" shortname15="Milos"/>
   <airportName code="MLU" name="Monroe" shortname8="Monroe" shortname15="Monroe"/>
   <airportName code="MLX" name="Malatya/Erhac" shortname8="Malatya" shortname15="Malatya"/>
-  <airportName code="MMA" name="Malmø" shortname8="Malmø" shortname15="Malmø"/>
+  <airportName code="MMA" name="Malmï¿½" shortname8="Malmï¿½" shortname15="Malmï¿½"/>
   <airportName code="MME" name="Teesside" shortname8="Teesside" shortname15="Teesside"/>
   <airportName code="MMK" name="Murmansk" shortname8="Murmansk" shortname15="Murmansk"/>
   <airportName code="MMU" name="Morristown" shortname8="Morristo" shortname15="Morristown"/>
-  <airportName code="MMX" name="Malmö" shortname8="Malmø" shortname15="Malmø"/>
+  <airportName code="MMX" name="Malmï¿½" shortname8="Malmï¿½" shortname15="Malmï¿½"/>
   <airportName code="MNL" name="Manila" shortname8="Manila" shortname15="Manila"/>
   <airportName code="MOD" name="Modesto" shortname8="Modesto" shortname15="Modesto"/>
   <airportName code="MOL" name="Molde" shortname8="Molde" shortname15="Molde"/>
@@ -1019,7 +1019,7 @@
   <airportName code="MST" name="Maastricht" shortname8="Maastric" shortname15="Maastricht"/>
   <airportName code="MSY" name="New Orleans" shortname8="New Orle" shortname15="New Orleans"/>
   <airportName code="MTN" name="Baltimore/Glenn L Martin" shortname8="Baltimor" shortname15="Baltimore"/>
-  <airportName code="MUC" name="München" shortname8="Munchen" shortname15="Munchen"/>
+  <airportName code="MUC" name="Mï¿½nchen" shortname8="Munchen" shortname15="Munchen"/>
   <airportName code="MUH" name="Mersa" shortname8="Mersa" shortname15="Mersa"/>
   <airportName code="MUI" name="Fort Indiantown/Muir AAF" shortname8="Fort Ind" shortname15="Fort Indiantown"/>
   <airportName code="MUO" name="Mountain Home AFB" shortname8="Mnt Home" shortname15="Mountain Home"/>
@@ -1073,18 +1073,18 @@
   <airportName code="NOR" name="Nordfjordur" shortname8="Nordfjdr" shortname15="Nordfjordur"/>
   <airportName code="NPA" name="Pensacola NAS" shortname8="Pensacol" shortname15="Pensacola"/>
   <airportName code="NQI" name="Kingsville/NAS" shortname8="Kingsvil" shortname15="Kingsville/NAS"/>
-  <airportName code="NQJ" name="Gjøa" shortname8="Gjøa" shortname15="Gjøa"/>
+  <airportName code="NQJ" name="Gjï¿½a" shortname8="Gjï¿½a" shortname15="Gjï¿½a"/>
   <airportName code="NQX" name="Key West/NAS" shortname8="Key West" shortname15="Key West/NAS"/>
   <airportName code="NQY" name="Newquay" shortname8="Newquay" shortname15="Newquay"/>
   <airportName code="NRD" name="Norderney" shortname8="Nordern." shortname15="Norderney"/>
-  <airportName code="NRK" name="Norrköping" shortname8="Norrkpng" shortname15="Norrkøping"/>
+  <airportName code="NRK" name="Norrkï¿½ping" shortname8="Norrkpng" shortname15="Norrkï¿½ping"/>
   <airportName code="NRL" name="North Ronaldsway" shortname8="North Rw" shortname15="North Ronaldswa"/>
-  <airportName code="NRN" name="Düsseldorf Weeze" shortname8="Dusseldo" shortname15="Dusseldorf"/>
+  <airportName code="NRN" name="Dï¿½sseldorf Weeze" shortname8="Dusseldo" shortname15="Dusseldorf"/>
   <airportName code="NRT" name="Tokyo Narita" shortname8="Tokyo" shortname15="Tokyo"/>
   <airportName code="NSY" name="Sigonella" shortname8="Sigonell" shortname15="Sigonella"/>
   <airportName code="NTB" name="Notodden" shortname8="Notodden" shortname15="Notodden"/>
   <airportName code="NTE" name="Nantes" shortname8="Nantes" shortname15="Nantes"/>
-  <airportName code="NUE" name="Nürnberg" shortname8="Nurnberg" shortname15="Nurnberg"/>
+  <airportName code="NUE" name="Nï¿½rnberg" shortname8="Nurnberg" shortname15="Nurnberg"/>
   <airportName code="NUQ" name="Mountain View" shortname8="Mnt View" shortname15="Mountain View"/>
   <airportName code="NUT" name="Nutuve" shortname8="Nutuve" shortname15="Nutuve"/>
   <airportName code="NVK" name="Narvik" shortname8="Narvik" shortname15="Narvik"/>
@@ -1106,12 +1106,12 @@
   <airportName code="ODE" name="Odense" shortname8="Odense" shortname15="Odense"/>
   <airportName code="ODH" name="Odiham" shortname8="Odiham" shortname15="Odiham"/>
   <airportName code="ODS" name="Odessa" shortname8="Odessa" shortname15="Odessa"/>
-  <airportName code="OER" name="Örnsköldsvik" shortname8="Ørnsvik" shortname15="Ørnskøldsvik"/>
+  <airportName code="OER" name="ï¿½rnskï¿½ldsvik" shortname8="ï¿½rnsvik" shortname15="ï¿½rnskï¿½ldsvik"/>
   <airportName code="OGD" name="Ogden" shortname8="Ogden" shortname15="Ogden"/>
   <airportName code="OHR" name="Wyk Auf Fohr" shortname8="Wyk" shortname15="Wyk Auf Fohr"/>
   <airportName code="OKA" name="Okinawa/Kadena A" shortname8="Okinawa" shortname15="Okinawa"/>
   <airportName code="OKC" name="Oklahoma City" shortname8="Oklahoma" shortname15="Oklahoma City"/>
-  <airportName code="OLA" name="Ørland" shortname8="Ørland" shortname15="Ørland"/>
+  <airportName code="OLA" name="ï¿½rland" shortname8="ï¿½rland" shortname15="ï¿½rland"/>
   <airportName code="OLB" name="Olbia" shortname8="Olbia" shortname15="Olbia"/>
   <airportName code="OLD" name="Old Town" shortname8="Old Town" shortname15="Old Town"/>
   <airportName code="OLM" name="Olympia" shortname8="Olympia" shortname15="Olympia"/>
@@ -1125,7 +1125,7 @@
   <airportName code="OPA" name="Kopasker" shortname8="Kopasker" shortname15="Kopasker"/>
   <airportName code="OPO" name="Porto" shortname8="Porto" shortname15="Porto"/>
   <airportName code="ORA" name="Al Asud" shortname8="Al Asud" shortname15="Al Asud"/>
-  <airportName code="ORB" name="Örebro" shortname8="Ørebro" shortname15="Ørebro"/>
+  <airportName code="ORB" name="ï¿½rebro" shortname8="ï¿½rebro" shortname15="ï¿½rebro"/>
   <airportName code="ORD" name="Chicago OHare" shortname8="Chicago" shortname15="Chicago"/>
   <airportName code="ORE" name="Orleans" shortname8="Orleans" shortname15="Orleans"/>
   <airportName code="ORF" name="Norfolk" shortname8="Norfolk" shortname15="Norfolk"/>
@@ -1134,14 +1134,14 @@
   <airportName code="ORM" name="Northampton/Sywell" shortname8="Northhmp" shortname15="Northampton"/>
   <airportName code="ORY" name="Paris Orly" shortname8="Paris" shortname15="Paris/Orly"/>
   <airportName code="OSA" name="Osaka" shortname8="Osaka" shortname15="Osaka"/>
-  <airportName code="OSD" name="Östersund" shortname8="Østersn" shortname15="Østersund"/>
+  <airportName code="OSD" name="ï¿½stersund" shortname8="ï¿½stersn" shortname15="ï¿½stersund"/>
   <airportName code="OSH" name="Oshkosh" shortname8="Oshkosh" shortname15="Oshkosh"/>
   <airportName code="OSI" name="Osijek" shortname8="Osijek" shortname15="Osijek"/>
   <airportName code="OSK" name="Oskarshamn" shortname8="Oskarsh." shortname15="Oskarshamn"/>
   <airportName code="OSL" name="Oslo" shortname8="Oslo" shortname15="Oslo"/>
   <airportName code="OSP" name="Redzikow" shortname8="Redzikow" shortname15="Redzikow"/>
   <airportName code="OSR" name="Ostrava" shortname8="Ostrava" shortname15="Ostrava"/>
-  <airportName code="OSS" name="Oseberg Sør" shortname8="Osebrg S" shortname15="Oseberg Sør"/>
+  <airportName code="OSS" name="Oseberg Sï¿½r" shortname8="Osebrg S" shortname15="Oseberg Sï¿½r"/>
   <airportName code="OST" name="Oostende" shortname8="Oostnde" shortname15="Oostende"/>
   <airportName code="OSU" name="Columbus Ohio State University" shortname8="Columbus" shortname15="Columbus"/>
   <airportName code="OSY" name="Namsos" shortname8="Namsos" shortname15="Namsos"/>
@@ -1260,7 +1260,7 @@
   <airportName code="QFK" name="Selje" shortname8="Selje" shortname15="Selje"/>
   <airportName code="QFN" name="Narsaq Kujalleq/Frederiksdal" shortname8="Fredrdl" shortname15="Frederiksdal"/>
   <airportName code="QFO" name="Duxford" shortname8="Duxford" shortname15="Duxford"/>
-  <airportName code="QFQ" name="Måløy" shortname8="Måløy" shortname15="Måløy"/>
+  <airportName code="QFQ" name="Mï¿½lï¿½y" shortname8="Mï¿½lï¿½y" shortname15="Mï¿½lï¿½y"/>
   <airportName code="QFR" name="Frosinone" shortname8="Frosinne" shortname15="Frosinone"/>
   <airportName code="QGO" name="Gorizia" shortname8="Gorizia" shortname15="Gorizia"/>
   <airportName code="QGY" name="Gyor" shortname8="Gyor" shortname15="Gyor"/>
@@ -1268,8 +1268,8 @@
   <airportName code="QIE" name="Istres-Le Tube" shortname8="Istres" shortname15="Istres-Le Tube"/>
   <airportName code="QIF" name="Isleworth" shortname8="Islewrth" shortname15="Isleworth"/>
   <airportName code="QIZ" name="Bizerte" shortname8="Bizerte" shortname15="Bizerte"/>
-  <airportName code="QJL" name="Kjøllefjord" shortname8="Kjøllefj" shortname15="Kjøllefjord"/>
-  <airportName code="QJS" name="Saeby/Ottestrup" shortname8="Sæby" shortname15="Sæby"/>
+  <airportName code="QJL" name="Kjï¿½llefjord" shortname8="Kjï¿½llefj" shortname15="Kjï¿½llefjord"/>
+  <airportName code="QJS" name="Saeby/Ottestrup" shortname8="Sï¿½by" shortname15="Sï¿½by"/>
   <airportName code="QKF" name="Krefeld-Egelsberg" shortname8="Krefeld" shortname15="Krefeld"/>
   <airportName code="QKK" name="Karasjok" shortname8="Karasjok" shortname15="Karasjok"/>
   <airportName code="QKQ" name="Anklam" shortname8="Anklam" shortname15="Anklam"/>
@@ -1287,7 +1287,7 @@
   <airportName code="QNM" name="Namur/Suarlee" shortname8="Namur" shortname15="Namur"/>
   <airportName code="QNX" name="Macon-Charnay" shortname8="Macon" shortname15="Macon-Charnay"/>
   <airportName code="QOB" name="Ansbach-Petersdorf" shortname8="Ansbach" shortname15="Ansbach"/>
-  <airportName code="QOK" name="Øksfjord" shortname8="Øksfj." shortname15="Øksfjord"/>
+  <airportName code="QOK" name="ï¿½ksfjord" shortname8="ï¿½ksfj." shortname15="ï¿½ksfjord"/>
   <airportName code="QOS" name="Oristano Fenosu" shortname8="Oristano" shortname15="Oristano Fenosu"/>
   <airportName code="QPA" name="Padova" shortname8="Padova" shortname15="Padova"/>
   <airportName code="QPB" name="Campobasso" shortname8="Campobso" shortname15="Campobasso"/>
@@ -1311,10 +1311,10 @@
   <airportName code="QVF" name="Karkkila" shortname8="Karkila" shortname15="Karkkila"/>
   <airportName code="QVK" name="Valkeakoski" shortname8="Valkeako" shortname15="Valkeakoski"/>
   <airportName code="QVM" name="Hameenlinna" shortname8="Hameenli" shortname15="Hameenlinna"/>
-  <airportName code="QVO" name="Kjøllefjord" shortname8="Kj.fjord" shortname15="Kjøllefjord"/>
+  <airportName code="QVO" name="Kjï¿½llefjord" shortname8="Kj.fjord" shortname15="Kjï¿½llefjord"/>
   <airportName code="QVQ" name="Verden-Scharnhorst" shortname8="Verden" shortname15="Verden"/>
   <airportName code="QVS" name="Tervakoski" shortname8="Tervakos" shortname15="Tervakoski"/>
-  <airportName code="QVT" name="Riihimäki" shortname8="Riihimak" shortname15="Riihimaki"/>
+  <airportName code="QVT" name="Riihimï¿½ki" shortname8="Riihimak" shortname15="Riihimaki"/>
   <airportName code="QVV" name="Heinola" shortname8="Heinola" shortname15="Heinola"/>
   <airportName code="QVW" name="Kotka" shortname8="Kotka" shortname15="Kotka"/>
   <airportName code="QVY" name="Kouvola" shortname8="Kouvola" shortname15="Kouvola"/>
@@ -1334,7 +1334,7 @@
   <airportName code="QZJ" name="Loimaa" shortname8="Loimaa" shortname15="Loimaa"/>
   <airportName code="QZK" name="Mantsala" shortname8="Mantsala" shortname15="Mantsala"/>
   <airportName code="QZO" name="Arezzo" shortname8="Arezzo" shortname15="Arezzo"/>
-  <airportName code="QZS" name="Sørøya" shortname8="Sørøya" shortname15="Sørøya"/>
+  <airportName code="QZS" name="Sï¿½rï¿½ya" shortname8="Sï¿½rï¿½ya" shortname15="Sï¿½rï¿½ya"/>
   <airportName code="QZU" name="Rauma" shortname8="Rauma" shortname15="Rauma"/>
   <airportName code="RAE" name="Al-Baha/Al-Aqiq" shortname8="Al-Baha" shortname15="Al-Baha/Al-Aqiq"/>
   <airportName code="RAK" name="Marrakech" shortname8="Marrakec" shortname15="Marrakech"/>
@@ -1344,7 +1344,7 @@
   <airportName code="RBA" name="Rabat" shortname8="Rabat" shortname15="Rabat"/>
   <airportName code="RBL" name="Red Bluff" shortname8="Red Bluf" shortname15="Red Bluff"/>
   <airportName code="RBM" name="Straubing-Wallmuhle" shortname8="Straubin" shortname15="Straubing"/>
-  <airportName code="RCA" name="Rapid City¨Ellsworth AFB" shortname8="Rapid Ci" shortname15="Rapid City"/>
+  <airportName code="RCA" name="Rapid Cityï¿½Ellsworth AFB" shortname8="Rapid Ci" shortname15="Rapid City"/>
   <airportName code="RCO" name="Rochefort" shortname8="Rochfrt" shortname15="Rochefort"/>
   <airportName code="RCS" name="Rochester (US)" shortname8="Rochestr" shortname15="Rochester (US)"/>
   <airportName code="RDD" name="Redding" shortname8="Redding" shortname15="Redding"/>
@@ -1355,7 +1355,7 @@
   <airportName code="REB" name="Rechlin-Larz" shortname8="Rechlin" shortname15="Rechlin"/>
   <airportName code="REE" name="Lubbock Reese AFB" shortname8="Lubbock" shortname15="Lubbock"/>
   <airportName code="REG" name="Reggio Calabria" shortname8="Reggio C" shortname15="Reggio Calabria"/>
-  <airportName code="RET" name="Røst" shortname8="Røst" shortname15="Røst"/>
+  <airportName code="RET" name="Rï¿½st" shortname8="Rï¿½st" shortname15="Rï¿½st"/>
   <airportName code="REU" name="Reus" shortname8="Reus" shortname15="Reus"/>
   <airportName code="RFN" name="Raufarhofn" shortname8="Raufrhfn" shortname15="Raufarhofn"/>
   <airportName code="RHE" name="Reims-Champagne" shortname8="Reims" shortname15="Reims-Champ."/>
@@ -1367,7 +1367,7 @@
   <airportName code="RIV" name="Riverside/March AF" shortname8="Riversid" shortname15="Riverside"/>
   <airportName code="RIX" name="Riga" shortname8="Riga" shortname15="Riga"/>
   <airportName code="RJK" name="Rijeka" shortname8="Rijeka" shortname15="Rijeka"/>
-  <airportName code="RKE" name="København Roskilde" shortname8="Roskilde" shortname15="Roskilde"/>
+  <airportName code="RKE" name="Kï¿½benhavn Roskilde" shortname8="Roskilde" shortname15="Roskilde"/>
   <airportName code="RKV" name="Reykjavik" shortname8="Reykjavk" shortname15="Reykjavik"/>
   <airportName code="RLG" name="Rostock-Laage" shortname8="Rostock" shortname15="Rostock-Laage"/>
   <airportName code="RME" name="Rome Griffiss (US)" shortname8="Rome(US)" shortname15="Rome (US)"/>
@@ -1375,7 +1375,7 @@
   <airportName code="RMG" name="Rome Richard B. Russell (US)" shortname8="Rome(US)" shortname15="Rome (US)"/>
   <airportName code="RMI" name="Rimini" shortname8="Rimini" shortname15="Rimini"/>
   <airportName code="RMS" name="Ramstein" shortname8="Ramstein" shortname15="Ramstein"/>
-  <airportName code="RNB" name="Rønneby" shortname8="Rønneby" shortname15="Rønneby"/>
+  <airportName code="RNB" name="Rï¿½nneby" shortname8="Rï¿½nneby" shortname15="Rï¿½nneby"/>
   <airportName code="RNE" name="Roanne-Renaison" shortname8="Roanne" shortname15="Roanne"/>
   <airportName code="RNN" name="Bornholm" shortname8="Bornholm" shortname15="Bornholm"/>
   <airportName code="RNO" name="Reno" shortname8="Reno" shortname15="Reno"/>
@@ -1387,14 +1387,14 @@
   <airportName code="ROU" name="Rousse" shortname8="Rousse" shortname15="Rousse"/>
   <airportName code="ROW" name="Roswell" shortname8="Roswell" shortname15="Roswell"/>
   <airportName code="RPN" name="Rosh Pina" shortname8="Rosh Pin" shortname15="Rosh Pina"/>
-  <airportName code="RRS" name="Røros" shortname8="Røros" shortname15="Røros"/>
+  <airportName code="RRS" name="Rï¿½ros" shortname8="Rï¿½ros" shortname15="Rï¿½ros"/>
   <airportName code="RSB" name="Semi 2" shortname8="Semi 2" shortname15="Semi 2"/>
   <airportName code="RSD" name="Rock Sound/Intl,  Eleuthera I." shortname8="Rock Sou" shortname15="Rock Sound"/>
   <airportName code="RSW" name="Fort Myers/Southwes" shortname8="Fort Mye" shortname15="Fort Myers"/>
   <airportName code="RTM" name="Rotterdam" shortname8="Rotterdm" shortname15="Rotterdam"/>
   <airportName code="RUH" name="Riyadh" shortname8="Riyadh" shortname15="Riyadh"/>
   <airportName code="RUT" name="Rutland" shortname8="Rutland" shortname15="Rutland"/>
-  <airportName code="RVK" name="Rørvik" shortname8="Rørvik" shortname15="Rørvik"/>
+  <airportName code="RVK" name="Rï¿½rvik" shortname8="Rï¿½rvik" shortname15="Rï¿½rvik"/>
   <airportName code="RVN" name="Rovaniemi" shortname8="Rovaniem" shortname15="Rovaniemi"/>
   <airportName code="RWI" name="Rocky Mount" shortname8="Rocky Mo" shortname15="Rocky Mount"/>
   <airportName code="RYG" name="Rygge" shortname8="Rygge" shortname15="Rygge"/>
@@ -1404,7 +1404,7 @@
   <airportName code="SAN" name="San Diego Lindbergh" shortname8="San Dieg" shortname15="San Diego"/>
   <airportName code="SAT" name="San Antonio" shortname8="San Anto" shortname15="San Antonio"/>
   <airportName code="SAV" name="Savannah Hilton Head" shortname8="Savannah" shortname15="Savannah"/>
-  <airportName code="SAW" name="Istanbul Sabiha Gökcen" shortname8="Istanbul" shortname15="Istanbul/Sabiha"/>
+  <airportName code="SAW" name="Istanbul Sabiha Gï¿½kcen" shortname8="Istanbul" shortname15="Istanbul/Sabiha"/>
   <airportName code="SAY" name="Siena" shortname8="Siena" shortname15="Siena"/>
   <airportName code="SBA" name="Santa Barbara" shortname8="Santa Ba" shortname15="Santa Barbara"/>
   <airportName code="SBD" name="San Bernardino Norton AFB" shortname8="San Bern" shortname15="San Bernardino"/>
@@ -1434,12 +1434,12 @@
   <airportName code="SFB" name="Orlando Sanford" shortname8="Orlando" shortname15="Orlando"/>
   <airportName code="SFF" name="Spokane Felts Field" shortname8="Spokane" shortname15="Spokane"/>
   <airportName code="SFI" name="Safi" shortname8="Safi" shortname15="Safi"/>
-  <airportName code="SFJ" name="Kangerlussuaq Søndre Strømfj" shortname8="S.Strøm" shortname15="S. Strømfjord"/>
+  <airportName code="SFJ" name="Kangerlussuaq Sï¿½ndre Strï¿½mfj" shortname8="S.Strï¿½m" shortname15="S. Strï¿½mfjord"/>
   <airportName code="SFO" name="San Francisco" shortname8="San Fran" shortname15="San Francisco"/>
   <airportName code="SFQ" name="Sanliurfa" shortname8="Sanliurf" shortname15="Sanliurfa"/>
-  <airportName code="SFT" name="Skellefteå" shortname8="Skelleft" shortname15="Skellefteå"/>
+  <airportName code="SFT" name="Skellefteï¿½" shortname8="Skelleft" shortname15="Skellefteï¿½"/>
   <airportName code="SGC" name="Surgut" shortname8="Surgut" shortname15="Surgut"/>
-  <airportName code="SGD" name="Sønderborg" shortname8="Sønderb" shortname15="Sønderborg"/>
+  <airportName code="SGD" name="Sï¿½nderborg" shortname8="Sï¿½nderb" shortname15="Sï¿½nderborg"/>
   <airportName code="SGE" name="Siegen" shortname8="Siegen" shortname15="Siegen"/>
   <airportName code="SGF" name="Springfield Branson" shortname8="Springfi" shortname15="Springfield"/>
   <airportName code="SGH" name="Springfield" shortname8="Springfi" shortname15="Springfield"/>
@@ -1487,15 +1487,15 @@
   <airportName code="SMW" name="Smara" shortname8="Smara" shortname15="Smara"/>
   <airportName code="SMX" name="Santa Maria" shortname8="Santa Ma" shortname15="Santa Maria"/>
   <airportName code="SNA" name="Santa Ana" shortname8="Santa An" shortname15="Santa Ana"/>
-  <airportName code="SNG" name="Sør-Norge" shortname8="S-Norge" shortname15="Sør-Norge"/>
+  <airportName code="SNG" name="Sï¿½r-Norge" shortname8="S-Norge" shortname15="Sï¿½r-Norge"/>
   <airportName code="SNN" name="Shannon" shortname8="Shannon" shortname15="Shannon"/>
   <airportName code="SNS" name="Salinas" shortname8="Salinas" shortname15="Salinas"/>
   <airportName code="SOB" name="Saarmelleek" shortname8="Saarmell" shortname15="Saarmelleek"/>
   <airportName code="SOF" name="Sofia" shortname8="Sofia" shortname15="Sofia"/>
   <airportName code="SOG" name="Sogndal" shortname8="Sogndal" shortname15="Sogndal"/>
-  <airportName code="SOJ" name="Sørkjosen" shortname8="Sørkjos" shortname15="Sørkjosen"/>
+  <airportName code="SOJ" name="Sï¿½rkjosen" shortname8="Sï¿½rkjos" shortname15="Sï¿½rkjosen"/>
   <airportName code="SOK" name="Sodankyla" shortname8="Sodankyl" shortname15="Sodankyla"/>
-  <airportName code="SOO" name="Söderhamn" shortname8="Søderh" shortname15="Søderhamn"/>
+  <airportName code="SOO" name="Sï¿½derhamn" shortname8="Sï¿½derh" shortname15="Sï¿½derhamn"/>
   <airportName code="SOU" name="Southampton" shortname8="Southmpt" shortname15="Southampton"/>
   <airportName code="SOY" name="Stronsay" shortname8="Stronsay" shortname15="Stronsay"/>
   <airportName code="SOZ" name="Solenzara" shortname8="Solenzra" shortname15="Solenzara"/>
@@ -1515,7 +1515,7 @@
   <airportName code="SSC" name="Sumter/Shaw AFB" shortname8="Sumter" shortname15="Sumter"/>
   <airportName code="SSH" name="Sharm el Sheik" shortname8="SharmeSh" shortname15="Sharm el Sheik"/>
   <airportName code="SSI" name="Brunswick Mckinnon" shortname8="Brunswic" shortname15="Brunswick"/>
-  <airportName code="SSJ" name="Sandnessjøen" shortname8="Sandnsj" shortname15="Sandnessjøen"/>
+  <airportName code="SSJ" name="Sandnessjï¿½en" shortname8="Sandnsj" shortname15="Sandnessjï¿½en"/>
   <airportName code="SSX" name="Samsun" shortname8="Samsun" shortname15="Samsun"/>
   <airportName code="STA" name="Stauning" shortname8="Stauning" shortname15="Stauning"/>
   <airportName code="STD" name="Songa Dee" shortname8="S. Dee" shortname15="Songa Dee"/>
@@ -1530,7 +1530,7 @@
   <airportName code="SUU" name="Fairfield/Travis A" shortname8="Fairfiel" shortname15="Fairfield"/>
   <airportName code="SUX" name="Sioux City" shortname8="Sioux Ci" shortname15="Sioux City"/>
   <airportName code="SVG" name="Stavanger" shortname8="Stavang." shortname15="Stavanger"/>
-  <airportName code="SVJ" name="Svolvær" shortname8="Svolvær" shortname15="Svolvær"/>
+  <airportName code="SVJ" name="Svolvï¿½r" shortname8="Svolvï¿½r" shortname15="Svolvï¿½r"/>
   <airportName code="SVL" name="Savonlinna" shortname8="Savonlin" shortname15="Savonlinna"/>
   <airportName code="SVN" name="Savannah Hunter AAF" shortname8="Savannah" shortname15="Savannah"/>
   <airportName code="SVO" name="Moskva Sheremetyevo" shortname8="Moskva" shortname15="Moskva/Sherem"/>
@@ -1539,7 +1539,7 @@
   <airportName code="SWO" name="Stillwater" shortname8="Stillwat" shortname15="Stillwater"/>
   <airportName code="SWS" name="Swansea" shortname8="Swansea" shortname15="Swansea"/>
   <airportName code="SXB" name="Strasbourg Entzheim" shortname8="Strasbrg" shortname15="Strasbourg"/>
-  <airportName code="SXF" name="Berlin Schönefeld" shortname8="Berlin" shortname15="Berlin/Schönefe"/>
+  <airportName code="SXF" name="Berlin Schï¿½nefeld" shortname8="Berlin" shortname15="Berlin/Schï¿½nefe"/>
   <airportName code="SXL" name="Sligo" shortname8="Sligo" shortname15="Sligo/Colloone"/>
   <airportName code="SXZ" name="Siirt" shortname8="Siirt" shortname15="Siirt"/>
   <airportName code="SYG" name="Svalbard" shortname8="Svalbard" shortname15="Svalbard"/>
@@ -1576,7 +1576,7 @@
   <airportName code="TGA" name="Tengah" shortname8="Tengah" shortname15="Tengah"/>
   <airportName code="TGD" name="Podgorica" shortname8="Podgoric" shortname15="Podgorica"/>
   <airportName code="THF" name="Berlin Tempelhof" shortname8="Berlin-T" shortname15="Berlin/Templhof"/>
-  <airportName code="THN" name="Trollhättan" shortname8="Trollhat" shortname15="Trollhattan"/>
+  <airportName code="THN" name="Trollhï¿½ttan" shortname8="Trollhat" shortname15="Trollhattan"/>
   <airportName code="THO" name="Thorshofn" shortname8="Thorshfn" shortname15="Thorshofn"/>
   <airportName code="TIA" name="Tirana" shortname8="Tirana" shortname15="Tirana"/>
   <airportName code="TIF" name="Tabuk" shortname8="Tabuk" shortname15="Tabuk"/>
@@ -1598,7 +1598,7 @@
   <airportName code="TOE" name="Tozeur" shortname8="Tozeu" shortname15="Tozeur"/>
   <airportName code="TOJ" name="Madrid Torrejon" shortname8="Madrid" shortname15="Madrid/Torrejon"/>
   <airportName code="TOL" name="Toledo" shortname8="Toledo" shortname15="Toledo"/>
-  <airportName code="TOS" name="Tromsø" shortname8="Tromsø" shortname15="Tromsø"/>
+  <airportName code="TOS" name="Tromsï¿½" shortname8="Tromsï¿½" shortname15="Tromsï¿½"/>
   <airportName code="TPA" name="Tampa" shortname8="Tampa" shortname15="Tampa"/>
   <airportName code="TPL" name="Temple" shortname8="Temple" shortname15="Temple"/>
   <airportName code="TPS" name="Trapani" shortname8="Trapani" shortname15="Trapani"/>
@@ -1637,7 +1637,7 @@
   <airportName code="UKI" name="Ukiah" shortname8="Ukiah" shortname15="Ukiah"/>
   <airportName code="ULY" name="Uljanovsk" shortname8="Uljansk" shortname15="Uljanovsk"/>
   <airportName code="UMD" name="Uummannaq" shortname8="Uumman." shortname15="Uummannaq"/>
-  <airportName code="UME" name="Umeå" shortname8="Umeå" shortname15="Umeå"/>
+  <airportName code="UME" name="Umeï¿½" shortname8="Umeï¿½" shortname15="Umeï¿½"/>
   <airportName code="UNN" name="Ranong" shortname8="Ranong" shortname15="Ranong"/>
   <airportName code="UOX" name="Oxford" shortname8="Oxford" shortname15="Oxford"/>
   <airportName code="URD" name="Burg Feuerstein" shortname8="Burg Fst" shortname15="Burg Feuerstein"/>
@@ -1657,7 +1657,7 @@
   <airportName code="VAN" name="Van" shortname8="Van" shortname15="Van"/>
   <airportName code="VAR" name="Varna" shortname8="Varna" shortname15="Varna"/>
   <airportName code="VAS" name="Sivas" shortname8="Sivas" shortname15="Sivas"/>
-  <airportName code="VAW" name="Vardø" shortname8="Vardø" shortname15="Vardø"/>
+  <airportName code="VAW" name="Vardï¿½" shortname8="Vardï¿½" shortname15="Vardï¿½"/>
   <airportName code="VBG" name="Lompoc Vandenberg AFB" shortname8="Lompoc" shortname15="Lompoc"/>
   <airportName code="VBS" name="Brescia" shortname8="Brescia" shortname15="Brescia"/>
   <airportName code="VBY" name="Visby" shortname8="Visby" shortname15="Visby"/>
@@ -1666,7 +1666,7 @@
   <airportName code="VDA" name="Ovda" shortname8="Ovda" shortname15="Ovda"/>
   <airportName code="VDB" name="Fagernes" shortname8="Fagernes" shortname15="Fagernes"/>
   <airportName code="VDP" name="Kolding" shortname8="Kolding" shortname15="Kolding"/>
-  <airportName code="VDS" name="Vadsø" shortname8="Vadsø" shortname15="Vadsø"/>
+  <airportName code="VDS" name="Vadsï¿½" shortname8="Vadsï¿½" shortname15="Vadsï¿½"/>
   <airportName code="VEY" name="Vestmannaeyjar" shortname8="Vestmyar" shortname15="Vestmannaeyjar"/>
   <airportName code="VGO" name="Vigo" shortname8="Vigo" shortname15="Vigo"/>
   <airportName code="VHM" name="Vilhelmina" shortname8="Vilhelmi" shortname15="Vilhelmina"/>
@@ -1695,14 +1695,14 @@
   <airportName code="VRK" name="Varkaus" shortname8="Varkaus" shortname15="Varkaus"/>
   <airportName code="VRL" name="Vila Real" shortname8="Vila R" shortname15="Vila Real"/>
   <airportName code="VRN" name="Verona" shortname8="Verona" shortname15="Verona"/>
-  <airportName code="VRY" name="Værøy" shortname8="Værøy" shortname15="Værøy"/>
+  <airportName code="VRY" name="Vï¿½rï¿½y" shortname8="Vï¿½rï¿½y" shortname15="Vï¿½rï¿½y"/>
   <airportName code="VSE" name="Viseu" shortname8="Viseu" shortname15="Viseu"/>
-  <airportName code="VST" name="Västerås" shortname8="Vesterå" shortname15="Vesterås"/>
+  <airportName code="VST" name="Vï¿½sterï¿½s" shortname8="Vesterï¿½" shortname15="Vesterï¿½s"/>
   <airportName code="VTL" name="Vittel-Champ De Courses" shortname8="Vittel" shortname15="Vittel"/>
   <airportName code="VVK" name="Vestervik" shortname8="Vestervi" shortname15="Vestervik"/>
   <airportName code="VVN" name="Viking Vanquish" shortname8="Viking V" shortname15="Viking Vanquish"/>
   <airportName code="VVO" name="Vladivostok" shortname8="Vladivos" shortname15="Vladivostok"/>
-  <airportName code="VXO" name="Växjö" shortname8="Vaxjo" shortname15="Vaxjo"/>
+  <airportName code="VXO" name="Vï¿½xjï¿½" shortname8="Vaxjo" shortname15="Vaxjo"/>
   <airportName code="WAT" name="Waterford" shortname8="Waterfrd" shortname15="Waterford"/>
   <airportName code="WAW" name="Warszawa" shortname8="Warszawa" shortname15="Warszawa"/>
   <airportName code="WBG" name="Schleswig" shortname8="Schleswi" shortname15="Schleswig"/>
@@ -1968,7 +1968,7 @@
   <airportName code="ZOW" name="Nordhorn-Lingen" shortname8="Nordhorn" shortname15="Nordhorn"/>
   <airportName code="ZPA" name="Offenburg" shortname8="Offenb." shortname15="Offenburg"/>
   <airportName code="ZPD" name="Oldenburg-Hatten" shortname8="Oldenbur" shortname15="Oldenburg"/>
-  <airportName code="ZPE" name="Osnabruck-Atterheide" shortname8="Osnabruc" shortname15="Osnabrück"/>
+  <airportName code="ZPE" name="Osnabruck-Atterheide" shortname8="Osnabruc" shortname15="Osnabrï¿½ck"/>
   <airportName code="ZPG" name="Peine-Eddesse" shortname8="Peine" shortname15="Peine"/>
   <airportName code="ZPI" name="Pirmasens" shortname8="Pirmasns" shortname15="Pirmasens"/>
   <airportName code="ZPM" name="Regensburg-Oberhub" shortname8="Regensbu" shortname15="Regensburg"/>
@@ -1979,7 +1979,7 @@
   <airportName code="ZQP" name="Wesel-Romerwardt" shortname8="Wesel" shortname15="Wesel"/>
   <airportName code="ZQV" name="Worms" shortname8="Worms" shortname15="Worms"/>
   <airportName code="ZQW" name="Zweibruken" shortname8="Zweibrkn" shortname15="Zweibruken"/>
-  <airportName code="ZRH" name="Zürich" shortname8="Zurich" shortname15="Zurich"/>
+  <airportName code="ZRH" name="Zï¿½rich" shortname8="Zurich" shortname15="Zurich"/>
   <airportName code="ZRK" name="Rockford" shortname8="Rockford" shortname15="Rockford"/>
   <airportName code="ZSK" name="Pasewalk-Fransfelde" shortname8="Pasewalk" shortname15="Pasewalk"/>
   <airportName code="ZSN" name="Stendal-Borstel" shortname8="Stendal" shortname15="Stendal"/>
@@ -1997,12 +1997,12 @@
   <airportName code="ZXB" name="Jan Mayen" shortname8="Jan May" shortname15="Jan Mayen"/>
   <airportName code="ZXC" name="Bangsund" shortname8="Bangsund" shortname15="Bangsund"/>
   <airportName code="ZXD" name="Vikna" shortname8="Vikna" shortname15="Vikna"/>
-  <airportName code="ZXF" name="Rørvik" shortname8="Rørvik" shortname15="Rørvik"/>
+  <airportName code="ZXF" name="Rï¿½rvik" shortname8="Rï¿½rvik" shortname15="Rï¿½rvik"/>
   <airportName code="ZXG" name="Gravik" shortname8="Gravik" shortname15="Gravik"/>
-  <airportName code="ZXH" name="Sørfjord" shortname8="Sørfj." shortname15="Sørfjord"/>
-  <airportName code="ZXI" name="Røddey" shortname8="Røddey" shortname15="Røddey"/>
+  <airportName code="ZXH" name="Sï¿½rfjord" shortname8="Sï¿½rfj." shortname15="Sï¿½rfjord"/>
+  <airportName code="ZXI" name="Rï¿½ddey" shortname8="Rï¿½ddey" shortname15="Rï¿½ddey"/>
   <airportName code="ZXJ" name="Fore" shortname8="Fore" shortname15="Fore"/>
-  <airportName code="ZXK" name="Båsmo" shortname8="Båsmo" shortname15="Båsmo"/>
+  <airportName code="ZXK" name="Bï¿½smo" shortname8="Bï¿½smo" shortname15="Bï¿½smo"/>
   <airportName code="ZXL" name="Skjerstad" shortname8="Skjersta" shortname15="Skjerstad"/>
   <airportName code="ZXN" name="Leka" shortname8="Leka" shortname15="Leka"/>
   <airportName code="ZXO" name="Fauske" shortname8="Fauske" shortname15="Fauske"/>
