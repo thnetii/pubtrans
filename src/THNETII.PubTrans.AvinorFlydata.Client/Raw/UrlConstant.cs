@@ -1,4 +1,4 @@
-﻿namespace THNETII.PubTrans.AvinorFlydata.Client.Raw
+namespace THNETII.PubTrans.AvinorFlydata.Client.Raw
 {
     public static class UrlConstant
     {

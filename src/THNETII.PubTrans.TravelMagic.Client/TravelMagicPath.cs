@@ -1,4 +1,4 @@
-﻿namespace THNETII.PubTrans.TravelMagic.Client
+namespace THNETII.PubTrans.TravelMagic.Client
 {
     public static class TravelMagicPath
     {

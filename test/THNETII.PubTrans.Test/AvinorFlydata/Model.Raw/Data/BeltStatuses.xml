@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <beltStatuses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/beltStatuses.xsd">
-  <beltStatus code="O" beltStatusTextEn="Bag on belt" beltStatusTextNo="Bagasje på båndet"/>
-  <beltStatus code="C" beltStatusTextEn="Last bag on belt" beltStatusTextNo="Siste bag på båndet"/>
+  <beltStatus code="O" beltStatusTextEn="Bag on belt" beltStatusTextNo="Bagasje pï¿½ bï¿½ndet"/>
+  <beltStatus code="C" beltStatusTextEn="Last bag on belt" beltStatusTextNo="Siste bag pï¿½ bï¿½ndet"/>
 </beltStatuses>
